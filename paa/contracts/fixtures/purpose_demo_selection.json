@@ -1,0 +1,318 @@
+{
+  "schema_version": "paa.publication_selection.v2",
+  "release_id": "paa-purpose-demo-2026-10-09",
+  "checked_on": "2026-10-09",
+  "publisher": "eliask / PAA",
+  "correction_url": "https://github.com/eliask/mev/issues/new",
+  "introduction": "Mitä edustaja teki Oulaskankaan asiassa, mitä sairaalaverkon seurantaa eduskunta hyväksyi ja mitä nykyiset raportit kertovat? Tutki vastaukset ja niiden alkuperäislähteet.",
+  "cases": [
+    {
+      "case_id": "hospital-hanninen-oulaskangas-attribution",
+      "sources_file": "hospital_hanninen_sources.jsonl",
+      "reviews_file": "hospital_hanninen_reviews.json",
+      "packet_sha256": "3b0376b4d2bd05cb3a024bbb8dd6822eacb100d6585abfbda5a15b6a0a395847",
+      "takeaway": "Hänninen vastusti 17.12.2024 sairaalaverkon lakipaketin hyväksymistä ja kannatti 10.10.2025 ehdotusta ympärivuorokautisen päivystyksen lainvalmistelun aloittamisesta. Enemmistö hylkäsi valmistelun aloittamisen; äänestys ei palauttanut yöpäivystystä.",
+      "why_it_matters": "Samalla EI-vastauksella oli eri äänestyksissä eri merkitys. Tästä voit tarkistaa henkilön valinnan, tarjolla olleen vaihtoehdon ja eduskunnan tuloksen erikseen. Hallituslinjasta poikkeaminen oli jo uutisoitu; kooste helpottaa alkuperäistietojen tarkistamista.",
+      "main_limit": "Pakettiäänestys ei osoita kantaa jokaiseen pykälään. Näistä lähteistä ei voi päätellä hänen henkilökohtaista vaikutustaan päätöksen syntyyn eikä palveluvaikutuksia.",
+      "source_period": "HE 149/2024 äänestys 17.12.2024; KAA 2/2025 puhe 22.5.2025 ja äänestys 10.10.2025 (StVM 13/2025 enemmistö + vastalauseen ponsi); siirtovertailu HE 146/2024 17.12.2024.",
+      "review_date": "2026-10-09",
+      "audience": "GENERAL",
+      "article_title": "Hänninen ja Oulaskangas: mitä hän kannatti?",
+      "sequence": [
+        "17.12.2024: HE 149/2024 hyväksyminen/hylkääminen — Hänninen EI, Simula/Sillanpää JAA.",
+        "22.5.2025: Hänninen: ensihoito ei korvaa ympärivuorokautista päivystystä.",
+        "10.10.2025: KAA 2/2025 — Hänninen EI (vastalauseen ponsi); enemmistö hylkäsi lainvalmisteluun ryhtymisen."
+      ],
+      "permissions": [
+        {
+          "source_id": "SRC-EDUSKUNTA-SPEECH-PUH-55-2025-6-1-2",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen eduskuntapuheen yksilöity katkelma; tekijänoikeuslain 9 §. Kokonaista istuntopöytäkirjaa ei jaeta uudelleenlisensoituna.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-BALLOT-53538",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen äänestystuloksen ja valittujen edustajarivien jäsennelty projisointi; ei koko äänestysrekisterin uudelleenjulkaisua.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-BALLOT-55560",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen äänestystuloksen ja valittujen edustajarivien jäsennelty projisointi; ei koko äänestysrekisterin uudelleenjulkaisua.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-STVM-13-2025",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen valiokuntamietinnön päätösehdotus- ja vastalauseote; tekijänoikeuslain 9 §.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-BALLOT-53586",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen äänestystuloksen jäsennelty projisointi siirtovertailuun HE 146/2024; ei koko rekisterin uudelleenjulkaisua.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Mitä Hänninen äänesti sairaalaverkosta?",
+          "text": "17.12.2024 Hänninen äänesti HE 149/2024:n hyväksymistä vastaan (EI). Perussuomalaisten Jenna Simula ja Pia Sillanpää äänestivät JAA. Äänestys koskee paketin hyväksymistä tai hylkäämistä, ei yksittäistä pykälää.",
+          "claim_dimensions": [
+            "Henkilökohtainen pakettiäänestys HE 149/2024"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:5b75f85bcc73a1ff1f2aa6b2",
+            "inquiry-evidence:a3c8287d5de549dcdf224c89",
+            "inquiry-evidence:be4edf34603428227e496b8f",
+            "inquiry-evidence:0d60257354ecdc5322433630"
+          ],
+          "source_label": "Äänestys 53538 · 17.12.2024"
+        },
+        {
+          "title": "Mitä EI tarkoitti Oulaskangas-äänestyksessä?",
+          "text": "10.10.2025 KAA 2/2025:ssä JAA oli valiokunnan mietintö ja EI Mattilan vastalause. Hänninen äänesti EI eli vastalauseen ponsin puolesta; Simula äänesti JAA. Ponsi hyväksyisi lainvalmisteluun ryhtymisen ympärivuorokautisen perusterveydenhuollon päivystyksen järjestämisoikeudesta; enemmistö hylkäsi valmisteluun ryhtymisen. Valinta ei itsessään muuta voimassa olevaa lakia tai palauta yöpäivystystä.",
+          "claim_dimensions": [
+            "KAA 2/2025 vastalauseen valinta"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:20711986de10b24de9e226db",
+            "inquiry-evidence:75e9bd983e503948cf0623e8",
+            "inquiry-evidence:e092b4d413c128e053901661",
+            "inquiry-evidence:b98afd7bf0b5423b259e3f12",
+            "inquiry-evidence:97ec7aacf660ae6e5bd452cc"
+          ],
+          "source_label": "Äänestys 55560 ja StVM 13/2025 päätösehdotus + ponsi"
+        },
+        {
+          "title": "Miten puhe suhtautuu äänestykseen?",
+          "text": "Toukokuussa 2025 Hänninen tunnisti kotisairaalan ja ensihoidon vahvistuksen mutta sanoi, etteivät ne korvaa ympärivuorokautista päivystystä. Myöhempi vastalauseen tuki on rajatussa mielessä yhtenevä; se ei todista motiivia.",
+          "claim_dimensions": [
+            "Puheen rajattu yhtenevyys"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:df64c661aacba54e2e4ce814",
+            "inquiry-evidence:20711986de10b24de9e226db"
+          ],
+          "source_label": "PUH 55/2025/6/1/2"
+        }
+      ]
+    },
+    {
+      "case_id": "hospital-monitoring-cost-shift-repair",
+      "sources_file": "hospital_monitoring_sources.jsonl",
+      "reviews_file": "hospital_monitoring_reviews.json",
+      "packet_sha256": "5a96cb23ee25cf0b2357ac40cdda321624b7e2c9a409098f2b8689bcf550688a",
+      "takeaway": "Eduskunta edellytti valtioneuvostolta päivystysten käytön, ensihoidon kuljetusten ja kustannusten sekä kiirevastaanottojen seurantaa. Kaksi tarkempaa määräaikaista selvitysehdotusta jäi hyväksymättä. Pohteen raportit eivät ratkaise, mitä Oulaskankaan yöpalvelun muutos teki sen palveleman alueen kokonaiskustannuksille.",
+      "why_it_matters": "Hyväksytty seuranta ja hylätyt selvitysehdotukset ovat eri asioita. Ero kertoo, keneltä mitäkin tietoa voi pyytää, ja auttaa erottamaan eduskunnan seurantaedellytyksen tämän tutkimuksen tarkemmasta kustannuskysymyksestä.",
+      "main_limit": "Seurannasta päättäminen ei osoita sen toteutumista tai muutoksen onnistumista. Pohteen alueelliset raportit eivät yksin mittaa Oulaskankaan yöpalvelumuutoksen vaikutuksia.",
+      "source_period": "Lausumaehdotukset 16.12.2024; äänestykset 53546/53548 17.12.2024; EV 187/2024 lausumat; Pohde toimintakertomus 2025 (yöpalvelumuutos 1.10.2025) ja OYS-ensihoito omavalvonta Q4/2025.",
+      "review_date": "2026-10-09",
+      "audience": "GENERAL",
+      "article_title": "Sairaalaverkon seuranta: mitä hyväksyttiin?",
+      "sequence": [
+        "Merinen 4 ja Mattila 1 ehdottivat määräaikaisia StV-selvityksiä (Mattila1 = seuranta/raportti kevääseen 2027).",
+        "53546: Mattila 1 voitti Merinen 4:n; 53548: mietintö voitti Mattila 1:n.",
+        "EV 187/2024: kolme hyväksyttyä lausumaa; Pohde 1.10.2025 + OYS-EMS Q4 olemassa, valuma-alue avoin."
+      ],
+      "permissions": [
+        {
+          "source_id": "SRC-EDUSKUNTA-SPEECH-PUH-136-2024-5-1-40",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen eduskuntapuheen yksilöity katkelma; tekijänoikeuslain 9 §.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-SPEECH-PUH-136-2024-5-1-33",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen eduskuntapuheen yksilöity katkelma; tekijänoikeuslain 9 §.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-EV-187-2024",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Eduskunnan vastauksen hyväksyttyjen lausumien ote (Vaski + VN-julkaisu); tekijänoikeuslain 9 §.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-BALLOT-53546",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen äänestystuloksen jäsennelty projisointi; ei koko rekisterin uudelleenjulkaisua.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-EDUSKUNTA-BALLOT-53548",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen äänestystuloksen jäsennelty projisointi; ei koko rekisterin uudelleenjulkaisua.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-POHDE-ANNUAL-REPORT-2025-OULASKANGAS-TRANSITION",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Pohteen raportin lyhyt yksilöity ote lähdearviointiin; ei koko PDF:n uudelleenjulkaisua. Alkuperäinen julkaisu on linkitetty lähteessä. Ei oletusta tekijänoikeuslain 9 §:n soveltumisesta.",
+          "terms_url": "https://pohde.fi/wp-content/uploads/2026/06/Pohjois-Pohjanmaan-hyvinvointialueen-toimintakertomus-ja-tilinpaatos-2025.pdf"
+        },
+        {
+          "source_id": "SRC-POHDE-OYS-EMS-OMAVALVONTA-2025-Q4",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Pohteen raportin lyhyt yksilöity ote lähdearviointiin; ei koko PDF:n uudelleenjulkaisua. Alkuperäinen julkaisu on linkitetty lähteessä. Ei oletusta tekijänoikeuslain 9 §:n soveltumisesta.",
+          "terms_url": "https://pohde.fi/wp-content/uploads/2026/02/OYS-ensihoito-Omavalvontasuunnitelman-seurantaraportti-1.10.-31.122025.pdf"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Mitä seurantaa hyväksyttiin?",
+          "text": "EV 187/2024:n lausuma 1: Eduskunta edellytti, että valtioneuvosto seuraa päivystysten käyttöä, ensihoidon kuljetuksia ja kustannuksia sekä kiirevastaanottoja ja kehittää avointa tietopohjaa. Lausumat 2–3 koskevat kielellisiä oikeuksia ja palvelukokonaisuuden ohjausta. Lausuma ei ole suoraan täytäntöönpantava lakivelvoite.",
+          "claim_dimensions": [
+            "Hyväksytty seuranta (EV 187/2024)"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:bb11d161d854a4802bd8fdbf",
+            "inquiry-evidence:a8fdba4d51f4f3bfe6e3dbef",
+            "inquiry-evidence:38fcd578febcf8535e267de6"
+          ],
+          "source_label": "EV 187/2024 lausumat"
+        },
+        {
+          "title": "Mikä putosi äänestysketjussa?",
+          "text": "Merinen 4 vaati selvitystä StV:lle 31.12.2026 mennessä; Mattila 1 vaati seurantaa ja selvitystä keväällä 2027 — ei uudelleenavaamisehtoa. Ensin Mattila 1 voitti Merinen 4:n (53546), sitten mietintö voitti Mattila 1:n (53548). Merinen 4 ei hävinnyt suoraan mietinnölle; Mattila 2 ei kuulu tähän ketjuun.",
+          "claim_dimensions": [
+            "Ehdotettu vs. pudonnut määräaikainen StV-selvitys"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:21566368796147f0d5ee63ac",
+            "inquiry-evidence:465c23807c2fc7e02b4ee889",
+            "inquiry-evidence:c8f6f92a77da987a65352479",
+            "inquiry-evidence:fecc988ff8f4a859be9a90e8",
+            "inquiry-evidence:0420f5d49ec32293b8b3f8c5",
+            "inquiry-evidence:9a514de2a79cb4daa46bb085"
+          ],
+          "source_label": "Puheet + äänestykset 53546/53548"
+        },
+        {
+          "title": "Mitä Pohde julkaisi muutoksen jälkeen?",
+          "text": "Toimintakertomus 2025 kirjaa Oulaskankaan ympärivuorokautisen päivystyksen muutoksen kiirevastaanotoksi klo 8–22 alkaen 1.10.2025. Pohteen ensihoidon raportissa loka–joulukuulta 2025 tavoittamisajat eivät täyty kaikilta osin, mutta ne ovat parantuneet vuodesta 2024. Nämä eivät ratkaise valuma-alueen yöaikaisia nettokustannuksia.",
+          "claim_dimensions": [
+            "Pohteen muutosjälkeinen seuranta"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:0d5a654fa32a6ad9db9f9b47",
+            "inquiry-evidence:058278ea7a272aa05ed029e9"
+          ],
+          "source_label": "Pohde toimintakertomus 2025; OYS-EMS omavalvonta Q4/2025"
+        },
+        {
+          "title": "Mikä havainto vielä puuttuu?",
+          "text": "Tämän kustannuskysymyksen ratkaisemiseksi Pohteelta tarvittaisiin tiedot Oulaskankaan entisen yöpäivystysalueen yöaikaisista kuljetuksista, vastaanottavista sairaaloista ja kokonaiskustannuksista ennen muutosta ja sen jälkeen. Kyse on tämän tutkimuksen vertailusta, ei eduskunnan lausuman lisävaatimuksesta. Nykyiset alueelliset otteet eivät ratkaise sitä. Pelkkä ennen–jälkeen-ero ei vielä osoittaisi muutoksen syyvaikutusta.",
+          "claim_dimensions": [
+            "Erottava havainto avoinna"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:bb11d161d854a4802bd8fdbf",
+            "inquiry-evidence:21566368796147f0d5ee63ac",
+            "inquiry-evidence:0d5a654fa32a6ad9db9f9b47",
+            "inquiry-evidence:058278ea7a272aa05ed029e9"
+          ],
+          "source_label": "EV lausuma 1 vs Pohde-otteet"
+        }
+      ]
+    },
+    {
+      "case_id": "rai-2020-constitutional-repair",
+      "sources_file": "public_beta_rai_sources.jsonl",
+      "reviews_file": "public_beta_rai_reviews.json",
+      "packet_sha256": "429848e9efba77d1e4f6cbd61e84f14e34fc63fcfb94f0cf3f7383c66026859d",
+      "takeaway": "Perustuslakivaliokunta edellytti RAI-arvioinnin perusteiden kirjaamista lakiin. Sosiaali- ja terveysvaliokunta ehdotti huomautukseen vastaavaa muutosta, joka sisältyy julkaistuun muutoslakiin 565/2020. Tämä osoittaa lainmuutoksen, ei sen käyttöönottoa tai vaikutuksia.",
+      "why_it_matters": "Esimerkki dokumentoidusta korjauksesta: huomautus, ehdotettu vastaus ja julkaistu laki voidaan tarkistaa rinnakkain. Asiakirjat eivät yksin osoita, kuka henkilö muutoksen aiheutti.",
+      "main_limit": "Vuoden 2020 lakiteksti ei osoita käytännön käyttöönottoa, vaikutuksia eikä vuoden 2026 vastuutahoa.",
+      "source_period": "Vuoden 2020 esitys, valiokunta-asiakirjat ja muutoslaki 565/2020; käyttö aloitettava viimeistään 1.4.2023.",
+      "review_date": "2026-10-08",
+      "audience": "SPECIALIST",
+      "article_title": "RAI-arviointi: miten lakia korjattiin?",
+      "sequence": [
+        "Hallituksen esitys: lisäykset 3 §:n kohtiin 4 ja 5.",
+        "Valiokunnat: laintasoisen määritelmän vaatimus, 3 §:n 6 kohta ja uusi 15 a §.",
+        "Muutoslaki 565/2020: lisäykset hyväksytyssä tekstissä. Toimeenpano arvioitava erikseen."
+      ],
+      "permissions": [
+        {
+          "source_id": "MEV-LEGISLATIVE:he:he-4-2020",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "MEV-LEGISLATIVE:committee_report:stvm18-2020",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "MEV-LEGISLATIVE:committee_report:pevl15-2020",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "finlex:operation_source_statute_xml:2020/565:operation",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "finlex:operation_source_statute_xml:2020/565:provision",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "finlex:operation_source_statute_xml:2020/565:commencement",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Mikä oli ongelma?",
+          "text": "Perustuslakivaliokunta edellytti, että palvelutarpeeseen vaikuttavan arviointijärjestelmän perusteet määritellään laissa. Täydennys oli tavallisen lain säätämisjärjestyksen ehto.",
+          "claim_dimensions": [
+            "Toimija ja dokumentoitu rajoite"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:21d5e1d64b9c3d011a638621"
+          ],
+          "source_label": "PeVL 15/2020 vp, sivu 3"
+        },
+        {
+          "title": "Miten siihen vastattiin?",
+          "text": "Sosiaali- ja terveysvaliokunta ehdotti uutta määritelmää ja erillistä 15 a §:ää. Se perusteli muutosta nimenomaisesti perustuslakivaliokunnan huomautuksella. Lisäykset sisältyvät julkaistuun muutoslakiin 565/2020.",
+          "claim_dimensions": [
+            "Politiikan muutos: määritelmä ja erillinen pykälä",
+            "Vastaus huomautukseen: nimenomainen korjaava muutosehdotus"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:a294e30f424ccf3b27d4bb28",
+            "inquiry-evidence:ba36afa90ad26fb284bd519c",
+            "inquiry-evidence:16fbc5242011c3b82dfe5dbd"
+          ],
+          "source_label": "StVM 18/2020 vp, sivu 8; muutoslaki 565/2020"
+        },
+        {
+          "title": "Mitä asiakirjoista voi päätellä?",
+          "text": "Asiakirjoista voi yhdistää perustuslakivaliokunnan huomautuksen yksilöityyn muutokseen ja hyväksyttyyn tekstiin. Ne osoittavat dokumentoidun lakimuutoksen, mutta eivät kerro, kenen henkilökohtainen panos sen aiheutti.",
+          "claim_dimensions": [
+            "Vastaus huomautukseen: nimenomainen korjaava muutosehdotus",
+            "Toimija ja dokumentoitu rajoite"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:21d5e1d64b9c3d011a638621",
+            "inquiry-evidence:a294e30f424ccf3b27d4bb28"
+          ],
+          "source_label": "PeVL ja StVM: kirjattu huomautus ja vastaus"
+        }
+      ]
+    }
+  ]
+}

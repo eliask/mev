@@ -1,0 +1,35 @@
+{
+  "schema_version": "paa.source_question.v5",
+  "task_id": "REV-D1",
+  "matter_id": "HE 1/2099 vp",
+  "question": "Koskiko aloite vain varoitusta HE 1/2099 vp:n lähteissä?",
+  "status": "OK",
+  "admission": "CANDIDATE_NOT_REFERENCE_JUDGED",
+  "answer": "Lukija: aloite ehdotti vain varoitusta. Valiokunta kuvasi aloitteen vain varoitukseksi.",
+  "claims": [
+    {
+      "text": "aloite ehdotti vain varoitusta",
+      "evidence_bound": []
+    },
+    {
+      "text": "Valiokunta kuvasi aloitteen vain varoitukseksi.",
+      "evidence_bound": []
+    }
+  ],
+  "unresolved": [],
+  "coverage": {
+    "requested_source_ids": [
+      "HE1"
+    ],
+    "fully_read_source_ids": [
+      "HE1"
+    ],
+    "pointer_domains": {
+      "HE1": {
+        "source_text_sha256": "8f7270b66af504c5ad2a3c62501a82630c9d43670d139bb67093bdb8fc482a26",
+        "min_pointer": 0,
+        "max_pointer": 0
+      }
+    }
+  }
+}

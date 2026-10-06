@@ -1,0 +1,369 @@
+{
+  "schema_version": "bs02.committee_role_sourcebank.v1",
+  "generated_at": "2026-10-09T19:34:09Z",
+  "source_id": "SRC-EDUSKUNTA-VASKI",
+  "matter_count": 1,
+  "matters": [
+    {
+      "matter": "HE 12/2024 vp",
+      "status": "NAMED_SOURCE_EVIDENCE_EXPORTED",
+      "classification_basis": "Exact XML source nodes only; documented participation and explicit roles are retained separately from membership intervals and drafting authorship.",
+      "matter_page_receipts": [
+        {
+          "schema_version": "bs02.raw_receipt.v1",
+          "kind": "VaskiData",
+          "request_url": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows?columnName=Eduskuntatunnus&columnValue=HE+12%2F2024+vp&perPage=100&page=0",
+          "final_url": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows?columnName=Eduskuntatunnus&columnValue=HE+12%2F2024+vp&perPage=100&page=0",
+          "status": 200,
+          "content_type": "application/json",
+          "body_bytes": 882171,
+          "sha256": "7eba313e108943e34d2d38eb9a18950bd76c018ee32d7a99e8ba570ea51fe7cd",
+          "captured_at": "2026-10-09T19:25:07Z"
+        }
+      ],
+      "report": {
+        "report_identifier": "TyVM 4/2024 vp",
+        "committee_code": "TyVM",
+        "source_reference_text": "Valiokunnan mietintö TyVM 4/2024 vp",
+        "source_reference_xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/KasittelytiedotValtiopaivaasia[1]/YleinenKasittelyvaihe[9]/ToimenpideJulkaisu[1]/AsiakirjaViitteet[1]/Muu1Viite[1]",
+        "source_reference_record_id": "271309",
+        "source_reference_procedural_event": {
+          "event_date": "2024-04-19",
+          "event_date_attribute": "2024-04-19",
+          "event_date_text": "19.04.2024",
+          "phase_code": "VKPM",
+          "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/KasittelytiedotValtiopaivaasia[1]/YleinenKasittelyvaihe[9]/ToimenpideJulkaisu[1]"
+        }
+      },
+      "named_participation_or_role": [
+        {
+          "source_statement": "työministeri Arto Satonen",
+          "person_name": "Arto Satonen",
+          "person_fields": [
+            {
+              "field": "EtuNimi",
+              "value": "Arto"
+            },
+            {
+              "field": "SukuNimi",
+              "value": "Satonen"
+            }
+          ],
+          "committee_fields": [
+            {
+              "value": "työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            },
+            {
+              "value": "Työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            }
+          ],
+          "role_fields": [
+            {
+              "field": "AsemaTeksti",
+              "value": "työministeri"
+            }
+          ],
+          "date_fields": [
+            {
+              "field": "laadintaPvm",
+              "value": "2024-08-28",
+              "kind": "document_date",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+            }
+          ],
+          "date_semantics": {
+            "meeting_date": [],
+            "document_date": [
+              {
+                "field": "laadintaPvm",
+                "value": "2024-08-28",
+                "kind": "document_date",
+                "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+              }
+            ],
+            "signature_date": [],
+            "meeting_date_status": "NOT_SUPPLIED_BY_INSPECTED_REPORT_NODE",
+            "record_dates": {
+              "record_created": "2025-07-10 16:51:26",
+              "record_imported": "2025-07-11 13:41:48.944497"
+            },
+            "capture_time": "2026-10-09T19:29:06Z"
+          },
+          "classification": "EXPLICIT_ROLE",
+          "membership_interval_asserted": false,
+          "drafting_authorship_asserted": false,
+          "source_locator": {
+            "record_id": "275880",
+            "record_identifier": "TyVM 4/2024 vp",
+            "xml_sha256": "7b2a5f044c0f2da2b8ce7a432379e25d45c0cd274fa865ee5c26b067870c07c9",
+            "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/AsiaKuvaus[1]/AsiantuntijatToimenpide[1]/Asiantuntija[1]/Henkilo[1]"
+          }
+        },
+        {
+          "source_statement": "hallitusneuvos Nico Steiner",
+          "person_name": "Nico Steiner",
+          "person_fields": [
+            {
+              "field": "EtuNimi",
+              "value": "Nico"
+            },
+            {
+              "field": "SukuNimi",
+              "value": "Steiner"
+            }
+          ],
+          "committee_fields": [
+            {
+              "value": "työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            },
+            {
+              "value": "Työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            }
+          ],
+          "role_fields": [
+            {
+              "field": "AsemaTeksti",
+              "value": "hallitusneuvos"
+            }
+          ],
+          "date_fields": [
+            {
+              "field": "laadintaPvm",
+              "value": "2024-08-28",
+              "kind": "document_date",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+            }
+          ],
+          "date_semantics": {
+            "meeting_date": [],
+            "document_date": [
+              {
+                "field": "laadintaPvm",
+                "value": "2024-08-28",
+                "kind": "document_date",
+                "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+              }
+            ],
+            "signature_date": [],
+            "meeting_date_status": "NOT_SUPPLIED_BY_INSPECTED_REPORT_NODE",
+            "record_dates": {
+              "record_created": "2025-07-10 16:51:26",
+              "record_imported": "2025-07-11 13:41:48.944497"
+            },
+            "capture_time": "2026-10-09T19:29:06Z"
+          },
+          "classification": "EXPLICIT_ROLE",
+          "membership_interval_asserted": false,
+          "drafting_authorship_asserted": false,
+          "source_locator": {
+            "record_id": "275880",
+            "record_identifier": "TyVM 4/2024 vp",
+            "xml_sha256": "7b2a5f044c0f2da2b8ce7a432379e25d45c0cd274fa865ee5c26b067870c07c9",
+            "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/AsiaKuvaus[1]/AsiantuntijatToimenpide[1]/Asiantuntija[2]/Henkilo[1]"
+          }
+        },
+        {
+          "source_statement": "puheenjohtaja Saara-Sofia Sirén kok",
+          "person_name": "Saara-Sofia Sirén",
+          "person_fields": [
+            {
+              "field": "EtuNimi",
+              "value": "Saara-Sofia"
+            },
+            {
+              "field": "SukuNimi",
+              "value": "Sirén"
+            }
+          ],
+          "committee_fields": [
+            {
+              "value": "työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            },
+            {
+              "value": "Työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            }
+          ],
+          "role_fields": [
+            {
+              "field": "rooliKoodi",
+              "value": "puheenjohtaja"
+            }
+          ],
+          "date_fields": [
+            {
+              "field": "laadintaPvm",
+              "value": "2024-08-28",
+              "kind": "document_date",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+            }
+          ],
+          "date_semantics": {
+            "meeting_date": [],
+            "document_date": [
+              {
+                "field": "laadintaPvm",
+                "value": "2024-08-28",
+                "kind": "document_date",
+                "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+              }
+            ],
+            "signature_date": [],
+            "meeting_date_status": "NOT_SUPPLIED_BY_INSPECTED_REPORT_NODE",
+            "record_dates": {
+              "record_created": "2025-07-10 16:51:26",
+              "record_imported": "2025-07-11 13:41:48.944497"
+            },
+            "capture_time": "2026-10-09T19:29:06Z"
+          },
+          "classification": "EXPLICIT_ROLE",
+          "membership_interval_asserted": false,
+          "drafting_authorship_asserted": false,
+          "source_locator": {
+            "record_id": "275880",
+            "record_identifier": "TyVM 4/2024 vp",
+            "xml_sha256": "7b2a5f044c0f2da2b8ce7a432379e25d45c0cd274fa865ee5c26b067870c07c9",
+            "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/OsallistujaOsa[1]/Toimija[1]"
+          }
+        },
+        {
+          "source_statement": "varajäsen Ville Valkonen kok (osittain)",
+          "person_name": "Ville Valkonen",
+          "person_fields": [
+            {
+              "field": "EtuNimi",
+              "value": "Ville"
+            },
+            {
+              "field": "SukuNimi",
+              "value": "Valkonen"
+            }
+          ],
+          "committee_fields": [
+            {
+              "value": "työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            },
+            {
+              "value": "Työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            }
+          ],
+          "role_fields": [],
+          "date_fields": [
+            {
+              "field": "laadintaPvm",
+              "value": "2024-08-28",
+              "kind": "document_date",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+            }
+          ],
+          "date_semantics": {
+            "meeting_date": [],
+            "document_date": [
+              {
+                "field": "laadintaPvm",
+                "value": "2024-08-28",
+                "kind": "document_date",
+                "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+              }
+            ],
+            "signature_date": [],
+            "meeting_date_status": "NOT_SUPPLIED_BY_INSPECTED_REPORT_NODE",
+            "record_dates": {
+              "record_created": "2025-07-10 16:51:26",
+              "record_imported": "2025-07-11 13:41:48.944497"
+            },
+            "capture_time": "2026-10-09T19:29:06Z"
+          },
+          "classification": "DOCUMENTED_PARTICIPATION",
+          "membership_interval_asserted": false,
+          "drafting_authorship_asserted": false,
+          "source_locator": {
+            "record_id": "275880",
+            "record_identifier": "TyVM 4/2024 vp",
+            "xml_sha256": "7b2a5f044c0f2da2b8ce7a432379e25d45c0cd274fa865ee5c26b067870c07c9",
+            "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/OsallistujaOsa[1]/Toimija[18]"
+          }
+        },
+        {
+          "source_statement": "valiokuntaneuvos Marjaana Kinnunen",
+          "person_name": "Marjaana Kinnunen",
+          "person_fields": [
+            {
+              "field": "EtuNimi",
+              "value": "Marjaana"
+            },
+            {
+              "field": "SukuNimi",
+              "value": "Kinnunen"
+            }
+          ],
+          "committee_fields": [
+            {
+              "value": "työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            },
+            {
+              "value": "Työelämä- ja tasa-arvovaliokunta",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/IdentifiointiOsa[1]/Toimija[1]/YhteisoTeksti[1]"
+            }
+          ],
+          "role_fields": [
+            {
+              "field": "rooliKoodi",
+              "value": "valiokuntaneuvos"
+            }
+          ],
+          "date_fields": [
+            {
+              "field": "laadintaPvm",
+              "value": "2024-08-28",
+              "kind": "document_date",
+              "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+            }
+          ],
+          "date_semantics": {
+            "meeting_date": [],
+            "document_date": [
+              {
+                "field": "laadintaPvm",
+                "value": "2024-08-28",
+                "kind": "document_date",
+                "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]"
+              }
+            ],
+            "signature_date": [],
+            "meeting_date_status": "NOT_SUPPLIED_BY_INSPECTED_REPORT_NODE",
+            "record_dates": {
+              "record_created": "2025-07-10 16:51:26",
+              "record_imported": "2025-07-11 13:41:48.944497"
+            },
+            "capture_time": "2026-10-09T19:29:06Z"
+          },
+          "classification": "EXPLICIT_ROLE",
+          "membership_interval_asserted": false,
+          "drafting_authorship_asserted": false,
+          "source_locator": {
+            "record_id": "275880",
+            "record_identifier": "TyVM 4/2024 vp",
+            "xml_sha256": "7b2a5f044c0f2da2b8ce7a432379e25d45c0cd274fa865ee5c26b067870c07c9",
+            "xml_path": "Siirto[1]/SiirtoAsiakirja[1]/RakenneAsiakirja[1]/Mietinto[1]/OsallistujaOsa[1]/Toimija[19]"
+          }
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "attendance_is_documented_participation": true,
+    "membership_intervals_are_not_inferred": true,
+    "drafting_authorship_is_not_inferred": true,
+    "meeting_date_absence_is_explicit": true,
+    "capture_time_record_date_and_document_date_are_separate": true
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "case_id": "hospital-monitoring-cost-shift-repair",
+    "source_episode_id": "purpose-hospital-monitoring-repair-2024",
+    "source_versions": {
+      "merinen-speech-lausumat": "43ec8deb9d0902ea19e1b020b58e28422245946c740fbc4e68b9238bdb2f8692",
+      "mattila-speech-lausumat": "2a3a9bcd11006c33be1fba0f5d0cbc2ec6369f88e43ded45e10a09235b7c8deb",
+      "ev187-lausumat": "0653fff85ab6e9c3590f5004ffdfe3dc40238db2afa9306d853a781d9479a6f9",
+      "ballot-53546-selected": "800797702db8921ff42c541ccb5402234c9d4c0970fd64d48366124dfca2ba4d",
+      "ballot-53548-selected": "278ca8dc6db04c74b5540e79a12ece38bc55aa15c60e702a7515590d96134820",
+      "pohde-annual-report-2025-oulaskangas-transition": "cdefd25f3255cd42e4252f44c3db6b43fd26d4d102e31feb63d70095e92e5a4a",
+      "pohde-oys-ems-omavalvonta-2025-q4": "dbaf0b9a27c75931ade9a590872d3fd8a8ca23c7b5de5dcf8aa0a94fc0922c8b"
+    },
+    "title": "Sairaalaverkon seuranta: mitä hyväksyttiin, mitä putosi pois?",
+    "question_id": "q-hospital-monitoring-repair",
+    "reviewer": "paa-purpose-demo-ai-source-reading-2026-10-09",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Compare proposed Merinen4/Mattila1 monitoring designs with adopted EV 187/2024 statements; admit dated Pohde post-change outputs without claiming catchment net-cost closure.",
+    "question": {
+      "text": "Mitkä kustannus-, kuljetus- ja palveluseurannan velvoitteet hyväksyttiin EV 187/2024:ssa, miten ne eroavat Merisen 4. ja Mattilan 1. lausumaehdotuksista, mitä Pohteen julkaisuissa näkyy yöpalvelun muutoksen jälkeen, ja mikä havainto erottaisi tarkoitetun keskittämisen kustannusten siirtymisestä ensihoitoon?",
+      "scope": "Ehdotetut lausumat 16.12.2024, äänestysketju 53546→53548 17.12.2024, EV 187/2024 hyväksytyt lausumat sekä Pohteen toimintakertomus 2025 ja OYS-ensihoidon Q4/2025 omavalvontaraportti. Vertailu koskee näitä lausumatekstejä; se ei selvitä muita voimassa olevia seuranta- ja raportointivelvoitteita. Ei empiiristä nettokustannusarviota eikä väitettä, että seurannan puute = mekanismin epäonnistuminen.",
+      "answer_standard": "Vertaile omistajaa, muuttujia ja määräaikaa (Mattila1 = seuranta ja StV-selvitys kevääseen 2027 mennessä; ei uudelleenavaamisehtoa). Kirjaa, että seuranta hyväksyttiin; Merinen 4:n 31.12.2026 StV-selvitys ei säilynyt siinä muodossa. Kirjaa Pohteen yöpalvelumuutos 1.10.2025 ja OYS-EMS Q4:n sekoitettu/paraneva tavoittamiskuva ilman valuma-alueen nettokustannusten päättämistä. Jätä valuma-alueen yöaikainen ennen–jälkeen OPEN_WITH_TARGET."
+    },
+    "quotes": [
+      {
+        "key": "merinen4",
+        "record_id": "merinen-speech-lausumat",
+        "quote": "Eduskunta edellyttää, että hallitus seuraa sairaala‑ ja päivystysverkkoon tehtävien muutosten vaikutuksia potilasturvallisuuteen sekä kustannuksiin, mukaan lukien matkakulut sekä uudet investointitarpeet, ja antaa sosiaali‑ ja terveysvaliokunnalle selvityksen asiasta 31.12.2026 mennessä sekä ryhtyy tarpeen mukaan toimenpiteisiin."
+      },
+      {
+        "key": "mattila1",
+        "record_id": "mattila-speech-lausumat",
+        "quote": "Eduskunta edellyttää, että valtioneuvosto seuraa hallituksen esityksen vuoksi lakkautettavien päivystysten kustannusvaikutuksia hyvinvointialueille sekä potilaiden siirtymisen vaikutuksia jäljelle jäävien päivystysten toimintaan ja antaa sosiaali‑ ja terveysvaliokunnalle selvityksen asiasta viimeistään keväällä 2027."
+      },
+      {
+        "key": "ev_statement1",
+        "record_id": "ev187-lausumat",
+        "quote": "Eduskunta edellyttää, että valtioneuvosto seuraa sairaalaverkon ja päivystystoiminnan muutosten vaikutuksia hyvinvointialue- ja YTA-aluetasolla päivystysten käyttöön, ensihoidon kuljetuksiin ja kustannuksiin sekä alueiden kiirevastaanottojen kehittymiseen. Eduskunta edellyttää valtioneuvostolta myös avoimen ja kattavan tietopohjan kehittämistä."
+      },
+      {
+        "key": "ev_statement2",
+        "record_id": "ev187-lausumat",
+        "quote": "Eduskunta edellyttää, että valtioneuvosto seuraa kielellisten oikeuksien toteutumista erityisesti päivystys- ja synnytyspalveluissa hyvinvointialueiden, Helsingin kaupungin ja HUS-yhtymän toiminnassa ja ryhtyy tarvittaessa toimenpiteisiin ruotsinkielisten palveluiden turvaamiseksi huomioiden palveluiden saavutettavuus."
+      },
+      {
+        "key": "ev_statement3",
+        "record_id": "ev187-lausumat",
+        "quote": "Eduskunta edellyttää, että valtioneuvosto ohjaa hyvinvointialueita, Helsingin kaupunkia ja HUS-yhtymää varmistamaan, että alueen ilta-, yö- ja viikonloppuaikaiset sosiaali- ja terveyspalvelut, muun muassa kiirevastaanotot, kotiin vietävät palvelut, ensihoitopalvelu ja etäpalvelut, muodostavat toiminnallisen kokonaisuuden ympärivuorokautisten päivystysyksiköiden ja päivystävien sairaaloiden kanssa väestön palvelutarpeisiin vastaamiseksi ja perusturvallisuuden tunteen lisäämiseksi. Eduskunta edellyttää valtioneuvoston ohjaavan hyvinvointialueita toteuttamaan väestön monikanavaisen neuvonnan oikea-aikaisten palveluiden piiriin hakeutumiseksi."
+      },
+      {
+        "key": "ballot_53546_title",
+        "record_id": "ballot-53546-selected",
+        "quote": "Puhemiehen otsikko: Lausumaehdotus, Hanna-Leena Mattila 1 / Ville Merinen 4"
+      },
+      {
+        "key": "ballot_53546_result",
+        "record_id": "ballot-53546-selected",
+        "quote": "Tulos: JAA 127 / EI 68 / TYHJÄ 2 / POISSA 2 (yhteensä 199)"
+      },
+      {
+        "key": "ballot_53548_title",
+        "record_id": "ballot-53548-selected",
+        "quote": "Puhemiehen otsikko: Lausumaehdotus, mietintö / Hanna-Leena Mattila 1"
+      },
+      {
+        "key": "ballot_53548_result",
+        "record_id": "ballot-53548-selected",
+        "quote": "Tulos: JAA 104 / EI 91 / TYHJÄ 2 / POISSA 2 (yhteensä 199)"
+      },
+      {
+        "key": "pohde_night_transition",
+        "record_id": "pohde-annual-report-2025-oulaskangas-transition",
+        "quote": "Perusterveydenhuollon ympärivuorokautiset päivystykset siirtyivät terveyden- ja sairaanhoidon palvelujen toimialueelle Kuusamossa 1.1.2025 ja Oulaskankaalla 1.4.2025. Raahen päivystys jatkui päivittäin klo 8–22 kiirevastaanottona 1.1.2025 alkaen. Oulaskankaan ympärivuorokautinen päivystys muuttui päivittäiseksi kiirevastaanotoksi klo 8–22 aukioloajoilla 1.10.2025 alkaen."
+      },
+      {
+        "key": "pohde_ems_q4",
+        "record_id": "pohde-oys-ems-omavalvonta-2025-q4",
+        "quote": "Tavoittamisajat eivät kaikilta osin toteudu. Tavoittamisajat ovat kuitenkin parantuneet verrattuna vuoteen 2024. Asutun maaseudun A- ja B- kiirreellisyysluokan tehtävien tavoittamisajat toteutuvat."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Hyväksytty seuranta (EV 187/2024)",
+        "text": "Kysymys: hyväksyttiinkö seuranta? Löydös: EV 187/2024 sisältää kolme hyväksyttyä lausumaa; lausuma 1: Eduskunta edellytti, että valtioneuvosto seuraa päivystysten käyttöä, ensihoidon kuljetuksia ja kustannuksia sekä kiirevastaanottoja ja kehittää avointa tietopohjaa. Todiste: lausumien virallinen teksti. Benigni rival: seuranta hyväksyttiin, mutta hyväksyntä ei ole näyttö toteutuksesta. Vertailu koskee näitä lausumatekstejä; se ei selvitä muita voimassa olevia seuranta- ja raportointivelvoitteita. Avoin tavoite: toteutunut kansallinen tuloste.",
+        "quote_keys": [
+          "ev_statement1",
+          "ev_statement2",
+          "ev_statement3"
+        ],
+        "rationale": "Official EV statement texts bind the adopted monitoring object. Positive control against a no-monitoring frame; scope guard against inventing absence of other statutory duties."
+      },
+      {
+        "dimension": "Ehdotettu vs. pudonnut määräaikainen StV-selvitys",
+        "text": "Kysymys: mikä ehdotettu määräaikainen StV-selvitys putosi? Löydös: Merisen 4. lausuma vaati potilasturvallisuuden ja kustannusten (ml. matkakulut ja investoinnit) seurantaa sekä selvitystä sosiaali- ja terveysvaliokunnalle 31.12.2026 mennessä. Mattilan 1. lausuma vaati kustannus- ja siirtymävaikutusten seurantaa ja selvitystä valiokunnalle viimeistään keväällä 2027 — ei uudelleenavaamisehtoa. Äänestysketju 53546 (Mattila 1 voitti Merinen 4:n) → 53548 (mietintö voitti Mattila 1:n) eliminoi nämä Mattila1/Merinen4-ehdotukset; Merinen 4 ei hävinnyt suoraan mietinnölle. Todiste: puheiden numeroidut lausumat ja äänestysotsikot/tulokset. Benigni rival: mietinnön voitto ei ole väite, että kaikki seuranta-ajatukset poistettiin. Avoin: Mattila 2:n erikseen numeroitu uudelleenavaamisehdotus ei kuulu tähän ketjuun.",
+        "quote_keys": [
+          "merinen4",
+          "mattila1",
+          "ballot_53546_title",
+          "ballot_53546_result",
+          "ballot_53548_title",
+          "ballot_53548_result"
+        ],
+        "rationale": "Bracket discipline: Mattila1 is monitoring/report by spring 2027 only. Do not attribute Mattila2 reopening proposals to this bracket or claim the bracket eliminated Mattila2."
+      },
+      {
+        "dimension": "Pohteen muutosjälkeinen seuranta",
+        "text": "Kysymys: onko muutoksen jälkeen julkaistua seurantaa? Löydös: Pohteen toimintakertomus 2025 kirjaa Oulaskankaan ympärivuorokautisen päivystyksen muutoksen päivittäiseksi kiirevastaanotoksi klo 8–22 alkaen 1.10.2025. OYS-ensihoidon Q4/2025 omavalvonta kuvaa tavoittamisaikoja sekoitetusti/paranevina koko palvelussa, ei valuma-alueen yökuljetuksia tai nettokustannuksia. Todiste: valitut Pohde-otteet. Benigni rival: paraneva tavoittaminen ei todista muutoksen hyötyä tai haittaa Oulaskankaan valuma-alueella. Avoin tavoite: valuma-alueen yöaikainen ennen–jälkeen.",
+        "quote_keys": [
+          "pohde_night_transition",
+          "pohde_ems_q4"
+        ],
+        "rationale": "Admit dated post-change provider outputs without inventing catchment net costs or clinical failure/success. Not EV 187 national monitoring delivery."
+      },
+      {
+        "dimension": "Erottava havainto avoinna",
+        "text": "Kysymys: mikä erottaisi tarkoitetun keskittämisen kustannusten siirtymisestä? Löydös: valittuihin parlamentaarisiin lähteisiin ei sisälly valuma-alueen toteutunutta seurantatulostetta; Pohteen päivätyt muutosjälkeiset julkaisut ovat olemassa mutta eivät ratkaise valuma-alueen nettokustannuksia. Todiste: EV-lausuma 1:n kohde vs. Pohde-otteiden maantieteellinen/tilinpidollinen rajaus. Benigni rival: kustannusten siirtyminen ja tarkoitetut hyödyt voivat esiintyä yhdessä. Avoin tavoite (OPEN_WITH_TARGET): valuma-alueen yöaikainen kysyntä/siirrot, resurssit ja täydet kustannuskomponentit muutoksen yli.",
+        "quote_keys": [
+          "ev_statement1",
+          "merinen4",
+          "pohde_night_transition",
+          "pohde_ems_q4"
+        ],
+        "rationale": "OPEN_WITH_TARGET: selected parliamentary sources lack catchment output; dated Pohde outputs exist but cannot settle catchment net costs. Do not promote broad absence."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Onko valtioneuvosto/STM julkaissut lausuman 1 mukaisen seurantatulosteen hyvinvointialue- ja YTA-aluetasolla?",
+        "missing_evidence": "Ajantasainen virallinen seurantajulkaisu tai tietojulkistus, joka kattaa päivystyskäytön, ensihoidon kuljetukset/kustannukset ja kiirevastaanotot muutoksen yli hyvinvointialue- ja YTA-aluetasolla. Valuma-aluetarkkuus ei kuulu tähän parlamentaariseen kysymykseen."
+      },
+      {
+        "question": "Siirtyivätkö nettokustannukset ensihoitoon Oulaskankaan valuma-alueella yöaikana?",
+        "missing_evidence": "Valuma-alueen ennen–jälkeen-kustannus- ja kuljetussarjat yöaikaan; OYS-EMS:n koko palvelun tavoittamiskuva ei ole tämä mittaus."
+      }
+    ]
+  }
+]

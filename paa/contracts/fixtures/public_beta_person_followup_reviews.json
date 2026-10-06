@@ -1,0 +1,142 @@
+[
+  {
+    "case_id": "person-bergbom-councils-followup-2023",
+    "source_episode_id": "public-beta-person-bergbom-councils-followup-2023",
+    "canonical_relation_review_id": "review-miko-pirha-live",
+    "canonical_statement_id": "yle2023-1029-3",
+    "canonical_object_id": "pirha-2023-9112-bergbom",
+    "canonical_target_scope": "PARTIAL_COMPONENT",
+    "source_versions": {
+      "miko-promise-2023-03": "efa7f56b4a659ecbfc47ce3ed2cc84a8dacf2ffe0d52a4bc266b727dedecc3a5",
+      "miko-election-role-2023": "9c2faa7dafa5c6087b73e6b95d996bd60df78b64e75af436baf766d9f3ced092",
+      "miko-pirha-9112-2023": "fd3d0a3cf12b5ebc952c81d2c90ce4a09304cdc392bc40ac98c8f92c2ff70fb2",
+      "alueviesti-request-2023-04-27": "e985dc2f8a7d6d6b99b91392cc13005c0a7154830e24128ece9e519fd7bbf162"
+    },
+    "title": "Bergbomin valtuustolupaus: mitä teoista tiedetään?",
+    "question_id": "q-person-bergbom-councils-followup-2023",
+    "question": {
+      "text": "Mitä Bergbomin kahden valtuustopaikan jättämistä koskevasta lupauksesta voidaan osoittaa?",
+      "scope": "Vuoden 2023 ehdollinen kahden paikan lupaus ja vaalitulos, Pirkanmaan eropyyntö 7.4.2023 ja päätös 5.6.2023 sekä Alueviestin 27.4.2023 eropyyntöraportti Sastamalasta. Kaupungin lopullinen päätös jäi tavoittamatta.",
+      "answer_standard": "Nimeä alkuperäisen lupauksen molemmat toimielimet, vaalituloksen henkilöroolievidenssi sekä pyynnön ja lopullisen aluevaltuuston myönnön erilliset lähdekatkelmat. Merkitse vaalituloksen kenttäprojisointi jäsennellyksi tietue-esitykseksi, ei alkuperäiseksi yhtenäiseksi lainaukseksi. Pidä osittainen aluevaltuuston komponentti erillään koko kaksiosaisesta lupauksesta; älä väitä kaupunginvaltuuston tulosta tai täyttä toteutumista.",
+      "period": "2023-03-01–2023-06-05",
+      "target_scope": "PARTIAL_COMPONENT"
+    },
+    "quotes": [
+      {
+        "key": "original_promise",
+        "record_id": "miko-promise-2023-03",
+        "start": 0,
+        "quote": "Mikäli valitset minut eduskuntaan edustamaan Suomea ja suomalaisia, jätän paikkani sekä aluevaltuustossa että kaupunginvaltuustossa."
+      },
+      {
+        "key": "election_role_projection",
+        "record_id": "miko-election-role-2023",
+        "start": 0,
+        "quote": "Miko Bergbom · Pirkanmaa · ehdokasnumero 149 · valittu 2023",
+        "quote_kind": "STRUCTURED_FIELD_PROJECTION",
+        "verbatim": false,
+        "note_fi": "Jäsennelty kenttäprojisointi jäädytetystä ehdokastietueesta; ei lähdeasiakirjan yhtenäinen alkuperäissanamuoto."
+      },
+      {
+        "key": "request_2023-04-07",
+        "record_id": "miko-pirha-9112-2023",
+        "start": 0,
+        "quote": "Aluevaltuuston varsinainen jäsen Miko Bergbom on 7.4.2023 pyytänyt eroa aluevaltuuston jäsenyydestä ja aluevaltuuston 2. varapuheenjohtajan tehtävästä. Perusteluina hän on esittänyt kansanedustajan tehtävää. Eroanomus on liitteenä."
+      },
+      {
+        "key": "final_grant_2023-06-05",
+        "record_id": "miko-pirha-9112-2023",
+        "start": 232,
+        "quote": "Aluevaltuusto päätti myöntää Miko Bergbomille eron aluevaltuuston jäsenyydestä ja aluevaltuuston 2. varapuheenjohtajan tehtävästä, että aluevaltuuston 2. varapuheenjohtajan vaali käsitellään pykälässä 55 Puheenjohtaja kutsui 1. varavaltuutettu Arto Grönroosin aluevaltuuston varsinaiseksi jäseneksi jäljellä olevaksi toimikaudeksi. Pykälä tarkastettiin kokouksessa."
+      },
+      {
+        "key": "city_request_report",
+        "record_id": "alueviesti-request-2023-04-27",
+        "quote": "Sastamalassa Miko Bergbom (ps.) pyytää eroa valtuuston jäsenyydestä."
+      },
+      {
+        "key": "city_pending_report",
+        "record_id": "alueviesti-request-2023-04-27",
+        "quote": "Asia on kaupunginhallituksen käsiteltävänä ja lopulta valtuuston päätettävänä."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Alkuperäinen kaksiosainen vaalilupaus",
+        "text": "Ylen ehdokaskatkelma sisältää ehdollisen lupauksen jättää sekä aluevaltuuston että kaupunginvaltuuston paikan, jos ehdokas valitaan eduskuntaan.",
+        "quote_keys": [
+          "original_promise"
+        ],
+        "rationale": "Lainausprojisointi säilyttää täsmällisen virkkeen, jossa molemmat toimielimet nimetään. Se ei sisällä kampanjavastauksen muuta osaa eikä muuta virkettä toteutuneeksi toimeksi."
+      },
+      {
+        "dimension": "Vuoden 2023 vaalitulos",
+        "text": "Virallinen vaalitulos osoittaa, että Miko Bergbom valittiin eduskuntaan Pirkanmaalta vuonna 2023. Tämä ei itsessään ole näyttö valtuustopaikoista luopumisesta.",
+        "quote_keys": [
+          "election_role_projection"
+        ],
+        "rationale": "Virallinen ehdokastietueen kenttäprojisointi pidetään erillään kampanjalauseesta ja myöhemmästä toimielimen päätöksestä. Projisointi ei ole ehdokaslähteen yhtenäinen alkuperäinen sanamuoto."
+      },
+      {
+        "dimension": "Pyyntö ja Pirkanmaan lopullinen myöntö",
+        "text": "Pirkanmaan virallinen kohta kirjaa Miko Bergbomin 7.4.2023 eropyynnön aluevaltuuston jäsenyydestä ja 2. varapuheenjohtajan tehtävästä sekä erillisen 5.6.2023 aluevaltuuston päätöksen myöntää eron näistä tehtävistä.",
+        "quote_keys": [
+          "request_2023-04-07",
+          "final_grant_2023-06-05"
+        ],
+        "rationale": "Pyyntö ja toimielimen lopullinen myöntö ovat saman virallisen kohdan kaksi erillistä täsmällistä katkelmaa; myöntöpäivä ei vaihdu pyyntöpäiväksi."
+      },
+      {
+        "dimension": "Sastamalan eropyynnöstä on uutisraportti",
+        "text": "Alueviesti raportoi 27.4.2023 Bergbomin pyytävän eroa Sastamalan valtuustosta. Juttu kuvaa asian olevan kaupunginhallituksen käsiteltävänä ja lopulta valtuuston päätettävänä. Tämä vahvistaa julkisen raportin pyynnöstä, mutta ei kaupungin lopullista päätöstä tai sen päivää.",
+        "quote_keys": [
+          "city_request_report",
+          "city_pending_report"
+        ],
+        "rationale": "Julkaisupäivä on uutisen ajankohta, ei todistettu pyynnön jättämispäivä. Artikkelissa prosessi on vielä avoin; Alueviesti on toissijainen raporttilähde."
+      },
+      {
+        "dimension": "Vain osittainen komponentti on varmennettu",
+        "text": "Lähdeketju yhdistää lupauksen aluevaltuustoa koskevaan varmennettuun komponenttiin, mutta ei varmenneta kaupunginvaltuuston osuutta. Sastamalan osuuden avoimuus ei ole kielteinen löytö eikä oikeuta koko lupauksen täyttymis- tai rikkomispäätelmään.",
+        "quote_keys": [
+          "original_promise",
+          "request_2023-04-07",
+          "final_grant_2023-06-05"
+        ],
+        "rationale": "Kaksitoimieliminen lupaus ja yhden toimielimen virallinen tulos asetetaan rinnakkain. Lähdeviipaleessa ei ole Sastamalan päätöstä, joten yhteen kohteeseen rajoittuva tulos ei ratkaise koko lupausta."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mitä Sastamalan kaupunginvaltuuston paikalle tapahtui?",
+        "missing_evidence": "Tarvitaan lähteeseen sidottu kaupunginvaltuuston päätös tai vastaava virallinen tietue; julkisen arkiston palautumattomuus ei ole näyttöä siitä, ettei päätöstä ollut."
+      },
+      {
+        "question": "Toteutuiko koko kaksiosainen lupaus?",
+        "missing_evidence": "Aluevaltuuston komponentti on dokumentoitu, mutta kaupunginvaltuuston komponentti ei ole. Koko lupauksen arviointi vaatisi tämän erillisen lähteen."
+      },
+      {
+        "question": "Mikä oli toiminnan motiivi tai myöhempi vaikutus?",
+        "missing_evidence": "Lähteet dokumentoivat lauseen, pyynnön ja toimielimen myönnön; ne eivät yksilöi yksityistä motiivia, kausaalista vaikutusta, toimeenpanovaikutuksia tai myöhempiä seurauksia."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-08",
+    "method": "AI_SOURCE_READING",
+    "review_state": "RESEARCH_ONLY",
+    "source_rights_disclosure": [
+      {
+        "record_id": "miko-promise-2023-03",
+        "notice": "Vain lupauslauseen projisointi. Kanonisessa Ylen vuoden 2023 manifestissa ei ole lisenssimerkintää; koko kampanjalähdettä ei saa levittää eikä vuoden 2011 CC-BY-NC-SA-merkintää saa soveltaa tähän aineistoon."
+      },
+      {
+        "record_id": "miko-election-role-2023",
+        "notice": "Virallisen ehdokastietueen jäsennelty kenttäprojisointi; se ei ole lähteen yhtenäinen alkuperäislainaus. Säilytä lähde-URL, attribuutio ja erillinen hankinnan raakadatahash."
+      },
+      {
+        "record_id": "miko-pirha-9112-2023",
+        "notice": "Täsmällinen eropyynnön ja lopullisen päätöksen lainausprojisointi, jonka kanoninen coverage-tietue merkitsee EXCERPT_ALLOWED; säilytä virallinen URL, paikannin ja hashit."
+      }
+    ],
+    "selection_basis": "Uusi lähdeluku täydentää aiempaa Pirkanmaan jäljitystä Sastamalan eropyyntöä koskevalla uutisraportilla. Alkuperäisen tapauksen lähteet ja arvio säilyvät erillään. Pyynnön raportointia ei muuteta valtuuston lopulliseksi päätökseksi. Tekoälyavusteinen lähdeluku; ei riippumatonta ihmistarkistusta."
+  }
+]

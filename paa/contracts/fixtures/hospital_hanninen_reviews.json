@@ -1,0 +1,144 @@
+[
+  {
+    "case_id": "hospital-hanninen-oulaskangas-attribution",
+    "source_episode_id": "purpose-hospital-hanninen-oulaskangas-2024-2025",
+    "source_versions": {
+      "hanninen-speech-kaa2-2025-05-22": "e7f5d2a68be13988f238cbb3662ae95cecf30b716015069714b30d1c21674dda",
+      "ballot-53538-selected": "e731b274ca0d193a392904a052f65388ed2e390da391023f674490c4b07fcc2a",
+      "ballot-55560-selected": "54c4721106a4a50766388d5bc12232736bae470ba04ebae408ba78a4b03fca0d",
+      "stvm13-2025-dissent": "d906d9e912511ea55990f4265eaec2f13b308a509e4e09b009d093da34140eff",
+      "ballot-53586-selected": "1b29ca963f312dbd5a3f3a17163d763278e3f88f0912d267093dd2a3c527cb49"
+    },
+    "title": "Hänninen, sairaalaverkko ja Oulaskangas: mitä äänestykset ja puhe näyttävät?",
+    "question_id": "q-hospital-hanninen-oulaskangas",
+    "reviewer": "paa-purpose-demo-ai-source-reading-2026-10-09",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Within-government variation on hospital/Oulaskangas package ballots with a qualified speech; generic ballot disposition transfer to wage mediation.",
+    "question": {
+      "text": "Mitä Juha Hänninen (henkilö 1537) äänesti HE 149/2024:n hyväksymisestä ja KAA 2/2025:n Mattilan vastalauseesta, ja miten tämä suhteutuu hänen 22.5.2025 puheeseensa sekä saman hallituspuolen Simulan ja Sillanpään valintoihin?",
+      "scope": "Äänestykset 53538 (17.12.2024) ja 55560 (10.10.2025), puhe PUH 55/2025/6/1/2, StVM 13/2025 enemmistön päätösehdotus ja vastalauseen ponsi sekä siirtovertailuna HE 146/2024 äänestys 53586. Ei yksityistä vaikutusvaltaa, motiiveja eikä palveluvaikutuksia.",
+      "answer_standard": "Nimeä raakavastaukset, puhemiehen vaihtoehdot, ryhmävertailun tulos ilman kuuliaisuusväitettä, puheen rajattu yhtenevyys ja institutionaalinen tulos (enemmistö hylkäsi lainvalmisteluun ryhtymisen). Pakettiäänestys ei ole pykäläkohtainen kanta."
+    },
+    "quotes": [
+      {
+        "key": "speech_ems_not_substitute",
+        "record_id": "hanninen-speech-kaa2-2025-05-22",
+        "quote": "On myös tunnistettava, että kotisairaalatoimintaa ja ensihoitoa on vahvistettu alueella. Nämä ovat tärkeitä askelia, mutta ne eivät korvaa ympärivuorokautista päivystystä."
+      },
+      {
+        "key": "ballot_53538_hanninen",
+        "record_id": "ballot-53538-selected",
+        "quote": "Juha Hänninen (henkilö 1537, ryhmä kok): EI"
+      },
+      {
+        "key": "ballot_53538_simula",
+        "record_id": "ballot-53538-selected",
+        "quote": "Jenna Simula (henkilö 1450, ryhmä ps): JAA"
+      },
+      {
+        "key": "ballot_53538_sillanpaa",
+        "record_id": "ballot-53538-selected",
+        "quote": "Pia Sillanpää (henkilö 1527, ryhmä ps): JAA"
+      },
+      {
+        "key": "ballot_53538_title",
+        "record_id": "ballot-53538-selected",
+        "quote": "Puhemiehen otsikko: Hyväksyminen/hylkääminen"
+      },
+      {
+        "key": "ballot_55560_hanninen",
+        "record_id": "ballot-55560-selected",
+        "quote": "Juha Hänninen (henkilö 1537, ryhmä kok): EI"
+      },
+      {
+        "key": "ballot_55560_simula",
+        "record_id": "ballot-55560-selected",
+        "quote": "Jenna Simula (henkilö 1450, ryhmä ps): JAA"
+      },
+      {
+        "key": "ballot_55560_title",
+        "record_id": "ballot-55560-selected",
+        "quote": "Puhemiehen otsikko: Mietintö JAA / Hanna-Leena Mattilan ehdotus (vl) EI"
+      },
+      {
+        "key": "stvm13_majority_operative",
+        "record_id": "stvm13-2025-dissent",
+        "quote": "Eduskunta hylkää kansalaisaloitteeseen KAA 2/2025 vp sisältyvän ehdotuksen lainvalmisteluun ryhtymisestä."
+      },
+      {
+        "key": "stvm13_dissent_ponsi",
+        "record_id": "stvm13-2025-dissent",
+        "quote": "eduskunta hyväksyy kansalaisaloitteeseen KAA 2/2025 vp sisältyvän ehdotuksen lainvalmisteluun ryhtymisestä siten, että ehdotetussa 50 §:n muutoksessa esitetään kaikille hyvinvointialueille oikeus järjestää ympärivuorokautista perusterveydenhuollon päivystystä."
+      },
+      {
+        "key": "ballot_53586_hanninen",
+        "record_id": "ballot-53586-selected",
+        "quote": "Juha Hänninen (henkilö 1537, ryhmä kok): JAA"
+      },
+      {
+        "key": "ballot_53586_lyly",
+        "record_id": "ballot-53586-selected",
+        "quote": "Lauri Lyly (henkilö 1511, ryhmä sd): EI"
+      },
+      {
+        "key": "ballot_53586_matter",
+        "record_id": "ballot-53586-selected",
+        "quote": "Äänestys 53586 · 2024-12-17 · HE 146/2024 vp"
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Henkilökohtainen pakettiäänestys HE 149/2024",
+        "text": "Juha Hänninen äänesti 17.12.2024 HE 149/2024 vp:n hyväksyminen/hylkääminen-äänestyksessä EI. Jenna Simula ja Pia Sillanpää äänestivät JAA. Tämä on pakettipäätös, ei pykäläkohtainen kanta; EI valitsee hylkäämisen menettelyvaihtoehdon.",
+        "quote_keys": [
+          "ballot_53538_hanninen",
+          "ballot_53538_simula",
+          "ballot_53538_sillanpaa",
+          "ballot_53538_title"
+        ],
+        "rationale": "Valitut äänestysrivit ja puhemiehen otsikko sitovat raakavastauksen menettelyvaihtoehtoon. Hallituspuolueiden jäsenten rivit eroavat; tämä kumoaa testatun oletuksen, että kaikki hallituspuolueiden jäsenet äänestivät paketin puolesta, ilman että kyseessä olisi dokumentoitu julkinen syytös."
+      },
+      {
+        "dimension": "KAA 2/2025 vastalauseen valinta",
+        "text": "KAA 2/2025: Hänninen äänesti EI — eli Mattilan vastalauseen puolesta — kun JAA oli valiokunnan mietintö. Simula äänesti JAA. Vastalauseen ponsi hyväksyisi lainvalmisteluun ryhtymisen siten, että kaikille hyvinvointialueille esitettäisiin oikeus järjestää ympärivuorokautista perusterveydenhuollon päivystystä; enemmistön päätösehdotus hylkäsi lainvalmisteluun ryhtymisen. Institutionaalinen tulos: eduskunta hylkäsi valmistelun aloittamisen. Valinta ei itsessään muuta voimassa olevaa lakia tai palauta yöpäivystystä.",
+        "quote_keys": [
+          "ballot_55560_hanninen",
+          "ballot_55560_simula",
+          "ballot_55560_title",
+          "stvm13_majority_operative",
+          "stvm13_dissent_ponsi"
+        ],
+        "rationale": "EI merkitsee tässä vastalauseen tukemista, ei yleistä palveluiden vastustamista. StVM 13/2025 enemmistön päätösehdotus ja vastalauseen ponsi sitovat vaihtoehtojen operatiivisen sisällön. Pakettiäänestyksen rajat säilyvät."
+      },
+      {
+        "dimension": "Puheen rajattu yhtenevyys",
+        "text": "Hännisen 22.5.2025 puhe tunnistaa henkilöstörajoitteita sekä vahvistetun kotisairaala- ja ensihoidon, mutta toteaa, etteivät nämä korvaa ympärivuorokautista päivystystä. Myöhempi EI Mattilan vastalauseen puolesta on rajatussa mielessä yhtenevä tämän kannanoton kanssa; äänestys ei todista motiivia eikä kausaalista vaikutusta.",
+        "quote_keys": [
+          "speech_ems_not_substitute",
+          "ballot_55560_hanninen"
+        ],
+        "rationale": "Puhe ja äänestys pidetään erillisinä havaintoina. Yhtenevyys on komponenttitasoinen, ei lupauksen täyttöarvio."
+      },
+      {
+        "dimension": "Sama laskenta eri asiakokonaisuudessa (HE 146/2024)",
+        "text": "Sama versiosidottu äänestysvertailu näyttää HE 146/2024 vp:n hyväksymisäänestyksessä 17.12.2024 Hännisen JAA-äänen sekä Lauri Lylyn EI-äänen. Tämä on siirtovertailu eri politiikka-alueelle, ei sairaalaverkkoasian jatkoa.",
+        "quote_keys": [
+          "ballot_53586_matter",
+          "ballot_53586_hanninen",
+          "ballot_53586_lyly"
+        ],
+        "rationale": "Demonstrates the maintained ballot disposition computation on a genuinely different matter without case-specific admission code."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mikä oli Hännisen yksityinen neuvotteluvaikutus tai motiivi?",
+        "missing_evidence": "Julkinen äänestys- ja puheaineisto ei sisällä yksityistä neuvotteluaineistoa."
+      },
+      {
+        "question": "Muuttiko yksittäinen ääni lopputulosta?",
+        "missing_evidence": "Pivotality-analyysi vaatii erillisen laskennan; tätä pakettia ei ole tehty."
+      }
+    ]
+  }
+]

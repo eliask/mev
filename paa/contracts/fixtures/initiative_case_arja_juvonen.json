@@ -1,0 +1,102 @@
+{
+  "case_id": "initiative-arja-juvonen-2011-la72",
+  "case_type": "ELECTED_CANDIDATE_POLICY_ACTION_TRACE",
+  "candidate": {
+    "actor_id": "mp-1129",
+    "person_id": "1129",
+    "name": "Arja Juvonen",
+    "candidacy_id": "vaalit-2011-02-233",
+    "election_year": 2011,
+    "elected": true,
+    "district_code": "02",
+    "candidate_number": 233,
+    "source_id": "SRC-YLE-2011",
+    "source_document_id": "yle2011-3823",
+    "source_url": "https://yle.fi/aihe/a/20-162059",
+    "source_file": "data/raw/yle/yle2011.csv",
+    "source_file_sha256": "4807535a042ae03bcc6ed4ee8c6dd58ca9526b938421d7802376ff23788ade39",
+    "field_label": "Mitä asioita haluat edistää tai ajaa tulevalla vaalikaudella",
+    "stated_earliest": "2011-03-01",
+    "promise_class": "POLICY_DESIDERATUM",
+    "personal_observable_action": false,
+    "statement_sha256": "dc0f8da452d9afc44813264244576c7b8dc25291716b613d28b6dfb6ae2d2b5b",
+    "quote": "Pidän tärkeänä päästä vaikuttamaan syntyvään vanhuslakiin: siihen on kirjattava mm. hoitajavahvuus.Ihmisen hoidon arkikuvioiden, hoidon epäkohtien ja todellisuuden on aika myös päästä esiin.",
+    "quote_sha256": "3fd92492e0418f759961eb899e9b1c57954ff094cea53d8d7ab081827646fa56"
+  },
+  "official_source": {
+    "source_id": "SRC-EDUSKUNTA-VASKI",
+    "publisher": "Eduskunta / Parliament of Finland",
+    "api_url": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows?columnName=Eduskuntatunnus&columnValue=LA+72%2F2017+vp&perPage=100&page=0",
+    "matter_id": "LA 72/2017 vp",
+    "content_record_id": 85933,
+    "content_raw_sha256": "1a577d27104e65f11eff275b603016b6925e2d3a94bf91811ab159ea641c6cf6",
+    "content_fixture": "paa/contracts/fixtures/vaski_la72_content.xml",
+    "content_fixture_sha256": "86c1f43ace8aaed80ab3af08fad239901bb9f5b88116240c29114e49c7ed7bc1",
+    "procedural_record_id": 67283,
+    "procedural_raw_sha256": "ed6ec5f04f41428aadcd02a91c3d7466c06ffe3141d7e5459f76c75864cf1f6c",
+    "procedural_fixture": "paa/contracts/fixtures/vaski_la72_disposition.xml",
+    "procedural_fixture_sha256": "635ef663643b4e635ada098ace473db12f1c5e67ca284e0d783e2d78dd97d0d4",
+    "title": "Lakialoite laiksi ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain 20 §:n muuttamisesta",
+    "submitted_date": "2017-10-24",
+    "first_author": {
+      "person_id": "1129",
+      "name": "Arja Juvonen",
+      "role": "AUTHOR"
+    },
+    "disposition": {
+      "state": "EXPIRED",
+      "raw_state": "Rauennut",
+      "date": "2019-04-16"
+    }
+  },
+  "normalized_object": {
+    "object_id": "eduskunta:LA 72/2017 vp",
+    "matter_id": "LA 72/2017 vp",
+    "kind": "LEGISLATIVE_INITIATIVE",
+    "object_text_sha256": "6a45b419a39a5d8d81e8e769503f5f081aa7e981dcc8214ddaebd5f45d7d048e",
+    "fixture_object_text_sha256": "7969f84c6ddea5acaeb0bd09060fa47fc8abec366a7421c691502acf4bca3827",
+    "object_text_fixture": "paa/contracts/fixtures/vaski_la72_content.xml",
+    "author_evidence_record_locator": "VaskiData/Id=85933",
+    "disposition_evidence_record_locator": "VaskiData/Id=67283"
+  },
+  "relation_review": {
+    "review_id": "review-initiative-arja-juvonen-2011-la72",
+    "normalized_target": "Vanhuspalvelujen hoitajamitoituksen lakisääteinen vähimmäismäärä",
+    "proposition_id": "yle2011-3823-p3",
+    "object_id": "eduskunta:LA 72/2017 vp",
+    "matter_id": "LA 72/2017 vp",
+    "status": "SAME_POLICY_OBJECT",
+    "statement_sha256": "dc0f8da452d9afc44813264244576c7b8dc25291716b613d28b6dfb6ae2d2b5b",
+    "object_sha256": "6a45b419a39a5d8d81e8e769503f5f081aa7e981dcc8214ddaebd5f45d7d048e",
+    "statement_quote": "Pidän tärkeänä päästä vaikuttamaan syntyvään vanhuslakiin: siihen on kirjattava mm. hoitajavahvuus.Ihmisen hoidon arkikuvioiden, hoidon epäkohtien ja todellisuuden on aika myös päästä esiin.",
+    "statement_context_quote": "Pidän tärkeänä päästä vaikuttamaan syntyvään vanhuslakiin: siihen on kirjattava mm. hoitajavahvuus.Ihmisen hoidon arkikuvioiden, hoidon epäkohtien ja todellisuuden on aika myös päästä esiin.",
+    "object_quote": "Hoitajamitoituksessa havaitut epäkohdat, hoitajamitoituksen ailahtelevaisuus ja hoitajamitoituksen epätasapuolinen jakautuminen ovat syitä siihen, että vanhuspalvelulakia on ryhdyttävä täsmentämään hoitajamitoituksen osalta välittömästi.",
+    "reviewer": "paa-frozen-source-review-1",
+    "rationale": "The campaign text states a broad goal concerning the emerging elder-care law and staffing. The live official registry object is independently identified by matter ID and first-signer ID, and its submitted text proposes an elder-care-law staffing minimum. This is a DOCUMENTED_RELATED_ACTION relation only; the 2017 initiative is outside the campaign's 2011–2015 term and does not establish pledge fulfillment, enactment, implementation, or causation.",
+    "evidence_ids": [
+      "yle2011-3823-e",
+      "SRC-EDUSKUNTA-VASKI:1a577d27104e65f1:record",
+      "SRC-EDUSKUNTA-VASKI:ed6ec5f04f41428a:record"
+    ],
+    "action_alignment": "ALIGNED"
+  },
+  "bounded_finding": {
+    "state": "DOCUMENTED_RELATED_ACTION",
+    "action_kind": "LEGISLATIVE_INITIATIVE_AUTHOR",
+    "actor_id": "mp-1129",
+    "authority_basis": "ELECTED_MEMBER_OF_PARLIAMENT",
+    "claim_scope": "The live source records an initiative authored by Juvonen on a related elder-care staffing policy object; it is not a verified fulfillment of the broad campaign desideratum.",
+    "pledge_adjudication": "NOT_TESTABLE_AS_WRITTEN",
+    "temporal_scope_note": "The campaign text is a broad policy desideratum in a 2011 campaign field (the 2011–2015 term), while the official initiative was submitted in 2017. This packet records only a later related action and does not treat it as a within-term personal-action promise or claim fulfillment.",
+    "not_claimed": [
+      "The initiative was enacted or implemented.",
+      "The initiative alone fulfilled every part of the broad campaign statement.",
+      "The initiative caused a later policy outcome."
+    ],
+    "evidence_ids": [
+      "review-initiative-arja-juvonen-2011-la72",
+      "SRC-EDUSKUNTA-VASKI:1a577d27104e65f1:record",
+      "SRC-EDUSKUNTA-VASKI:ed6ec5f04f41428aadcd02a91c3d7466c06ffe3141d7e5459f76c75864cf1f6c"
+    ]
+  }
+}

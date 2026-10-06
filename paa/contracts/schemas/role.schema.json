@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Temporal authority role v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "role_id": {
+      "type": "string"
+    },
+    "actor_id": {
+      "type": "string"
+    },
+    "institution_id": {
+      "type": "string"
+    },
+    "role_name": {
+      "type": "string"
+    },
+    "start": {
+      "type": "object",
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "instant",
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "basis",
+        "timezone",
+        "source_evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "end": {
+      "type": "object",
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "instant",
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "basis",
+        "timezone",
+        "source_evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "formal_capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "capability": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "decision_mode": {
+            "enum": [
+              "UNILATERAL",
+              "SHARED",
+              "INITIATING",
+              "ADVISORY",
+              "UNRESOLVED"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "capability",
+          "scope",
+          "decision_mode",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "documented_influence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unobserved_influence_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "role_id",
+    "actor_id",
+    "institution_id",
+    "role_name",
+    "start",
+    "end",
+    "formal_capabilities",
+    "documented_influence",
+    "unobserved_influence_note",
+    "evidence_ids"
+  ],
+  "additionalProperties": false
+}

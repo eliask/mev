@@ -1,0 +1,86 @@
+[project]
+name = "mev"
+version = "0.1.0"
+description = "Source-grounded political research and legislative tooling"
+license = "MIT"
+license-files = ["LICENSE", "DATA_NOTICE.md"]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "aiohttp>=3.9",
+    "diskcache>=5.6",
+    "farchive",
+    "lxml>=5.1",
+    "httpx>=0.27",
+    "tenacity>=8.2",
+    "libvoikko>=0.5",
+    "matplotlib>=3.10.8",
+    "zstandard>=0.21",
+    "jsonschema>=4.21",
+]
+
+[project.scripts]
+mev = "mev.cli:main"
+paa = "paa.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mev", "paa"]
+
+# Source releases contain maintained code, contracts and reproducible checks.
+# Local databases, credentials, generated sites and research notes are excluded.
+[tool.hatch.build.targets.sdist]
+only-include = [
+    "mev", "paa", "tests", "scripts", ".github/workflows",
+    "docs/PURPOSE.md", "docs/SPEC.md", "docs/INVESTIGATION_PROCESS.md",
+    "docs/UI.md", "docs/PYTHON_PROFILE.md", "docs/RUNNING.md",
+    "AGENTS.md", "README.md", "LICENSE", "DATA_NOTICE.md",
+    "pyproject.toml", "uv.lock", ".python-version", ".gitignore",
+]
+
+[tool.uv]
+exclude-newer = "7 days"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9",
+    "pytest>=8.0",
+    "hypothesis>=6.100",
+    "pytest-asyncio>=0.23",
+    "ty>=0.0.28",
+]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 120
+
+[tool.ruff.lint]
+ignore = [
+    "E701",  # multiple statements on one line (guard clauses are intentional)
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+
+# Maintained typed semantic/demo boundary. Keep this include list aligned with
+# producer/consumer tests; historical package modules remain on the migration backlog.
+[tool.ty.src]
+include = [
+    "paa/opportunity_records.py",
+    "paa/opportunity_codec.py",
+    "paa/ballot_disposition.py",
+    "paa/purpose_demo.py",
+]
+
+[tool.ty.rules]
+division-by-zero = "error"
+invalid-ignore-comment = "error"
+possibly-unresolved-reference = "error"
+unresolved-import = "error"
+unused-ignore-comment = "error"
+
+[tool.hypothesis]
+# Keep fast during normal runs; increase with --hypothesis-seed or profiles
+max_examples = 60

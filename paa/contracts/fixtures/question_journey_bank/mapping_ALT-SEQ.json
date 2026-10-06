@@ -1,0 +1,71 @@
+{
+  "schema_version": "paa.question_journey_mapping.v1",
+  "task_id": "ROUTE-SIGNERS",
+  "journey_kind": "ALTERNATIVE_SEQUENCE",
+  "question": "Kuka allekirjoitti LA 9/2099 vp:n ja missä roolissa 1.3.2099?",
+  "short_answer": "Ada First on ensimmäinen allekirjoittaja; Bea Second on muu allekirjoittaja. Laatijaa ei osoiteta.",
+  "distinction": "Allekirjoitusroolit ovat henkilökohtaisia tekoja; ne eivät ole vaihtoehtoäänestyksen tulosta eivätkä hallituksen esityksen syytä.",
+  "nodes": [
+    {
+      "node_id": "alt-ada",
+      "kind": "ACTOR_ACT",
+      "label": "Ada First · FIRST_SIGNATORY",
+      "date": "2099-03-01",
+      "actor_name": "Ada First",
+      "voice_kind": "PERSON",
+      "supporting_claim_indices": [0],
+      "supporting_stage_source_ids": ["INIT-TEXT"]
+    },
+    {
+      "node_id": "alt-bea",
+      "kind": "ACTOR_ACT",
+      "label": "Bea Second · OTHER_SIGNATORY",
+      "date": "2099-03-01",
+      "actor_name": "Bea Second",
+      "voice_kind": "PERSON",
+      "supporting_stage_source_ids": ["INIT-TEXT"],
+      "interpretation_state": "STAGE_BOUND_SIGNATURE_ROLE"
+    },
+    {
+      "node_id": "alt-object",
+      "kind": "PROPOSAL",
+      "label": "LA 9/2099 vp allekirjoituskohde",
+      "date": "2099-03-01",
+      "institution": "Eduskunta (aloite)",
+      "voice_kind": "INSTITUTION",
+      "supporting_stage_source_ids": ["INIT-TEXT"]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "alt-e-ada",
+      "from_node_id": "alt-ada",
+      "to_node_id": "alt-object",
+      "relation_kind": "PERSONAL_ACT",
+      "label": "Ensimmäinen allekirjoitus",
+      "supporting_claim_indices": [0],
+      "supporting_stage_source_ids": ["INIT-TEXT"]
+    },
+    {
+      "edge_id": "alt-e-bea",
+      "from_node_id": "alt-bea",
+      "to_node_id": "alt-object",
+      "relation_kind": "PERSONAL_ACT",
+      "label": "Muu allekirjoitus",
+      "supporting_stage_source_ids": ["INIT-TEXT"],
+      "note": "Role from documentary signature block; claim inventory may name only the first signatory."
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "signature-sequence",
+      "title": "Allekirjoitusjärjestys",
+      "summary": "Henkilökohtaiset allekirjoitusroolit samaan aloitteeseen.",
+      "node_ids": ["alt-ada", "alt-bea", "alt-object"],
+      "edge_ids": ["alt-e-ada", "alt-e-bea"]
+    }
+  ],
+  "limits": [
+    "Alternative-sequence specimen for signature roles; not a plenary pairing ballot."
+  ]
+}

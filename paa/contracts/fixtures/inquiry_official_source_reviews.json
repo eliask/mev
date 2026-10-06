@@ -1,0 +1,129 @@
+[
+  {
+    "case_id": "climate-2024-dissent-source-voice",
+    "source_episode_id": "source-voice-ymvm8-2024",
+    "source_versions": {
+      "ymvm8-2024": "0f9c0d211d623f74e8e0d6e612b32940da317ecad8ade13e5040c07a5a378387",
+      "291583": "ef4ba7e43e736388410196f8ac54dde340ae8f372633915896b169cbc808e234"
+    },
+    "title": "Kenen kannanotto ilmastolakimietinnön katkelma on?",
+    "question": {
+      "text": "Onko ilmastopolitiikan poukkoilua arvosteleva katkelma valiokunnan enemmistön vai vastalauseen tekstiä?",
+      "scope": "YmVM 8/2024 vp:n yksi katkelma: säilytetyn indeksiversion ja virallisen Vaski-XML-asiakirjan vertailu.",
+      "answer_standard": "Virallisen asiakirjan otsikko, tekstijakso ja sen allekirjoittajat; ei päätelmää yksittäisen henkilön tekstin laatimisesta."
+    },
+    "quotes": [
+      {
+        "key": "indexed",
+        "record_id": "ymvm8-2024",
+        "quote": "Perustelut\nPoukkoileva politiikka, jossa lakeja muutetaan niiden oltua voimassa vasta vuoden, on myrkkyä taloudelle, hallinnolle, ennakoitavuudelle ja kansalaisten sitoutumiselle ilmastopolitiikkaan."
+      },
+      {
+        "key": "dissent",
+        "record_id": "291583",
+        "quote": "Vastalause 1\nPerustelut\nPoukkoileva politiikka, jossa lakeja muutetaan niiden oltua voimassa vasta vuoden, on myrkkyä taloudelle, hallinnolle, ennakoitavuudelle ja kansalaisten sitoutumiselle ilmastopolitiikkaan."
+      },
+      {
+        "key": "signatories",
+        "record_id": "291583",
+        "quote": "Helsingissä 14.11.2024\nMarko\nAsell\nsd\nJohan\nKvarnström\nsd\nKrista\nMikkonen\nvihr\nMai\nKivelä\nvas"
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Kannanoton kantaja ja lähdeversion rajaus",
+        "text": "Katkelma kuuluu virallisessa asiakirjassa Vastalause 1 -jaksoon, jonka allekirjoittavat Marko Asell, Johan Kvarnström, Krista Mikkonen ja Mai Kivelä. Säilytetystä indeksiversiosta vastalauseen otsikko puuttuu. Katkelmaa ei siksi tule esittää valiokunnan enemmistön kantana. Allekirjoitukset eivät osoita, kuka tekstin kirjoitti.",
+        "quote_keys": ["indexed", "dissent", "signatories"],
+        "rationale": "Sama arvosteleva lause esiintyy kummassakin lähdeversiossa. Virallisen XML:n rakenne asettaa sen ensimmäiseen vastalauseeseen ja säilyttää tämän jakson allekirjoitukset. Indeksiversion yleinen Perustelut-otsikko ei säilytä kannanoton kantajaa."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Kuka laati vastalauseen tämän lauseen?",
+        "missing_evidence": "Tarvitaan nimenomainen laatijaa koskeva lähde. Vastalauseen yhteiset allekirjoitukset eivät erittele tekstin laatimista."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Tapaus löytyi lähdeauditoinnissa, kun indeksiversion yleiset Perustelut-otsikot eivät sallineet enemmistöattribuutiota. Virallinen täsmäasiakirja haettiin tämän aukon ratkaisemiseksi. Lähdevertailua ei syötetty lukittuihin malliarviointiajoihin."
+  },
+  {
+    "case_id": "ymvm17-2022-matter-scope",
+    "source_episode_id": "source-matter-ymvm17-2022",
+    "source_versions": {
+      "236013": "43e6671fb5c5d6c83360196cab0dc0ac817ea0082252ef49c11b4a532f3ffbf8"
+    },
+    "title": "Mitä YmVM 17/2022 vp suositteli eri asiakokonaisuuksissa?",
+    "question": {
+      "text": "Mitä YmVM 17/2022 vp suositteli HE 76/2022 vp:stä verrattuna LA 19/2021 vp:hen?",
+      "scope": "YmVM 17/2022 vp:n virallinen Vaski XML: HE 76/2022 vp:n pääasia, LA 19/2021 vp:n erillinen lakialoite ja valiokunnan päätösehdotus.",
+      "answer_standard": "Erottele HE 76/2022 vp:n valiokuntasuositus LA 19/2021 vp:n erillisestä hylkäyssuosituksesta ja pidä valiokunnan päätösehdotus erillään eduskunnan lopullisesta hyväksymisestä tai lain voimaantulosta."
+    },
+    "quotes": [
+      {
+        "key": "he76_general_recommendation",
+        "record_id": "236013",
+        "quote": "Hallituksen esityksestä ilmenevistä syistä ja saamansa selvityksen perusteella valiokunta pitää esitystä tarpeellisena ja tarkoituksenmukaisena."
+      },
+      {
+        "key": "he76_amended_recommendation",
+        "record_id": "236013",
+        "quote": "Valiokunta esittää lakiehdotusten hyväksymistä muutettuina seuraavin huomautuksin."
+      },
+      {
+        "key": "decision_heading",
+        "record_id": "236013",
+        "quote": "VALIOKUNNAN PÄÄTÖSEHDOTUS\nYmpäristövaliokunnan päätösehdotus:"
+      },
+      {
+        "key": "he76_decision_proposal",
+        "record_id": "236013",
+        "quote": "Eduskunta hyväksyy muuttamattomana hallituksen esitykseen HE 76/2022 vp sisältyvät 2.—4., 6., 8.—11., 15., 17.—20., 23.—27., 29.—31., 33., 35.—41. ja 43.—55. lakiehdotuksen.\nEduskunta hyväksyy muutettuna hallituksen esitykseen HE 76/2022 vp sisältyvät 1., 5., 7., 12.—14., 16., 28., 32., 34. ja 42. lakiehdotuksen."
+      },
+      {
+        "key": "he76_rejected_parts",
+        "record_id": "236013",
+        "quote": "Eduskunta hylkää hallituksen esitykseen HE 76/2022 vp sisältyvät 21. ja 22. lakiehdotuksen."
+      },
+      {
+        "key": "la19_recommendation",
+        "record_id": "236013",
+        "quote": "LA 19/2021 vp\nValiokunta ehdottaa lausuman hyväksymistä lakialoitteessa tarkoitetun lainmuutoksen tekemiseksi. Siksi valiokunta ehdottaa, että lakialoite hylätään."
+      },
+      {
+        "key": "la19_decision_proposal",
+        "record_id": "236013",
+        "quote": "Eduskunta hylkää lakialoitteeseen LA 19/2021 vp sisältyvän lakiehdotuksen."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "HE 76/2022 vp — pääasian valiokuntasuositus",
+        "text": "YmVM 17/2022 vp pitää HE 76/2022 vp:n hallituksen esitystä tarpeellisena ja tarkoituksenmukaisena ja esittää lakiehdotusten hyväksymistä muutettuina. Tämä on valiokunnan suositus, ei tässä lähteessä todettu eduskunnan lopullinen hyväksyminen.",
+        "quote_keys": ["he76_general_recommendation", "he76_amended_recommendation"],
+        "rationale": "Pääasian yleisperusteluissa valiokunta sitoo tarpeellisuus- ja hyväksymissuosituksen hallituksen esitykseen. Lähde ei tällä katkelmalla osoita, että eduskunta olisi lopullisesti hyväksynyt ehdotuksen tai että laki olisi tullut voimaan."
+      },
+      {
+        "dimension": "HE 76/2022 vp — päätösehdotuksen rajaus",
+        "text": "Päätösehdotuksessa HE 76/2022 vp:n lakiehdotuksista osa hyväksyttäisiin muuttamattomina, osa muutettuna ja 21. ja 22. lakiehdotus hylättäisiin. Päätösehdotuksen Eduskunta hyväksyy/hylkää -muoto on valiokunnan ehdotus, ei näyttö lopullisesta täysistuntoratkaisusta.",
+        "quote_keys": ["decision_heading", "he76_decision_proposal", "he76_rejected_parts"],
+        "rationale": "Päätösehdotuksen otsikko rajaa seuraavat Eduskunta-lauseet valiokunnan ehdotukseksi. HE 76/2022 vp:n matter ID esiintyy sekä hyväksymis- että hylkäysosissa, joten koko pääasiaa ei pidä kuvata yksiselitteisesti hyväksytyksi tai hylätyksi."
+      },
+      {
+        "dimension": "LA 19/2021 vp — erillinen lakialoite",
+        "text": "LA 19/2021 vp:n kohdalla valiokunta ehdottaa lausuman hyväksymistä aloitteessa tarkoitetun lainmuutoksen tekemiseksi ja siksi lakialoitteen hylkäämistä. Tämä on eri asia kuin HE 76/2022 vp:n lakiehdotusten käsittely; myös tässä kyse on valiokunnan suosituksesta, ei yksinään lopullisesta eduskunnan päätöksestä.",
+        "quote_keys": ["la19_recommendation", "la19_decision_proposal"],
+        "rationale": "LA 19/2021 vp:n oma otsikkolohko kertoo sekä lausuman hyväksymistä koskevasta ehdotuksesta että lakialoitteen hylkäysehdotuksesta. Päätösehdotuksessa sama matter ID on erikseen nimetty, joten hylkäystä ei saa siirtää HE 76/2022 vp:n pääasiaan."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Hyväksyikö eduskunta nämä valiokunnan päätösehdotukset ja milloin HE 76/2022 vp:n laki tuli voimaan?",
+        "missing_evidence": "Tähän tarvitaan erillinen täysistunnon päätös- ja säädöslähde. YmVM 17/2022 vp:n päätösehdotus osoittaa tässä vain valiokunnan suosituksen."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "V7-lähdeauditissa havaittu HE 76/2022 vp:n ja LA 19/2021 vp:n matter-scope-sekoittuminen tarkistettiin alkuperäisestä Vaski XML -asiakirjasta ja coverage-raportista (row 236013, raw XML SHA-256 721ab746f461b72ae1520e6968e84c6ef3f851ee17e12a313082c5be25a09682). Tarkistus on lähdelukemista, ei ihmiskultaa eikä mallisyötteeseen lisättyä review-labelia."
+  }
+]

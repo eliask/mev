@@ -1,0 +1,282 @@
+{
+  "schema_version": "bs02.sourcebank_document.v1",
+  "generated_at": "2026-10-09T19:13:20Z",
+  "source_id": "SRC-EDUSKUNTA-VASKI",
+  "source_object": {
+    "object_id": "eduskunta:KKV 1/2023 vp",
+    "kind": "GOVERNMENT_ANSWER",
+    "matter_id": "KK 1/2023 vp",
+    "title": "Vastaus kirjalliseen kysymykseen valtion omistajaohjauksen epäonnistumisesta",
+    "date": "2023-05-09",
+    "people": [
+      {
+        "given_name": "Tytti",
+        "family_name": "Tuppurainen",
+        "position": "eurooppa- ja omistajaohjausministeri",
+        "role_code": "Laatija",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]"
+      }
+    ],
+    "identity_basis": "source XML fields only"
+  },
+  "source_records": [
+    {
+      "record_locator": "VaskiData/Id=252633",
+      "source_url": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows?columnName=Eduskuntatunnus&columnValue=KKV+1%2F2023+vp&perPage=100&page=0",
+      "raw_sha256": "61d5f51dfdf485da2f347e2c20c14209d88200a61e144944927425670cf9612f",
+      "body_bytes": 5238,
+      "captured_at": "2026-10-09T19:01:29Z"
+    },
+    {
+      "record_locator": "Attachment/Id=778538;AttachmentGroupId=776811",
+      "source_url": "https://avoindata.eduskunta.fi/api/v1/tables/Attachment/rows?columnName=AttachmentGroupId&columnValue=776811&perPage=100&page=0",
+      "raw_sha256": "ad520ebd08a6f64f11d849978be80f273273a3184b99f6f4788e9dc24b28ef83",
+      "body_bytes": 370,
+      "captured_at": "2026-10-09T19:10:49Z"
+    },
+    {
+      "record_locator": "official_attachment_pdf",
+      "source_url": "https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FKKV-1%2B2023-vp.pdf",
+      "raw_sha256": "2dbca86dd25038182072c3a0d431357371b7f50d5553e7eafb318331bedaec1a",
+      "md5": "6a11bac6f382d35d189c18dccfb908bb",
+      "body_bytes": 204841,
+      "content_type": "application/octet-stream",
+      "captured_at": "2026-10-09T19:13:20Z",
+      "last_modified": "2025-07-03T14:51:27Z"
+    }
+  ],
+  "source_metadata": {
+    "field_anchors": [
+      {
+        "field": "rooliKoodi",
+        "value": "lahettaja",
+        "xml_path": "Siirto[1]/Sanomavalitys[1]/Toimija[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "rooliKoodi",
+        "value": "vastaanottaja",
+        "xml_path": "Siirto[1]/Sanomavalitys[1]/Toimija[2]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "asiakirjatyyppiNimi",
+        "value": "Vastaus kirjalliseen kysymykseen",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "eduskuntaTunnus",
+        "value": "KKV 1/2023 vp",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "identifiointiTunnus",
+        "value": "{BE1645AB-F43A-C493-84A3-87FF85300000}",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "kieliKoodi",
+        "value": "fi",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "laadintaPvm",
+        "value": "2023-05-09",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "muuTunnus",
+        "value": "EDK-2023-AK-16865",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "tilaKoodi",
+        "value": "Valmis",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "rooliKoodi",
+        "value": "Laatija",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "AsemaTeksti",
+        "value": "eurooppa- ja omistajaohjausministeri",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/Henkilo[1]/AsemaTeksti[1]",
+        "basis": "VaskiData.XmlData_element_text"
+      },
+      {
+        "field": "EtuNimi",
+        "value": "Tytti",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/Henkilo[1]/EtuNimi[1]",
+        "basis": "VaskiData.XmlData_element_text"
+      },
+      {
+        "field": "SukuNimi",
+        "value": "Tuppurainen",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Toimija[1]/Henkilo[1]/SukuNimi[1]",
+        "basis": "VaskiData.XmlData_element_text"
+      },
+      {
+        "field": "LaadintaPvmTeksti",
+        "value": "09.05.2023",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/LaadintaPvmTeksti[1]",
+        "basis": "VaskiData.XmlData_element_text"
+      },
+      {
+        "field": "NimekeTeksti",
+        "value": "Vastaus kirjalliseen kysymykseen valtion omistajaohjauksen epäonnistumisesta",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/IdentifiointiOsa[1]/Nimeke[1]/NimekeTeksti[1]",
+        "basis": "VaskiData.XmlData_element_text"
+      },
+      {
+        "field": "muuTunnus",
+        "value": "{BE1645AB-F43A-C493-84A3-87FF85300000}",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/EsitysmuotoViite[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "muuTunnus",
+        "value": "http://www.yso.fi/onto/yso/p20911",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/Aihe[1]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "muuTunnus",
+        "value": "http://www.yso.fi/onto/yso/p19538",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/Aihe[2]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "muuTunnus",
+        "value": "http://www.yso.fi/onto/yso/p17470",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/Aihe[3]",
+        "basis": "VaskiData.XmlData_attribute"
+      },
+      {
+        "field": "muuTunnus",
+        "value": "http://www.yso.fi/onto/yso/p23894",
+        "xml_path": "Siirto[1]/SiirtoMetatieto[1]/JulkaisuMetatieto[1]/Aihe[4]",
+        "basis": "VaskiData.XmlData_attribute"
+      }
+    ],
+    "vaski_row": {
+      "Id": "252633",
+      "Status": "5",
+      "Created": "2025-07-02 20:27:45",
+      "Eduskuntatunnus": "KKV 1/2023 vp",
+      "AttachmentGroupId": "776811",
+      "Imported": "2025-07-03 14:51:26.215763"
+    },
+    "attachment_row": {
+      "Id": "778538",
+      "AttachmentGroupId": "776811",
+      "Url": "\"https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FKKV-1%2B2023-vp.pdf\"",
+      "Imported": "2025-07-03 14:51:26.222909"
+    }
+  },
+  "source_questionbank": {
+    "schema_version": "bs02.source_questionbank.v1",
+    "status": "SOURCE_SPAN_EXTRACTED",
+    "matter_id": "KK 1/2023 vp",
+    "document_id": "KKV 1/2023 vp",
+    "question_count": 5,
+    "questions": [
+      {
+        "ordinal": 1,
+        "text": "Mikä oli syy Fortumin omistajaohjauksen epäonnistumiselle,",
+        "raw_layout_text": "Mikä oli syy Fortumin omistajaohjauksen epäonnistumiselle,",
+        "text_sha256": "d33ed32152726aa7b0c835d80b48633b65da9fa75ed0b9e2ff9741d7c432aeed",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+        "basis": "PDF page text; whitespace/layout normalization only"
+      },
+      {
+        "ordinal": 2,
+        "text": "miten on varmistettu, ettei vastaava toistu,",
+        "raw_layout_text": "miten on varmistettu, ettei vastaava toistu,",
+        "text_sha256": "ece8b8dc7012ceced3d17062eb59e21bc18c818984893584d57dbad95340591f",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+        "basis": "PDF page text; whitespace/layout normalization only"
+      },
+      {
+        "ordinal": 3,
+        "text": "miten omistajaohjauksesta vastuussa olevien virkamiesten tilivelvollisuutta valtio-omistajalle voidaan vahvistaa,",
+        "raw_layout_text": "miten omistajaohjauksesta vastuussa olevien virkamiesten tilivelvollisuutta valtio-omista-\n      jalle voidaan vahvistaa,",
+        "text_sha256": "420669dd96f61f47e5b3816efa192d4136729da6e87e102fe8d51abb72ed7fae",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+        "basis": "PDF page text; whitespace/layout normalization only"
+      },
+      {
+        "ordinal": 4,
+        "text": "miksi virkamiehet istuvat hallituksissa nauttimassa jättimäisiä palkkioita, kun eivät siellä edusta omistajan näkemyksiä ja",
+        "raw_layout_text": "miksi virkamiehet istuvat hallituksissa nauttimassa jättimäisiä palkkioita, kun eivät siellä\n      edusta omistajan näkemyksiä ja",
+        "text_sha256": "b8d76abecf901c091aadc3808ed2f5ddeadab0f3b9945067b140399a375f3841",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+        "basis": "PDF page text; whitespace/layout normalization only"
+      },
+      {
+        "ordinal": 5,
+        "text": "voitaisiinko virkamiesten integriteetti varmistaa paremmin, mikäli he eivät itse olisi osa hallitusammattilaisten piiriä?",
+        "raw_layout_text": "voitaisiinko virkamiesten integriteetti varmistaa paremmin, mikäli he eivät itse olisi osa\n      hallitusammattilaisten piiriä?",
+        "text_sha256": "6132503cfb92b6413c8b1cadbb61727473a6b809c32e14b3cbf2bca5c31dd490",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+        "basis": "PDF page text; whitespace/layout normalization only"
+      }
+    ],
+    "raw_span": {
+      "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+      "start_marker": "van kirjallisen kysymyksen KK 1/2023 vp:",
+      "end_marker": "Vastauksena kysymykseen esitän seuraavaa:",
+      "raw_text": "Mikä oli syy Fortumin omistajaohjauksen epäonnistumiselle,\n\n      miten on varmistettu, ettei vastaava toistu,\n\n      miten omistajaohjauksesta vastuussa olevien virkamiesten tilivelvollisuutta valtio-omista-\n      jalle voidaan vahvistaa,\n\n      miksi virkamiehet istuvat hallituksissa nauttimassa jättimäisiä palkkioita, kun eivät siellä\n      edusta omistajan näkemyksiä ja\n\n      voitaisiinko virkamiesten integriteetti varmistaa paremmin, mikäli he eivät itse olisi osa\n      hallitusammattilaisten piiriä?",
+      "raw_text_sha256": "02eb581924a7bdc2861938e75394a0be9a2831896a59c3ce8e3cc147d74e543b"
+    },
+    "normalization": "Collapse layout whitespace and join hyphen-newline PDF line wraps; no semantic interpretation.",
+    "source_url": "https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FKKV-1%2B2023-vp.pdf",
+    "pdf_sha256": "2dbca86dd25038182072c3a0d431357371b7f50d5553e7eafb318331bedaec1a"
+  },
+  "document": {
+    "pdf_sha256": "2dbca86dd25038182072c3a0d431357371b7f50d5553e7eafb318331bedaec1a",
+    "page_count": 3,
+    "full_text": "Vastaus kirjalliseen kysymykseen KKV 1/2023 vp\n\n\n\nVastaus kirjalliseen kysymykseen valtion omistajaohjauksen epäonnis-\ntumisesta\n\nEduskunnan puhemiehelle\n\nEduskunnan työjärjestyksen 27 §:ssä mainitussa tarkoituksessa Te, Arvoisa puhemies, olette toi-\nmittanut asianomaisen ministerin vastattavaksi kansanedustaja Jussi Saramon /vas näin kuulu-\nvan kirjallisen kysymyksen KK 1/2023 vp:\n\n      Mikä oli syy Fortumin omistajaohjauksen epäonnistumiselle,\n\n      miten on varmistettu, ettei vastaava toistu,\n\n      miten omistajaohjauksesta vastuussa olevien virkamiesten tilivelvollisuutta valtio-omista-\n      jalle voidaan vahvistaa,\n\n      miksi virkamiehet istuvat hallituksissa nauttimassa jättimäisiä palkkioita, kun eivät siellä\n      edusta omistajan näkemyksiä ja\n\n      voitaisiinko virkamiesten integriteetti varmistaa paremmin, mikäli he eivät itse olisi osa\n      hallitusammattilaisten piiriä?\n\nVastauksena kysymykseen esitän seuraavaa:\nValtion omistajaohjauksessa noudatetaan hyvän hallintotavan periaatteita ja osakeyhtiölakia, joi-\nden mukaan omistajalla, yhtiön hallituksella ja toimivalla johdolla on kullakin omat osakeyhtiö-\nlakiin perustuvat tehtävänsä, vastuunsa ja oikeutensa. Valtio osakkeenomistajana tekee päätöksiä\nyhtiökokouksen päätösvaltaan kuuluvissa asioissa. Sen sijaan yhtiön operatiivisesta toiminnasta\nvastaa yhtiökokouksen nimittämä hallitus sekä yhtiön toimiva johto. Johdon palkitseminen on\nyhtiön hallituksen työkalu. Palkitsemisohjelmista, niissä käytettävistä mittareista ja palkitsemisen\ntavoitetasoista sekä toteutuneesta palkitsemisesta vastaa aina yhtiön hallitus.\n\nFortum on pörssiin listattu yhtiö ja Suomen valtio toimii yhtenä omistajana muiden omistajien\njoukossa hyvän hallintotavan mukaisesti. Myös Fortumin kohdalla valtio käyttää omistajaval-\ntaansa yhtiökokouksissa. Valtiolla on edustajansa Fortum Oyj:n osakkeenomistajien nimitystoi-\nmikunnassa, jossa valtion edustaja toimii puheenjohtajana.\n\fOsana normaalia omistajaohjausprosessia hyvän hallintotavan ja arvopaperimarkkinalainsäädän-\nnön puitteissa omistajaohjausosaston virkamiehet käyvät säännöllistä ja aktiivista dialogia yhti-\nöiden hallitusten puheenjohtajien kanssa. Lisäksi yhtiön toimivan johdon ja valtio-omistajan\nedustajien välillä on samanlaista yhteydenpitoa kuin yhtiön ja muiden merkittävien sijoittajien\nvälillä.\n\nFortumin yhtiökokous päätti hylätä yhtiön hallintoelinten palkitsemisraportin vuodelta 2022 neu-\nvoa-antavassa äänestyksessä. Valtio on toiminut aktiivisen omistajan toimintaperiaatteiden mu-\nkaisesti ja käyttänyt omistajavaltaansa yhtiökokouksessa, tässä tapauksessa äänestämällä palkit-\nsemisraportin hyväksymistä vastaan. Valtio käytti omistajavaltaansa yhtiökokouksessa myös ää-\nnestämällä osakkeenomistajien nimitystoimikunnan ehdotuksen puolesta, jonka ehdotuksen mu-\nkaan Fortumin hallitukseen valittiin kuusi uutta jäsentä mukaan lukien uusi hallituksen puheen-\njohtaja. Yhtiökokouksessa käydyn keskustelun pohjalta Fortumin uusi hallituksen puheenjohtaja\ntotesi, että osakkeenomistajien vastustus yhtiökokouksessa ja muu saatu palaute osoittivat, ettei\nedellisen hallituksen tulkintaa palkitsemisen toteuttamisesta johtoryhmän osalta koettu riittävästi\nyhtiön kokonaistilannetta vuonna 2022 huomioivaksi ja että Fortumin johdon palkitsemisen to-\nteuttamista oli siltarahoituksen ehtojen tarkoituksen valossa syytä tarkastella huolellisesti uudes-\ntaan, ja asia otettiin hallituksen työlistalle nopealla aikataululla. Fortum kertoikin toukokuun\nalussa yhtiön hallituksen tulkinneen uudestaan, miten palkitsemista rajoittavia ehtoja sovelletaan\nyhtiön johdon pitkän aikavälin palkitsemisohjelmiin, kun otetaan huomioon Solidium Oy:n kautta\nFortumille myönnetty siltarahoitus. Valtio-omistaja tukee yhtiön hallituksen uutta päätöstä ja kat-\nsoo, että päätös vastaa valtion tulkintaa siltarahoituksen ehdoista ja on sopimuksen hengen mu-\nkainen.\n\nValtion virkamiesten jäsenyydet valtio-omisteisten yhtiöiden hallituksissa on tärkeä osa omista-\njaohjauksen toimintatapoja ja -periaatteita. Tällä toimintamallilla valtio toimii kasvollisen omis-\ntajan tavalla ja varmistaa, että yhtiöiden hallituksissa, joissa strategisia liiketoimintapäätöksiä teh-\ndään, tunnetaan merkittävän omistajan periaatteet sekä kannustetaan aloittamaan dialogi yhtiön\njohdon ja omistajaohjauksen välillä ennakoiden. Hallituksen jäsen on esteellinen käsittelemään\nyhtiön asioita omistajaohjausosastolla, eikä siten osallistu sen yhtiön, jonka hallituksessa hän on,\nomistaja-ohjaukseen liittyvien asioiden valmisteluun tai päätöksentekoon.\n\nValtio-omistaja on ehdottanut nimitettäväksi hallituksiin virkamiehiä, jotka tuntevat valtion ta-\nvoitteet ja periaatteet ja omistajastrategiaa, ja varmistanut, että ehdotetuilla henkilöillä on tehtä-\nvän vaatima pätevyys ja kokemus. Osakeyhtiön hallituksen tulee aina toimia yhtiön edun mukai-\nsesti ja hallituksen jäsenet edustavat kaikkia osakkeenomistajia. Pörssiyhtiöillä on lisäksi arvopa-\nperimarkkinalain mukainen yhtäläinen tiedonantovelvollisuus kaikille omistajille.\n\nVirkamies toimii hallituksen jäsenenä osakeyhtiölain mukaisesti ja yhtäläisesti muiden hallitus-\njäsenten kanssa. Virkamiestä koskevat samat henkilökohtaiset velvoitteet ja vastuut kuin muitakin\njäseniä. Hallitus on yhtiön toimielin ja hallituksen vastuu tekemistään päätöksistä on yhtäläinen\n\fja jakamaton, mikäli päätökset ovat syntyneet normaaliin tapaan yksimielisesti. Koska hallituksen\njäsenet ovat kollektiivisessa vastuussa hallitukselle kuuluvista vastuista ja velvoitteista, makse-\ntaan hallituspalkkio kaikille. Hallituspalkkioista päätetään yhtiökokouksessa nimitystoimikunnan\nehdotuksesta, eivätkä ne ole yhteydessä toimivan johdon palkitsemisjärjestelmiin.\n\nHelsingissä 9.5.2023\n\n\nEurooppa- ja omistajaohjausministeri Tytti Tuppurainen\n\f",
+    "full_text_sha256": "4c79c1d52373d9cfccb976cc416bba5e4ca2596c0ada119b89e9b32498d69078",
+    "full_text_extractor": "pdftotext -layout",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Vastaus kirjalliseen kysymykseen KKV 1/2023 vp\n\n\n\nVastaus kirjalliseen kysymykseen valtion omistajaohjauksen epäonnis-\ntumisesta\n\nEduskunnan puhemiehelle\n\nEduskunnan työjärjestyksen 27 §:ssä mainitussa tarkoituksessa Te, Arvoisa puhemies, olette toi-\nmittanut asianomaisen ministerin vastattavaksi kansanedustaja Jussi Saramon /vas näin kuulu-\nvan kirjallisen kysymyksen KK 1/2023 vp:\n\n      Mikä oli syy Fortumin omistajaohjauksen epäonnistumiselle,\n\n      miten on varmistettu, ettei vastaava toistu,\n\n      miten omistajaohjauksesta vastuussa olevien virkamiesten tilivelvollisuutta valtio-omista-\n      jalle voidaan vahvistaa,\n\n      miksi virkamiehet istuvat hallituksissa nauttimassa jättimäisiä palkkioita, kun eivät siellä\n      edusta omistajan näkemyksiä ja\n\n      voitaisiinko virkamiesten integriteetti varmistaa paremmin, mikäli he eivät itse olisi osa\n      hallitusammattilaisten piiriä?\n\nVastauksena kysymykseen esitän seuraavaa:\nValtion omistajaohjauksessa noudatetaan hyvän hallintotavan periaatteita ja osakeyhtiölakia, joi-\nden mukaan omistajalla, yhtiön hallituksella ja toimivalla johdolla on kullakin omat osakeyhtiö-\nlakiin perustuvat tehtävänsä, vastuunsa ja oikeutensa. Valtio osakkeenomistajana tekee päätöksiä\nyhtiökokouksen päätösvaltaan kuuluvissa asioissa. Sen sijaan yhtiön operatiivisesta toiminnasta\nvastaa yhtiökokouksen nimittämä hallitus sekä yhtiön toimiva johto. Johdon palkitseminen on\nyhtiön hallituksen työkalu. Palkitsemisohjelmista, niissä käytettävistä mittareista ja palkitsemisen\ntavoitetasoista sekä toteutuneesta palkitsemisesta vastaa aina yhtiön hallitus.\n\nFortum on pörssiin listattu yhtiö ja Suomen valtio toimii yhtenä omistajana muiden omistajien\njoukossa hyvän hallintotavan mukaisesti. Myös Fortumin kohdalla valtio käyttää omistajaval-\ntaansa yhtiökokouksissa. Valtiolla on edustajansa Fortum Oyj:n osakkeenomistajien nimitystoi-\nmikunnassa, jossa valtion edustaja toimii puheenjohtajana.\n\f",
+        "text_sha256": "a8aac88e7f3fd0dae118ad039a5c11c2ce3009910cba65ce2881eb55a094e4c4",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=1",
+        "pdf_sha256": "2dbca86dd25038182072c3a0d431357371b7f50d5553e7eafb318331bedaec1a",
+        "source_url": "https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FKKV-1%2B2023-vp.pdf",
+        "extractor": "pdftotext -layout"
+      },
+      {
+        "page": 2,
+        "text": "Osana normaalia omistajaohjausprosessia hyvän hallintotavan ja arvopaperimarkkinalainsäädän-\nnön puitteissa omistajaohjausosaston virkamiehet käyvät säännöllistä ja aktiivista dialogia yhti-\nöiden hallitusten puheenjohtajien kanssa. Lisäksi yhtiön toimivan johdon ja valtio-omistajan\nedustajien välillä on samanlaista yhteydenpitoa kuin yhtiön ja muiden merkittävien sijoittajien\nvälillä.\n\nFortumin yhtiökokous päätti hylätä yhtiön hallintoelinten palkitsemisraportin vuodelta 2022 neu-\nvoa-antavassa äänestyksessä. Valtio on toiminut aktiivisen omistajan toimintaperiaatteiden mu-\nkaisesti ja käyttänyt omistajavaltaansa yhtiökokouksessa, tässä tapauksessa äänestämällä palkit-\nsemisraportin hyväksymistä vastaan. Valtio käytti omistajavaltaansa yhtiökokouksessa myös ää-\nnestämällä osakkeenomistajien nimitystoimikunnan ehdotuksen puolesta, jonka ehdotuksen mu-\nkaan Fortumin hallitukseen valittiin kuusi uutta jäsentä mukaan lukien uusi hallituksen puheen-\njohtaja. Yhtiökokouksessa käydyn keskustelun pohjalta Fortumin uusi hallituksen puheenjohtaja\ntotesi, että osakkeenomistajien vastustus yhtiökokouksessa ja muu saatu palaute osoittivat, ettei\nedellisen hallituksen tulkintaa palkitsemisen toteuttamisesta johtoryhmän osalta koettu riittävästi\nyhtiön kokonaistilannetta vuonna 2022 huomioivaksi ja että Fortumin johdon palkitsemisen to-\nteuttamista oli siltarahoituksen ehtojen tarkoituksen valossa syytä tarkastella huolellisesti uudes-\ntaan, ja asia otettiin hallituksen työlistalle nopealla aikataululla. Fortum kertoikin toukokuun\nalussa yhtiön hallituksen tulkinneen uudestaan, miten palkitsemista rajoittavia ehtoja sovelletaan\nyhtiön johdon pitkän aikavälin palkitsemisohjelmiin, kun otetaan huomioon Solidium Oy:n kautta\nFortumille myönnetty siltarahoitus. Valtio-omistaja tukee yhtiön hallituksen uutta päätöstä ja kat-\nsoo, että päätös vastaa valtion tulkintaa siltarahoituksen ehdoista ja on sopimuksen hengen mu-\nkainen.\n\nValtion virkamiesten jäsenyydet valtio-omisteisten yhtiöiden hallituksissa on tärkeä osa omista-\njaohjauksen toimintatapoja ja -periaatteita. Tällä toimintamallilla valtio toimii kasvollisen omis-\ntajan tavalla ja varmistaa, että yhtiöiden hallituksissa, joissa strategisia liiketoimintapäätöksiä teh-\ndään, tunnetaan merkittävän omistajan periaatteet sekä kannustetaan aloittamaan dialogi yhtiön\njohdon ja omistajaohjauksen välillä ennakoiden. Hallituksen jäsen on esteellinen käsittelemään\nyhtiön asioita omistajaohjausosastolla, eikä siten osallistu sen yhtiön, jonka hallituksessa hän on,\nomistaja-ohjaukseen liittyvien asioiden valmisteluun tai päätöksentekoon.\n\nValtio-omistaja on ehdottanut nimitettäväksi hallituksiin virkamiehiä, jotka tuntevat valtion ta-\nvoitteet ja periaatteet ja omistajastrategiaa, ja varmistanut, että ehdotetuilla henkilöillä on tehtä-\nvän vaatima pätevyys ja kokemus. Osakeyhtiön hallituksen tulee aina toimia yhtiön edun mukai-\nsesti ja hallituksen jäsenet edustavat kaikkia osakkeenomistajia. Pörssiyhtiöillä on lisäksi arvopa-\nperimarkkinalain mukainen yhtäläinen tiedonantovelvollisuus kaikille omistajille.\n\nVirkamies toimii hallituksen jäsenenä osakeyhtiölain mukaisesti ja yhtäläisesti muiden hallitus-\njäsenten kanssa. Virkamiestä koskevat samat henkilökohtaiset velvoitteet ja vastuut kuin muitakin\njäseniä. Hallitus on yhtiön toimielin ja hallituksen vastuu tekemistään päätöksistä on yhtäläinen\n\f",
+        "text_sha256": "92fbed863ba97e02bb96966b66344b471b3dfc28e3a6c4dee917a79870620616",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=2",
+        "pdf_sha256": "2dbca86dd25038182072c3a0d431357371b7f50d5553e7eafb318331bedaec1a",
+        "source_url": "https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FKKV-1%2B2023-vp.pdf",
+        "extractor": "pdftotext -layout"
+      },
+      {
+        "page": 3,
+        "text": "ja jakamaton, mikäli päätökset ovat syntyneet normaaliin tapaan yksimielisesti. Koska hallituksen\njäsenet ovat kollektiivisessa vastuussa hallitukselle kuuluvista vastuista ja velvoitteista, makse-\ntaan hallituspalkkio kaikille. Hallituspalkkioista päätetään yhtiökokouksessa nimitystoimikunnan\nehdotuksesta, eivätkä ne ole yhteydessä toimivan johdon palkitsemisjärjestelmiin.\n\nHelsingissä 9.5.2023\n\n\nEurooppa- ja omistajaohjausministeri Tytti Tuppurainen\n\f",
+        "text_sha256": "0aba32b6a00a15739a65af1e1494025961f646f1098474c1900fa5a36d8b739e",
+        "source_locator": "route15_attachment_pdf.body#pdf-page=3",
+        "pdf_sha256": "2dbca86dd25038182072c3a0d431357371b7f50d5553e7eafb318331bedaec1a",
+        "source_url": "https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FKKV-1%2B2023-vp.pdf",
+        "extractor": "pdftotext -layout"
+      }
+    ]
+  },
+  "interpretation": null
+}

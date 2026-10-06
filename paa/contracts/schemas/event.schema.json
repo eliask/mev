@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Action or institutional event v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "VOTE",
+        "INITIATIVE_AUTHORED",
+        "INITIATIVE_COSIGNED",
+        "QUESTION",
+        "SPEECH",
+        "COMMITTEE_ATTENDANCE",
+        "DISSENT",
+        "PROPOSAL_SIGNED",
+        "PROGRAMME_ADOPTED",
+        "BUDGET_ALLOCATED",
+        "LAW_ENACTED",
+        "COMMENCED",
+        "IMPLEMENTED",
+        "REPEALED",
+        "REVISED",
+        "WITHDRAWN",
+        "OTHER"
+      ]
+    },
+    "actor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "role_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "policy_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "event_time": {
+      "type": "object",
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "instant",
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "basis",
+        "timezone",
+        "source_evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "known_at": {
+      "type": "object",
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "instant",
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "basis",
+        "timezone",
+        "source_evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "document_version_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attributes": {
+      "type": "object"
+    },
+    "observation_status": {
+      "enum": [
+        "SOURCE_RECORD",
+        "DERIVED",
+        "UNRESOLVED"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "event_id",
+    "event_type",
+    "actor_ids",
+    "role_ids",
+    "policy_ids",
+    "event_time",
+    "known_at",
+    "jurisdiction",
+    "document_version_ids",
+    "evidence_ids",
+    "attributes",
+    "observation_status"
+  ],
+  "additionalProperties": false
+}

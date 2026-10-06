@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source slice coverage v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "coverage_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "population_definition": {
+      "type": "string"
+    },
+    "period_start": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "period_end": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "record_type": {
+      "type": "string"
+    },
+    "enumeration_basis": {
+      "type": "string"
+    },
+    "enumeration_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "retrieved_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "parsed_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "linked_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "assessed_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "excluded_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unresolved_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "counts_are_disjoint_partition": {
+      "type": "boolean"
+    },
+    "exclusion_breakdown": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "status": {
+      "enum": [
+        "LEAD",
+        "DOCUMENTATION_VERIFIED",
+        "PAYLOAD_FETCHED",
+        "PARSED",
+        "ENUMERATED",
+        "RECONCILED",
+        "BLOCKED_ACCESS",
+        "BLOCKED_RIGHTS",
+        "EMPTY_SHELL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "rights_status": {
+      "enum": [
+        "UNASSESSED",
+        "INTERNAL_ONLY",
+        "EXCERPT_ALLOWED",
+        "PUBLIC_DERIVED_ALLOWED",
+        "BULK_ALLOWED",
+        "RESTRICTED",
+        "CONTESTED"
+      ]
+    },
+    "scope_residuals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "run_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "coverage_id",
+    "source_id",
+    "population_definition",
+    "period_start",
+    "period_end",
+    "record_type",
+    "enumeration_basis",
+    "enumeration_evidence_ids",
+    "expected_count",
+    "retrieved_count",
+    "parsed_count",
+    "linked_count",
+    "assessed_count",
+    "excluded_count",
+    "unresolved_count",
+    "counts_are_disjoint_partition",
+    "exclusion_breakdown",
+    "status",
+    "rights_status",
+    "scope_residuals",
+    "run_id"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,115 @@
+{
+  "sources": [
+    {
+      "source_id": "INIT-TEXT",
+      "title": "LA 9/2099 vp",
+      "identifier": "LA 9/2099 vp",
+      "url": "https://example.test/INIT-TEXT",
+      "stage": "PROPOSAL",
+      "source_type": "LEGISLATIVE_INITIATIVE",
+      "source_voice": "INITIATIVE_SIGNATORIES",
+      "source_date": "2099-03-01",
+      "acquisition_status": "SUCCESS",
+      "text": "LegislativeMotion\nLA 9/2099 vp\nAda First\nxx\n01.03.2099\nLakialoite laiksi esimerkkilain 2 luvun 1 §:n muuttamisesta\n\nEhdotus: jos ilmoitus muualla kuin ETA-alueella oleskelevalle ei ole mahdollista, ilmoitus voidaan julkaista virallisessa lehdessä 14 päivän kuluessa.\n\nTämä laki tulee voimaan 1 päivänä huhtikuuta 2099.\nHelsingissä 1.3.2099\nAda\nFirst\nxx\nBea\nSecond\nxx\n{END}\n",
+      "text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+    },
+    {
+      "source_id": "INIT-REGISTER",
+      "title": "LA 9/2099 vp",
+      "identifier": "LA 9/2099 vp",
+      "url": "https://example.test/INIT-REGISTER",
+      "stage": "PROCEDURAL_EVENTS",
+      "source_type": "MATTER_REGISTER",
+      "source_voice": "PARLIAMENT_REGISTER",
+      "source_date": null,
+      "acquisition_status": "SUCCESS",
+      "text": "Matter register\nLA 9/2099 vp\nVireilletuloasiakirja\nHE 9/2099 vp\nValiokunta-asiakirja\nYmVM 1/2099 vp\nHylätty\n1\nLaki esimerkkilain 2 luvun 1 §:n muuttamisesta\nHylätty\n",
+      "text_sha256": "36a6254114c44335cc6c0678909774f1a69a1ee8331ec104805cc1e3a3b7aa5b"
+    },
+    {
+      "source_id": "HE-TEXT",
+      "title": "HE 9/2099 vp",
+      "identifier": "HE 9/2099 vp",
+      "url": "https://example.test/HE-TEXT",
+      "stage": "PROPOSAL",
+      "source_type": "GOVERNMENT_PROPOSAL",
+      "source_voice": "GOVERNMENT",
+      "source_date": "2099-04-01",
+      "acquisition_status": "SUCCESS",
+      "text": "Government proposal HE 9/2099 vp\nEsityksessä ehdotetaan muutettavaksi esimerkkilakia.\nJos ilmoitus muualla kuin Euroopan talousalueeseen kuuluvassa valtiossa oleskelevalle ei ole mahdollista, ilmoitus voidaan julkaista virallisessa lehdessä.\nViittaus hylättyyn aloitteeseen LA 9/2099 vp on taustatietoa, ei samaa säädöstekstiä.\nTaustaviittaus HE48/2024 vp; formal matter -tunnisteen numeron irtoaminen omaksi säädösnumeroksi on virhe.\nTämä laki tulee voimaan 1 päivänä kesäkuuta 2099.\n",
+      "text_sha256": "f08390055cbfec689e79d491f3a866fe83cba449c28964d84f97b5c0d868eb28"
+    },
+    {
+      "source_id": "LAW-A",
+      "title": "100/2099",
+      "identifier": "100/2099",
+      "url": "https://example.test/LAW-A",
+      "stage": "ENACTED",
+      "source_type": "AMENDING_ACT",
+      "source_voice": "LEGISLATURE",
+      "source_date": "2099-04-15",
+      "acquisition_status": "SUCCESS",
+      "text": "Laki 100/2099\nmuutetaan esimerkkilain ilmoitusmenettelyä seuraavasti:\n2 luvun 1 §\nJos ilmoitus muualla kuin Euroopan talousalueeseen kuuluvassa valtiossa oleskelevalle, jonka osoite on tiedossa, ei ole mahdollista, ilmoitus voidaan julkaista virallisessa lehdessä ja toimittaa tieto huoneistoon.\nTämä laki tulee voimaan 1 päivänä toukokuuta 2099.\nHelsingissä 15.4.2099\n",
+      "text_sha256": "9c00343f093574dd3f499f273787a0197a78bf7ca49882eace45efbbf0345022"
+    },
+    {
+      "source_id": "LAW-B",
+      "title": "200/2100",
+      "identifier": "200/2100",
+      "url": "https://example.test/LAW-B",
+      "stage": "ENACTED",
+      "source_type": "AMENDING_ACT",
+      "source_voice": "LEGISLATURE",
+      "source_date": "2099-12-15",
+      "acquisition_status": "SUCCESS",
+      "text": "Laki 200/2100\nlaissa 100/2099 oleva 2 luvun 1 §, sellaisena kuin se on laissa 100/2099, muutetaan seuraavasti:\n2 luvun 1 §\nJos ilmoitus muualla kuin Euroopan talousalueeseen kuuluvassa valtiossa oleskelevalle ei ole mahdollista, ilmoitus voidaan julkaista virallisessa lehdessä 30 päivän kuluessa.\nTämä laki tulee voimaan 1 päivänä tammikuuta 2100.\n",
+      "text_sha256": "027ad926e186d0c901008ecb77bad4f4e5b4e4abf23c825569b00e18b4358b7f"
+    },
+    {
+      "source_id": "LAW-B-CORRECTION",
+      "title": "200/2100 correction",
+      "identifier": "200/2100 correction",
+      "url": "https://example.test/LAW-B-CORRECTION",
+      "stage": "CORRECTION",
+      "source_type": "OFFICIAL_CORRECTION",
+      "source_voice": "STATUTE_PUBLISHER",
+      "source_date": "2100-02-01",
+      "acquisition_status": "SUCCESS",
+      "text": "Oikaisuja Suomen säädöskokoelmaan\nSuomen säädöskokoelmaan n:o 200/2100\nSivulla 1, 1 §:n 1 momentin rivillä on:\n...kulussa...\nPitää olla:\n...kuluessa...\n",
+      "text_sha256": "d6857442e6da9eb5288780b8d5bcb229b0d33824b6800beb075287a946d79aef"
+    },
+    {
+      "source_id": "LAW-C",
+      "title": "300/2101",
+      "identifier": "300/2101",
+      "url": "https://example.test/LAW-C",
+      "stage": "ENACTED",
+      "source_type": "AMENDING_ACT",
+      "source_voice": "LEGISLATURE",
+      "source_date": "2101-01-15",
+      "acquisition_status": "SUCCESS",
+      "text": "Erillinen laki 300/2101\nmuutetaan toisen lain 4 luvun 1 §:ää.\n1 §\nEri kohde ja ehdot kuin 100/2099; sama pelkkä §-pinta eri laissa ei ole sama osoite.\nTämä laki tulee voimaan 1 päivänä maaliskuuta 2101.\n",
+      "text_sha256": "86b9c5244a53476bd06a960102f7e0644c669c54823a5ba3a3796750b82cf4a2"
+    }
+  ],
+  "task_sources": {
+    "ROUTE-FULL": [
+      "INIT-TEXT",
+      "INIT-REGISTER",
+      "HE-TEXT",
+      "LAW-A",
+      "LAW-B",
+      "LAW-B-CORRECTION",
+      "LAW-C"
+    ],
+    "ROUTE-OMIT-ENACTED": [
+      "INIT-TEXT",
+      "INIT-REGISTER",
+      "HE-TEXT"
+    ],
+    "ROUTE-SIGNERS": [
+      "INIT-TEXT"
+    ]
+  },
+  "source_gaps": []
+}

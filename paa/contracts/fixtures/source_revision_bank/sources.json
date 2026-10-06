@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "source_id": "HE1",
+      "identifier": "HE 1/2099 vp",
+      "title": "HE 1/2099 vp",
+      "url": "https://example.test/HE1",
+      "stage": "PROPOSAL",
+      "source_type": "GOVERNMENT_PROPOSAL",
+      "source_voice": "GOVERNMENT",
+      "text": "Hallituksen esitys HE 1/2099 vp\nEhdotetaan, että ilmoitus voidaan antaa sekä varoituksena että päätöksenä.\nValiokunta ei sano, että aloite koskisi vain varoitusta.\n",
+      "text_sha256": "8f7270b66af504c5ad2a3c62501a82630c9d43670d139bb67093bdb8fc482a26",
+      "acquisition_status": "SUCCESS"
+    }
+  ],
+  "task_sources": {
+    "REV-D1": [
+      "HE1"
+    ]
+  },
+  "source_gaps": []
+}

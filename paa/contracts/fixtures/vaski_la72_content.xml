@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Frozen source slice from the official VaskiData row for LA 72/2017 vp.
+  The complete row hash and API locator are recorded in
+  initiative_case_arja_juvonen.json.  This slice keeps the exact title,
+  author, policy paragraphs, proposed staffing rule, and signer order needed
+  by the offline parser test.
+-->
+<Siirto xmlns="http://www.eduskunta.fi/skeemat/siirto/2011/09/07"
+        xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27"
+        xmlns:asiakirja="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27">
+  <JulkaisuMetatieto met1:asiakirjatyyppiNimi="Lakialoite"
+                    met1:eduskuntaTunnus="LA 72/2017 vp"
+                    met1:kieliKoodi="fi"
+                    met1:laadintaPvm="2017-10-24"
+                    met1:muuTunnus="EDK-2017-AK-152478">
+    <NimekeTeksti>Lakialoite laiksi ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain 20 §:n muuttamisesta</NimekeTeksti>
+    <Toimija rooliNimi="Laatija">
+      <Henkilo met1:muuTunnus="1129">
+        <EtuNimi>Arja</EtuNimi>
+        <SukuNimi>Juvonen</SukuNimi>
+      </Henkilo>
+    </Toimija>
+  </JulkaisuMetatieto>
+  <Lakialoite met1:asiakirjatyyppiNimi="Lakialoite"
+              met1:eduskuntaTunnus="LA 72/2017 vp"
+              met1:laadintaPvm="2017-10-24"
+              met1:tilaKoodi="Valmis">
+    <NimekeTeksti>Lakialoite laiksi ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain 20 §:n muuttamisesta</NimekeTeksti>
+    <OtsikkoTeksti>Eduskunnalle</OtsikkoTeksti>
+    <KappaleKooste>Lakialoitteessa ehdotetaan muutettavaksi lakia ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista (980/2012) (myöh. vanhuspalvelulaki) siten, että lain henkilöstöä koskevaan 20 §:ään lisätään uusi kolmas momentti, jossa henkilöstön vähimmäismäärästä säädetään nykyistä tarkemmin.</KappaleKooste>
+    <KappaleKooste>Hoitajamitoituksessa havaitut epäkohdat, hoitajamitoituksen ailahtelevaisuus ja hoitajamitoituksen epätasapuolinen jakautuminen ovat syitä siihen, että vanhuspalvelulakia on ryhdyttävä täsmentämään hoitajamitoituksen osalta välittömästi. Ikääntyneiden määrän ja hoidon tarpeen lisääntyessä tulee turvata riittävät resurssit tehostetussa asumispalveluyksikössä. Tämä edellyttää hoitajamitoituksen kirjaamista vanhuspalvelulakiin.</KappaleKooste>
+    <KappaleKooste>THL:n vanhuspalvelulain tilaa koskeva selvitys vuodelta 2016 on selvittänyt vanhuspalvelulain vaikutuksia. Selvityksessä todetaan, että iäkkäiden terveyden ja hyvinvoinnin edistämisen palveluihin sekä sosiaalipalveluihin tarvitaan lisää resursseja ja hoitajamitoitusta on nostettava laatusuosituksen 0,50-tasosta 0,60 hoitotyöntekijään asiakasta kohden.</KappaleKooste>
+    <MomenttiKooste>Henkilöstön vähimmäismäärä tehostetussa palveluasumisessa on 0,60 hoitotyöntekijää asiakasta kohden. Terveyskeskusten tai muiden sellaisten hoivayksiköiden vuodeosastoilla, joissa on pitkäaikaishoidossa asiakkaita, joiden hoidon tarve on perusteltu lääketieteellisesti tai turvallisen hoidon varmistamiseksi, vähimmäismitoitus on 0,70 hoitotyöntekijää asiakasta kohden.</MomenttiKooste>
+    <Allekirjoittaja asiakirja:allekirjoitusLuokitusKoodi="EnsimmainenAllekirjoittaja">
+      <Henkilo met1:muuTunnus="1129"><EtuNimi>Arja</EtuNimi><SukuNimi>Juvonen</SukuNimi></Henkilo>
+    </Allekirjoittaja>
+    <Allekirjoittaja>
+      <Henkilo met1:muuTunnus="1093"><EtuNimi>Juho</EtuNimi><SukuNimi>Eerola</SukuNimi></Henkilo>
+    </Allekirjoittaja>
+  </Lakialoite>
+</Siirto>

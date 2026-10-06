@@ -1,0 +1,237 @@
+{
+  "cohort": "TRANSFER_HELDOUT",
+  "development_matter_keys": [
+    "he-126-2022",
+    "he-144-2024",
+    "he-16-2025",
+    "he-173-2020",
+    "he-189-2022",
+    "he-245-2020",
+    "he-27-2022",
+    "he-39-2021",
+    "he-4-2020",
+    "he-40-2018",
+    "he-76-2022",
+    "he-8-2024"
+  ],
+  "episodes": [
+    {
+      "case_row_sha256": "dcb7426928c07a62992a5a17a74ee8b0bbcc3d20b1f515e05a0065c621ae116f",
+      "episode_id": "mev-transfer-he151-2024-climate-law",
+      "matter_key": "he-151-2024",
+      "question_contract_sha256": "3acd74565855f8df48acb3b9fe37ddf18bc75e74d6b83c0beb507cdf16b2a288",
+      "source_refs": [
+        {
+          "full_char_count": 66758,
+          "record_id": "he-151-2024",
+          "source_id": "MEV-LEGISLATIVE:he:he-151-2024",
+          "table": "he",
+          "text_sha256": "c90f6b5b9337d70c499a31802e381136f1fe94118766e64479a8f3474da94312"
+        },
+        {
+          "full_char_count": 6991,
+          "record_id": "EDK-2024-AK-46645",
+          "source_id": "MEV-LEGISLATIVE:expert_statement:EDK-2024-AK-46645",
+          "table": "expert_statement",
+          "text_sha256": "5bff4480d2b66350f5f234edd35dc35fc628e1b2351141c11a5b5efedd22387a"
+        },
+        {
+          "full_char_count": 11151,
+          "record_id": "ymvm8-2024",
+          "source_id": "MEV-LEGISLATIVE:committee_report:ymvm8-2024",
+          "table": "committee_report",
+          "text_sha256": "0f9c0d211d623f74e8e0d6e612b32940da317ecad8ade13e5040c07a5a378387"
+        }
+      ]
+    },
+    {
+      "case_row_sha256": "05ca0ac6782b75b6aee5f842e19821be5227dd8fef9e057ef2f1ed306f92222c",
+      "episode_id": "mev-transfer-he131-2024-therapy-guarantee",
+      "matter_key": "he-131-2024",
+      "question_contract_sha256": "c8f068e38f843b935b17e62c9828261324f193c4f34ad74a8945c4164b883f2a",
+      "source_refs": [
+        {
+          "full_char_count": 430058,
+          "record_id": "he-131-2024",
+          "source_id": "MEV-LEGISLATIVE:he:he-131-2024",
+          "table": "he",
+          "text_sha256": "76667016de0a0e64f845a71c8a5be35f8660eede25a85b3dc3c8781b1e131b5d"
+        },
+        {
+          "full_char_count": 13790,
+          "record_id": "EDK-2024-AK-45541",
+          "source_id": "MEV-LEGISLATIVE:expert_statement:EDK-2024-AK-45541",
+          "table": "expert_statement",
+          "text_sha256": "90da4a092307878dceb4c4902ab23758b1b0586266fa6d03907c631ccfb2a997"
+        },
+        {
+          "full_char_count": 40011,
+          "record_id": "stvm26-2024",
+          "source_id": "MEV-LEGISLATIVE:committee_report:stvm26-2024",
+          "table": "committee_report",
+          "text_sha256": "9c403d6bdba97e89e7557e085f389b1dac140d98719e65a307cf4e975b5310cc"
+        }
+      ]
+    },
+    {
+      "case_row_sha256": "24aa62739d515dd93f1cf3877e37ede39f68f12344df9689c0532aaa13b14114",
+      "episode_id": "mev-transfer-he173-2024-alcohol-regulation",
+      "matter_key": "he-173-2024",
+      "question_contract_sha256": "137defeefff4a22f0b6d48047008cae27c21454c543fb289f1d3a2294c6193d2",
+      "source_refs": [
+        {
+          "full_char_count": 312275,
+          "record_id": "he-173-2024",
+          "source_id": "MEV-LEGISLATIVE:he:he-173-2024",
+          "table": "he",
+          "text_sha256": "38e770bf0ad5b16bb09c7ca5291df605dc1f1720108915717ba11c74c6d606cb"
+        },
+        {
+          "full_char_count": 23791,
+          "record_id": "EDK-2024-AK-48550",
+          "source_id": "MEV-LEGISLATIVE:expert_statement:EDK-2024-AK-48550",
+          "table": "expert_statement",
+          "text_sha256": "7c70494fd1595db2f18cd9216b12289054100978356bcb0d2b5b479766231675"
+        },
+        {
+          "full_char_count": 33590,
+          "record_id": "tavl28-2024",
+          "source_id": "MEV-LEGISLATIVE:committee_report:tavl28-2024",
+          "table": "committee_report",
+          "text_sha256": "7a064d939c1066b5096c2a389842d3004dafa50e8a568829a8ec97ee6d692408"
+        },
+        {
+          "full_char_count": 1831,
+          "record_id": "pevl58-2024",
+          "source_id": "MEV-LEGISLATIVE:committee_report:pevl58-2024",
+          "table": "committee_report",
+          "text_sha256": "5ff43b2736f10806cdc49e8f943537fd981aa32551934032ba84a2345cdfb8e8"
+        }
+      ]
+    },
+    {
+      "case_row_sha256": "4d29944522cd89e63ecf09008d0dcc5b97a41626ae3b7054bff3299717267e04",
+      "episode_id": "mev-transfer-he145-2025-security-of-supply",
+      "matter_key": "he-145-2025",
+      "question_contract_sha256": "dd884494581463d22c3bd8665da68e18c4ce19c8954ad0a4da52cb1c1c7f5813",
+      "source_refs": [
+        {
+          "full_char_count": 476783,
+          "record_id": "he-145-2025",
+          "source_id": "MEV-LEGISLATIVE:he:he-145-2025",
+          "table": "he",
+          "text_sha256": "bbd262e40fc7cde05c2853ee2d363f3f8220241a17009a7bf8fd225929f1d927"
+        },
+        {
+          "full_char_count": 4916,
+          "record_id": "EDK-2025-AK-50415",
+          "source_id": "MEV-LEGISLATIVE:expert_statement:EDK-2025-AK-50415",
+          "table": "expert_statement",
+          "text_sha256": "5e2cede5567900b1b827b1f37ffa03023d1c918c2827b530ef003121920961c5"
+        },
+        {
+          "full_char_count": 36212,
+          "record_id": "tavm22-2025",
+          "source_id": "MEV-LEGISLATIVE:committee_report:tavm22-2025",
+          "table": "committee_report",
+          "text_sha256": "0818bf46238f742ca110b41f60ca333883204c91233ac3afd9f2df1bb0eb3d48"
+        },
+        {
+          "full_char_count": 11762,
+          "record_id": "puvl13-2025",
+          "source_id": "MEV-LEGISLATIVE:committee_report:puvl13-2025",
+          "table": "committee_report",
+          "text_sha256": "66db05c296e26bca99b60c3b938d3ae00a43e0514b356a0201b20afadc347beb"
+        }
+      ]
+    },
+    {
+      "case_row_sha256": "3dd41ee939b4ffd407942edb2428cf772465cdd61be0ecf4c89ecbc5a10159d7",
+      "episode_id": "mev-transfer-he167-2025-fiscal-governance",
+      "matter_key": "he-167-2025",
+      "question_contract_sha256": "3b4a839cdd56a8da762d4d3bc5ef7f3f6aa82f77964e340911dbe061aaf4ca37",
+      "source_refs": [
+        {
+          "full_char_count": 228100,
+          "record_id": "he-167-2025",
+          "source_id": "MEV-LEGISLATIVE:he:he-167-2025",
+          "table": "he",
+          "text_sha256": "db8810fe7ee5455dad1895f9271f287eb7e677a3b6473424749af12c8083023b"
+        },
+        {
+          "full_char_count": 74025,
+          "record_id": "EDK-2025-AK-54602",
+          "source_id": "MEV-LEGISLATIVE:expert_statement:EDK-2025-AK-54602",
+          "table": "expert_statement",
+          "text_sha256": "25828e8ef5bb53de120c812007d52a543680318b7679b163b2179d9d79710047"
+        },
+        {
+          "full_char_count": 44261,
+          "record_id": "vavm26-2025",
+          "source_id": "MEV-LEGISLATIVE:committee_report:vavm26-2025",
+          "table": "committee_report",
+          "text_sha256": "26cf5f9aa3956b5ddf5530d7f3a1126bd7bffa48d1d6839867eacda73c880db8"
+        }
+      ]
+    },
+    {
+      "case_row_sha256": "1ffde871579dbd125d69431162cfea587cdea4429f0442cd4683cbdf4d010ec4",
+      "episode_id": "mev-transfer-he4-2026-waste-law",
+      "matter_key": "he-4-2026",
+      "question_contract_sha256": "3a8d43e5d4b361e4c48b1547032ee1dfe62e7fcf80d3fe0ff79daa21ceed0d72",
+      "source_refs": [
+        {
+          "full_char_count": 437721,
+          "record_id": "he-4-2026",
+          "source_id": "MEV-LEGISLATIVE:he:he-4-2026",
+          "table": "he",
+          "text_sha256": "028551265ebeb417c0505350a78213ee018afff785820f0038be18671e902777"
+        },
+        {
+          "full_char_count": 12376,
+          "record_id": "EDK-2026-AK-5544",
+          "source_id": "MEV-LEGISLATIVE:expert_statement:EDK-2026-AK-5544",
+          "table": "expert_statement",
+          "text_sha256": "4c6450e2603169747a754d804bc12687891ed2c294f8bfcdad843d3a7ed4e62c"
+        },
+        {
+          "full_char_count": 11822,
+          "record_id": "ymvm4-2026",
+          "source_id": "MEV-LEGISLATIVE:committee_report:ymvm4-2026",
+          "table": "committee_report",
+          "text_sha256": "fcfb0ee462248d1c9056f23825c3034a8209d085262233d2c3adeb16a5daffab"
+        }
+      ]
+    }
+  ],
+  "frozen_on": "2026-10-07",
+  "input_boundary": {
+    "excluded_from_model_input": [
+      "cohort",
+      "selection_state",
+      "selection_basis",
+      "development_matter_keys",
+      "matter_key",
+      "case_row_sha256",
+      "question_contract_sha256"
+    ],
+    "heldout_manifest_not_supplied_to_model": true,
+    "model_input_source": "mev_transfer_source_slices.jsonl only through paa.llm_inquiries.prepare",
+    "source_text_is_data_not_instructions": true
+  },
+  "model_or_gold_present_at_freeze": false,
+  "schema_version": "MEV-TRANSFER-HOLDOUT-0.1",
+  "selection_basis": "Six distinct canonical HE matters with complete local HE text and substantive committee material, selected outside the 12 discovery matters; source richness and substantive domain diversity were checked before model inference.",
+  "selection_is_not_a_label": true,
+  "selection_state": "FROZEN_BEFORE_MODEL_TUNING",
+  "source_snapshot": {
+    "access_mode": "sqlite mode=ro + PRAGMA query_only=ON",
+    "source_fixture_path": "paa/contracts/fixtures/mev_transfer_source_slices.jsonl",
+    "source_fixture_sha256": "0a61e5e6b822ba8e40599537d4eacaaacf3df35c7eccbe34f4b25b1b35f24d6d",
+    "source_row_count": 6,
+    "spec_path": "paa/contracts/fixtures/mev_transfer_discovery_specs.jsonl",
+    "spec_sha256": "2f07c9ce887e1675f6b79c17edf44befaaccd928cd2f862cd41e927493805005",
+    "source_kind": "FROZEN_LEGISLATIVE_INDEX_EXPORT"
+  },
+  "transfer_episode_count": 6
+}

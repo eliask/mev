@@ -1,0 +1,46 @@
+{
+  "schema_version": "paa.source_question.v5",
+  "task_id": "ROUTE-SIGNERS",
+  "matter_id": "LA 9/2099 vp",
+  "question": "Kuka allekirjoitti LA 9/2099 vp:n ja missä roolissa 1.3.2099?",
+  "status": "OK",
+  "admission": "CANDIDATE_NOT_REFERENCE_JUDGED",
+  "answer": "Ada First on ensimmäinen allekirjoittaja; Bea Second on muu allekirjoittaja. Laatijaa ei osoiteta.",
+  "claims": [
+    {
+      "text": "Ada First on ensimmäinen allekirjoittaja.",
+      "evidence_bound": [
+        {
+          "source_id": "INIT-TEXT",
+          "quote": "Ada\nFirst",
+          "start": 340,
+          "end": 349,
+          "first_pointer": 11,
+          "last_pointer": 12,
+          "source_text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+        }
+      ]
+    }
+  ],
+  "map_findings": [],
+  "unresolved": [
+    "Laatija jää avoimeksi."
+  ],
+  "next_evidence": [],
+  "coverage": {
+    "requested_source_ids": [
+      "INIT-TEXT"
+    ],
+    "fully_read_source_ids": [
+      "INIT-TEXT"
+    ],
+    "pointer_domains": {
+      "INIT-TEXT": {
+        "min_pointer": 0,
+        "max_pointer": 1,
+        "source_text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+      }
+    },
+    "read_completeness": "COMPLETE"
+  }
+}

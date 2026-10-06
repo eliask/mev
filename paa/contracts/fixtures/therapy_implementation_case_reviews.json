@@ -1,0 +1,297 @@
+[
+  {
+    "case_id": "therapy-2025-2026-implementation-measurement",
+    "source_episode_id": "therapy-implementation-2026-monitoring",
+    "source_versions": {
+      "helsinki-monitoring-2026-09-01": "2d9b614c15ddc17aa7bcc829cf00ea3d770147cbe746ff5e10bff1c40dc9da56",
+      "stm-announcement-2026-06-10": "bbbe702d4b727a95cf432586e85a05a449f4a0f110e0ea89fcdc555e96194952",
+      "stm-interim-report-2026-06-10": "c107ea4ee9d96e18f7d4fbf4491647270daf36a01079e13eaccfa99668f5bb9d",
+      "thl-guidance-2026-01": "8fc24b8c46a06c57c10daaff00a99eb2fe64204b45b50cfa09082a2b17b04ec7"
+    },
+    "title": "Terapiatakuu: mitä prosenttiluvut kertovat?",
+    "question_id": "q-therapy-implementation-measurement-2026",
+    "question": {
+      "answer_standard": "Erota lain vaatimus, kirjaamisohjeen mittauskello, julkaistut havainnot, niiden nimittäjä ja kattavuus. Älä muuta raportoituja osuuksia kansalliseksi toimitustulokseksi, äläkä päättele vaikutuksia tai henkilökohtaista vastuuta.",
+      "comparison": "enacted scope versus operational recording and published implementation monitoring",
+      "evidence_needed": [
+        "Helsinki municipal monitoring page with update vintage",
+        "STM 10.6.2026 announcement and 1.5.2027 reporting deadline",
+        "STM 2026:23 interim report with health-care data coverage and observed counts",
+        "THL 1/2026 structured recording card with clock, provider and exception rules"
+      ],
+      "period": "Vuoden 2025 ja 15.5.2026 asti kertynyt STM:n aineisto; Helsingin kesä–elokuun 2026 seuranta; THL:n tammikuun 2026 kirjaamisohje.",
+      "practical_use": "answer what the available implementation evidence actually measures, what it supports, and what the 2027 review still has to resolve.",
+      "question_id": "q-therapy-implementation-measurement-2026",
+      "scope": "Alle 23-vuotiaiden terapiatakuun toimeenpanon julkiset tiedot Helsingistä, STM:ltä ja THL:ltä; historiallinen säädöstekstipaketti on erillinen tapaus.",
+      "text": "Mitä terapiatakuun julkaistu toimeenpanotieto todella mittaa, kuinka kattavaa se on ja mitä se osoittaa palvelujen toteutumisesta ennen sosiaali- ja terveysvaliokunnalle 1.5.2027 annettavaa selvitystä?",
+      "unknowns": [
+        "complete eligible-person denominator and national coverage",
+        "comparability of Helsinki and THL percentages",
+        "social-welfare observations and later legal/administrative changes",
+        "service effects, resources and equity",
+        "whether any individual or institution caused a particular outcome"
+      ],
+      "valid_outputs": [
+        "measurement-clock and scope",
+        "observed recorded-data result with denominator and coverage limits",
+        "bounded next-evidence question for the 2027 review"
+      ]
+    },
+    "quotes": [
+      {
+        "key": "hel_definition",
+        "record_id": "helsinki-monitoring-2026-09-01",
+        "quote": "Alla oleva taulukko kertoo, kuinka monta prosenttia lapsista ja nuorista on päässyt terapiatakuun mukaisen hoidon tai tuen piiriin määräajassa, kun heillä on todettu terapiatakuun tarve.",
+        "start": 0
+      },
+      {
+        "key": "hel_august",
+        "record_id": "helsinki-monitoring-2026-09-01",
+        "quote": "Elokuu 2026 100 1.9.2026",
+        "start": 375
+      },
+      {
+        "key": "hel_july",
+        "record_id": "helsinki-monitoring-2026-09-01",
+        "quote": "Heinäkuu 2026 86 17.8.2026",
+        "start": 400
+      },
+      {
+        "key": "hel_june",
+        "record_id": "helsinki-monitoring-2026-09-01",
+        "quote": "Kesäkuu 2026 85 6.7.2026",
+        "start": 427
+      },
+      {
+        "key": "hel_freshness",
+        "record_id": "helsinki-monitoring-2026-09-01",
+        "quote": "Helsingin tiedot kuvaavat tilannetta ajantasaisemmin.",
+        "start": 290
+      },
+      {
+        "key": "stm_favorable",
+        "record_id": "stm-announcement-2026-06-10",
+        "quote": "Keväällä 2026 käytettävissä olleiden tietojen perusteella terapiatakuu on toteutunut pääosin hyvin.",
+        "start": 0
+      },
+      {
+        "key": "stm_limit",
+        "record_id": "stm-announcement-2026-06-10",
+        "quote": "Tilastotiedoissa on kuitenkin edelleen merkittäviä puutteita.",
+        "start": 100
+      },
+      {
+        "key": "stm_deadline",
+        "record_id": "stm-announcement-2026-06-10",
+        "quote": "Varsinainen selvitys terapiatakuun toteutumisesta on annettava sosiaali- ja terveysvaliokunnalle 1.5.2027 mennessä.",
+        "start": 162
+      },
+      {
+        "key": "report_coverage",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Ajankohtaisesti THL:n tuottamia tilastotietoja on käytettävissä 8 hyvinvointialueelta, Helsingin kaupungilta ja YTHS:ltä.",
+        "start": 0
+      },
+      {
+        "key": "report_social_gap",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Sosiaalihuollon tietoja saadaan THL:n arvion mukaan käyttöön aikaisintaan syksyllä 2026.",
+        "start": 122
+      },
+      {
+        "key": "report_percentages",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "vuonna 2025 kirjatuista hoitotapahtumista 91 prosenttia ja vuonna 2026 (tilanne 15.5.2026) 87 % toteutui enimmäisajan sisällä (kuvio 1)",
+        "start": 211
+      },
+      {
+        "key": "report_totals",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Enimmäisajan (28 vrk) toteutuminen yhteensä 310 30 291 43",
+        "start": 1038
+      },
+      {
+        "key": "report_not_comprehensive",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Selvityksessä esitetyt tiedot ovat siten viitteellisiä eivätkä toistaiseksi anna kattavaa kuvaa terapiatakuun toimeenpanosta hyvinvointialueilla.",
+        "start": 406
+      },
+      {
+        "key": "report_longer_followup",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Luotettava arvio terapiatakuun toteutumisesta edellyttää pidemmän aikavälin seurantaa.",
+        "start": 552
+      },
+      {
+        "key": "report_clock_split",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "28 vuorokauden (terveydenhuolto)/1 kuukauden (sosiaalihuolto) enimmäisajan sisällä terapiatakuun piiriin kuuluvan hoidon tai tuen tarpeen toteamisesta.",
+        "start": 639
+      },
+      {
+        "key": "thl_coverage",
+        "record_id": "thl-guidance-2026-01",
+        "quote": "Takuu koskee hyvinvointialueiden, Helsingin kaupungin ja Ylioppilaiden terveydenhoitosäätiön (YTHS) järjestämiä palveluita sekä niiden ostopalveluita.",
+        "start": 0
+      },
+      {
+        "key": "thl_start",
+        "record_id": "thl-guidance-2026-01",
+        "quote": "Terapiatakuu käynnistyy, jos alle 23-vuotiaalla todetaan ensisijainen tarve takuun piiriin kuuluvalle interventiolle.",
+        "start": 151
+      },
+      {
+        "key": "thl_stop",
+        "record_id": "thl-guidance-2026-01",
+        "quote": "Potilastietojärjestelmään tehdyistä kirjauksista seurataan, toteutuuko lain määrittämä enimmäisaika intervention tarpeen toteamisesta ensimmäiseen toteutuneeseen interventiokäyntiin.",
+        "start": 269
+      },
+      {
+        "key": "thl_codes",
+        "record_id": "thl-guidance-2026-01",
+        "quote": "Kun intervention tarve todetaan, käytetään terapiatakuun HTA-tuloskoodia Y58 tai Y78.",
+        "start": 452
+      },
+      {
+        "key": "thl_group_exception",
+        "record_id": "thl-guidance-2026-01",
+        "quote": "koska ryhmämuotoisten terapiatakuun interventioiden ei edellytetä toteutuvan 28 vuorokauden kuluessa.",
+        "start": 744
+      },
+      {
+        "key": "thl_client_exception",
+        "record_id": "thl-guidance-2026-01",
+        "quote": "Jos terapiatakuun menetelmän ensimmäisen käynnin toteutusajankohta ylittää määräajan potilaan/asiakkaan toivomuksesta, käytetään hoidon tarpeen arvion tuloskoodia Y29.",
+        "start": 846
+      },
+      {
+        "key": "report_table_header",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Taulukko 2. Enimmäisajan (28 vrk) toteutuminen palveluntuottajittain ja ikäluokittain. Tiedot: THL, tiedot päivitetty 15.5.2026.",
+        "start": 791
+      },
+      {
+        "key": "report_provider_header",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "Palveluntuottaja Enimmäisajan (28 vrk) toteutuminen Kyllä Ei Kyllä Ei Ikäluokka* 2025 2026**",
+        "start": 920
+      },
+      {
+        "key": "report_yths_row",
+        "record_id": "stm-interim-report-2026-06-10",
+        "quote": "YTHS 18-22 287 23 158 20",
+        "start": 1013
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Mittarin kellon alku, loppu ja palvelukanava",
+        "text": "THL:n perusterveydenhuollon ohjeessa mittaus käynnistyy, kun alle 23-vuotiaalla todetaan ensisijainen tarve terapiatakuun interventiolle, ja päättyy ensimmäiseen toteutuneeseen interventiokäyntiin. Y58- ja Y78-koodit erottavat oman organisaation ja muun palveluntuottajan tai ostopalvelun. Tämä on määritelty aikamittari, ei yleinen mittari kaikesta mielenterveyspalvelusta, hoidon loppuun saattamisesta tai vaikutuksesta.",
+        "quote_keys": [
+          "thl_start",
+          "thl_stop",
+          "thl_codes"
+        ],
+        "rationale": "THL:n ohje määrittelee sekä käynnistävän kirjauksen että päättävän toteutuneen käynnin ja nimeää kaksi palvelukanavaa. Johtopäätös rajataan siihen, mitä kirjauksista mitataan; palvelun laatua tai vaikutusta ei päätellä."
+      },
+      {
+        "dimension": "Kohderajat ja poikkeukset muuttavat nimittäjää",
+        "text": "THL:n ohjeen piiriin kuuluvat hyvinvointialueiden, Helsingin ja YTHS:n järjestämät perusterveydenhuollon palvelut sekä ostopalvelut. Ohjeessa ryhmämuotoisilta interventioilta ei edellytetä 28 vuorokauden toteutumista, ja potilaan tai asiakkaan toivomuksesta johtuva ylitys koodataan Y29:llä. Siksi julkaistu määräaikaosuus ei ole suoraan kaikkien alle 23-vuotiaiden tai kaikkien terapiakäyntien osuus.",
+        "quote_keys": [
+          "thl_coverage",
+          "thl_group_exception",
+          "thl_client_exception"
+        ],
+        "rationale": "Kohdepalvelut ja nimenomaiset kirjauspoikkeukset ovat THL:n omassa ohjeessa. Nimittäjää koskeva rajaus on tästä lähtevä tulkinta, ei väite siitä, että poikkeustapauksia olisi tilastossa tietty määrä."
+      },
+      {
+        "dimension": "STM:n julkaisema havainto rajatusta kirjausaineistosta",
+        "text": "STM:n väliraportin taulukossa ilmoitetaan, että 2025 kirjatuista hoitotapahtumista 91 prosenttia ja 2026 tilanteessa 15.5.2026 87 prosenttia toteutui enimmäisajan sisällä. Taulukon kokonaisriveillä ilmoitetaan vastaavasti 310 määräajassa ja 30 sen yli vuonna 2025 sekä 291 määräajassa ja 43 sen yli vuonna 2026. Nämä luvut ovat raportin käytettävissä olleiden kirjattujen tapahtumien havaintoja, eivät kaikkien oikeutettujen henkilöiden kansallinen toimitusaste.",
+        "quote_keys": [
+          "report_percentages",
+          "report_totals"
+        ],
+        "rationale": "Prosentit ja kokonaisrivin luvut ovat samassa STM:n raportin taulukossa. Teksti nimeää havaintoyksikön kirjatuiksi hoitotapahtumiksi ja pidättää kansallisen yleistyksen."
+      },
+      {
+        "dimension": "YTHS:n osuus yhdistetystä taulukosta",
+        "text": "STM:n taulukon ilmoittamista kirjatuista tapahtumista YTHS muodostaa vuonna 2025 287 määräajassa ja 23 yli määräajan, yhteensä 310 havaintoa 340:stä. Vuonna 2026 YTHS:n luvut ovat 158 ja 20, yhteensä 178 havaintoa 334:stä. Näin YTHS muodostaa noin 91 prosenttia taulukon vuoden 2025 havainnoista ja noin 53 prosenttia vuoden 2026 havainnoista. Tämä on taulukon koostumusta kuvaava laskelma, ei väestöpainotettu arvio eikä johtopäätös YTHS:n tai muiden tuottajien laadusta.",
+        "quote_keys": [
+          "report_table_header",
+          "report_provider_header",
+          "report_yths_row",
+          "report_totals"
+        ],
+        "rationale": "Taulukon otsikko määrittelee sarakkeet, YTHS:n rivi antaa neljä lukua ja kokonaisrivi antaa vastaavat summat. Nimittäjät 340 ja 334 sekä osuudet lasketaan näistä näkyvistä soluista; puuttuvista alueista tai väestöstä ei tehdä extrapolaatiota."
+      },
+      {
+        "dimension": "Tietopohjan kattavuus rajoittaa kansallista johtopäätöstä",
+        "text": "STM:n väliraportti erottaa terveydenhuollon 28 vuorokauden ja sosiaalihuollon yhden kuukauden enimmäisajan, mutta raportin tilastollinen tietopohja oli ajankohtana terveydenhuollon tietoa ja sosiaalihuollon tiedot puuttuivat. THL:n tilastotietoja oli käytettävissä kahdeksalta hyvinvointialueelta, Helsingistä ja YTHS:ltä, ja sosiaalihuollon tietoja odotettiin aikaisintaan syksyllä 2026. Raportti kutsuu tietoja viitteellisiksi eikä kattavaksi kuvaksi hyvinvointialueiden toimeenpanosta. Siksi havainto tukee myönteistä signaalia käytettävissä olevassa terveydenhuollon kirjausaineistossa, mutta ei kattavaa yhdenvertaisuus- tai sosiaalihuollon päätelmää.",
+        "quote_keys": [
+          "report_clock_split",
+          "report_coverage",
+          "report_social_gap",
+          "report_not_comprehensive"
+        ],
+        "rationale": "Raportti itse ilmoittaa toimittaja- ja sosiaalihuollon kattavuuspuutteen sekä rajoitetun tulkinnan. Johtopäätös pidetään samalla tasolla kuin raportin lähde."
+      },
+      {
+        "dimension": "Helsingin ajantasainen paikallissignaali ei yksin ole vertailukelpoinen kansallinen asteikko",
+        "text": "Helsingin sivu määrittelee kuukausiosuuden terapiatakuun hoidon tai tuen piiriin päässeiden lasten ja nuorten osuutena määräajassa silloin, kun tarve on todettu. Sivun päivitetyt luvut ovat kesäkuulta 85 prosenttia, heinäkuulta 86 prosenttia ja elokuulta 100 prosenttia, ja sivu sanoo Helsingin tietojen olevan ajantasaisempia kuin THL:n. Säilytetty sivu ei ilmoita näille prosenttiosuuksille lukumääräistä nimittäjää tai julkaise menetelmäselostetta, jolla ne voisi suoraan yhdistää STM:n raportin havaintoriveihin.",
+        "quote_keys": [
+          "hel_definition",
+          "hel_june",
+          "hel_july",
+          "hel_august",
+          "hel_freshness"
+        ],
+        "rationale": "Helsingin julkinen sivu antaa mittarin kuvauksen, päivityspäivät ja prosentit, mutta tässä lähdeversiossa ei ole nimittäjää tai THL:n taulukon rivikohtaista yhteensovitusta. Eroja ei tulkita virheeksi tai manipuloinniksi."
+      },
+      {
+        "dimension": "Väliaikainen myönteinen arvio ja 1.5.2027 tarkistuspiste",
+        "text": "STM:n 10.6.2026 uutinen kuvaa keväällä käytettävissä olleiden tietojen perusteella terapiatakuun toteutuneen pääosin hyvin, mutta samassa tiedotteessa todetaan tilastotietojen merkittävät puutteet. Uutinen nimeää varsinaisen selvityksen määräajaksi 1.5.2027. Tämä on julkinen väliraportointia koskeva arvio, ei lopullinen kansallinen toteutumis- tai vaikutusarvio.",
+        "quote_keys": [
+          "stm_favorable",
+          "stm_limit",
+          "stm_deadline"
+        ],
+        "rationale": "Uutisen otsikko ja ingressi antavat myönteisen tilannekuvan, mutta tiedote sisältää samassa lähteessä rajoitteen ja tulevan selvityksen määräajan. Näitä ei yhdistetä vahvemmaksi toimitusväitteeksi."
+      },
+      {
+        "dimension": "Toimitus ja vaikutus jäävät erillisiksi kysymyksiksi",
+        "text": "Lähteet osoittavat, että määräaikaista ensimmäistä interventiokäyntiä seurataan ja että rajatussa kirjatussa aineistossa määräaika toteutui useimmiten. Ne eivät osoita hoidon laatua, hoidon loppuun saattamista, mielenterveysvaikutuksia, resurssien riittävyyttä tai yhdenvertaisuutta koko väestössä. STM:n raportti edellyttää luotettavaa arviota varten pidempää seurantaa.",
+        "quote_keys": [
+          "thl_stop",
+          "report_percentages",
+          "report_longer_followup"
+        ],
+        "rationale": "Mittarin päätepiste on ensimmäinen toteutunut käynti, ja STM itse rajaa tiedot viitteellisiksi sekä vaatii pidempää seurantaa. Näin palvelun ensimmäisen käynnin ajoitus ja myöhempi vaikutus pidetään eri väitteinä."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mikä on kaikkien terapiatakuuseen oikeutettujen henkilöiden ja sosiaalihuollon palvelujen kattava nimittäjä, ja miten kirjautumatta jäävät tai eri järjestelmiin hajautuvat tapaukset vaikuttavat osuuksiin?",
+        "missing_evidence": "Tarvitaan kansallisesti kattava, palvelukanavat ja kirjauspuutteet yksilöivä THL:n aineisto sekä julkaistu laskentamenetelmä."
+      },
+      {
+        "question": "Ovatko Helsingin prosentit ja STM:n/THL:n raportin prosentit suoraan vertailukelpoisia?",
+        "missing_evidence": "Tarvitaan Helsingin nimittäjä-, rajaus-, poikkeus- ja kirjausmenetelmä sekä sama aikaväli ja palvelukanava kuin vertailuraportissa."
+      },
+      {
+        "question": "Miten sosiaalihuollon määräaika ja toteumat näkyvät syksystä 2026 eteenpäin?",
+        "missing_evidence": "Tarvitaan THL:n sosiaalihuollon rakenteinen seuranta, hyvinvointialueiden kattavuustiedot ja myöhempi virallinen tilanneraportti."
+      },
+      {
+        "question": "Paransiko terapiatakuu lasten ja nuorten hyvinvointia tai vähensikö raskaampien palvelujen tarvetta?",
+        "missing_evidence": "Tarvitaan pidemmän aikavälin vaikutus- ja tutkimusasetelmaa; määräaikaan päästy ensimmäinen käynti ei tunnista vaikutusta."
+      },
+      {
+        "question": "Muuttuiko alkuperäisen 2024 säädöspaketin soveltuva oikeustila tai hallinnollinen toteutustapa myöhemmillä muutoksilla?",
+        "missing_evidence": "Tarvitaan erillinen ajantasainen Finlex/LawVM-lukeminen ennen kuin tästä tapauksesta tehdään nykyisen lain kattava väite."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-08",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "The earlier therapy case established the enacted wording but explicitly left delivery unknown. This successor reads the Helsinki monitoring page, the STM 10.6.2026 announcement and interim report, and THL's current structured-recording card. Full captures were fetched read-only on 2026-10-08; public fixture fields retain short source projections with capture hashes and source links. The case is documentary source reading, not an independent human audit or a national effectiveness estimate."
+  }
+]

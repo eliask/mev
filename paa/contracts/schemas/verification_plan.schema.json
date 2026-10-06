@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Restricted verification plan v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "plan_id": {
+      "type": "string"
+    },
+    "proposition_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operator": {
+      "enum": [
+        "EXISTS_OFFICIAL_EVENT",
+        "ALL_RELEVANT_VOTES_SATISFY",
+        "LEGAL_STATE_AT",
+        "THRESHOLD_AT",
+        "CHANGE_FROM_BASELINE",
+        "DUTY_BY_DATE",
+        "MAINTAIN_DURING",
+        "PREVENT_EVENT_DURING",
+        "CONJUNCTION",
+        "DISJUNCTION",
+        "CONDITIONAL",
+        "CASE_REVIEW",
+        "NOT_TESTABLE_AS_WRITTEN"
+      ]
+    },
+    "interpretation_basis": {
+      "enum": [
+        "EXPLICIT_TEXT",
+        "CONTEXT_DERIVED",
+        "ANALYST_PARTIAL_DIAGNOSTIC"
+      ]
+    },
+    "parameters": {
+      "type": "object"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "accepted_evidence_families": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negative_requires_coverage_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "possible_result_states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_interpretations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "defeaters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "plan_validation_state": {
+      "enum": [
+        "PROPOSED",
+        "VALIDATED",
+        "REVIEWED",
+        "REJECTED"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "plan_id",
+    "proposition_ids",
+    "operator",
+    "interpretation_basis",
+    "parameters",
+    "prerequisites",
+    "accepted_evidence_families",
+    "negative_requires_coverage_ids",
+    "possible_result_states",
+    "alternative_interpretations",
+    "defeaters",
+    "plan_validation_state",
+    "evidence_ids"
+  ],
+  "additionalProperties": false
+}

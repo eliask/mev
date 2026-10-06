@@ -1,0 +1,158 @@
+{
+  "schema_version": "paa.source_question.v5",
+  "task_id": "ROUTE-FULL",
+  "matter_id": "LA 9/2099 vp",
+  "question": "Mitä Ada First ja Bea Second tekivät LA 9/2099 vp:ssä, miten reitti vertautui HE 9/2099 vp:n kautta säädettyyn 100/2099 ja myöhempään 200/2100, ja mitä oli voimassa 9.10.2100?",
+  "status": "OK",
+  "admission": "CANDIDATE_NOT_REFERENCE_JUDGED",
+  "answer": "Ada First oli ensimmäinen allekirjoittaja ja Bea Second muu allekirjoittaja LA 9/2099 vp:ssä 1.3.2099. Aloite sisältää ETA-ulkopuolisen ilmoituksen lehtijulkaisuehdotuksen. Rekisterissä on hylkäyssana, joka on sanastovihje eikä yksin institutionaalinen päätös. HE 9/2099 vp on erillinen hallituksen esitys; sen kautta säädettiin 100/2099 ja myöhemmin 200/2100. Allekirjoitus ei osoita vaikutusta HE:hen. 9.10.2100 voimassaolo nojaa 200/2100:aan.",
+  "claims": [
+    {
+      "text": "Ada First on LA 9/2099 vp:n ensimmäinen allekirjoittaja.",
+      "evidence_bound": [
+        {
+          "source_id": "INIT-TEXT",
+          "quote": "Ada\nFirst",
+          "start": 340,
+          "end": 349,
+          "first_pointer": 11,
+          "last_pointer": 12,
+          "source_text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+        }
+      ]
+    },
+    {
+      "text": "Bea Second on LA 9/2099 vp:n muu allekirjoittaja.",
+      "evidence_bound": [
+        {
+          "source_id": "INIT-TEXT",
+          "quote": "Bea\nSecond",
+          "start": 353,
+          "end": 363,
+          "first_pointer": 14,
+          "last_pointer": 15,
+          "source_text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+        }
+      ]
+    },
+    {
+      "text": "LA 9/2099 vp ehdottaa lehtijulkaisua, jos ETA-alueen ulkopuolinen ilmoitus ei ole mahdollista.",
+      "evidence_bound": [
+        {
+          "source_id": "INIT-TEXT",
+          "quote": "jos ilmoitus muualla kuin ETA-alueella oleskelevalle ei ole mahdollista, ilmoitus voidaan julkaista virallisessa lehdessä 14 päivän kuluessa.",
+          "start": 125,
+          "end": 266,
+          "first_pointer": 7,
+          "last_pointer": 7,
+          "source_text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+        }
+      ]
+    },
+    {
+      "text": "HE 9/2099 vp on erillinen hallituksen esitys; viittaus LA 9/2099 vp:hen on taustatietoa, ei samaa säädöstekstiä.",
+      "evidence_bound": [
+        {
+          "source_id": "HE-TEXT",
+          "quote": "Viittaus hylättyyn aloitteeseen LA 9/2099 vp on taustatietoa, ei samaa säädöstekstiä.",
+          "start": 242,
+          "end": 327,
+          "first_pointer": 3,
+          "last_pointer": 3,
+          "source_text_sha256": "f08390055cbfec689e79d491f3a866fe83cba449c28964d84f97b5c0d868eb28"
+        }
+      ]
+    },
+    {
+      "text": "Laki 100/2099 säädettiin HE 9/2099 vp:n kautta ja tuli voimaan 1.5.2099.",
+      "evidence_bound": [
+        {
+          "source_id": "LAW-A",
+          "quote": "Tämä laki tulee voimaan 1 päivänä toukokuuta 2099.",
+          "start": 296,
+          "end": 346,
+          "first_pointer": 4,
+          "last_pointer": 4,
+          "source_text_sha256": "9c00343f093574dd3f499f273787a0197a78bf7ca49882eace45efbbf0345022"
+        }
+      ]
+    },
+    {
+      "text": "Laki 200/2100 muuttaa 100/2099:n 2 luvun 1 §:ää ja tulee voimaan 1.1.2100; se on myöhempi säädös, ei automaattisesti aloitteen hyväksyntä.",
+      "evidence_bound": [
+        {
+          "source_id": "LAW-B",
+          "quote": "Tämä laki tulee voimaan 1 päivänä tammikuuta 2100.",
+          "start": 298,
+          "end": 348,
+          "first_pointer": 4,
+          "last_pointer": 4,
+          "source_text_sha256": "027ad926e186d0c901008ecb77bad4f4e5b4e4abf23c825569b00e18b4358b7f"
+        }
+      ]
+    }
+  ],
+  "map_findings": [],
+  "unresolved": [
+    "Institutionaalinen hylkäyspäätös vaatii muodollisen päätösasiakirjan; rekisterin hylkäyssana on vain sanastovihje."
+  ],
+  "next_evidence": [],
+  "coverage": {
+    "requested_source_ids": [
+      "INIT-TEXT",
+      "INIT-REGISTER",
+      "HE-TEXT",
+      "LAW-A",
+      "LAW-B",
+      "LAW-B-CORRECTION",
+      "LAW-C"
+    ],
+    "fully_read_source_ids": [
+      "INIT-TEXT",
+      "INIT-REGISTER",
+      "HE-TEXT",
+      "LAW-A",
+      "LAW-B",
+      "LAW-B-CORRECTION",
+      "LAW-C"
+    ],
+    "pointer_domains": {
+      "INIT-TEXT": {
+        "min_pointer": 0,
+        "max_pointer": 17,
+        "source_text_sha256": "931a21d52fae363961c86292cfc2de102384d8cceca889a8b60e43f45de9b68e"
+      },
+      "INIT-REGISTER": {
+        "min_pointer": 0,
+        "max_pointer": 9,
+        "source_text_sha256": "36a6254114c44335cc6c0678909774f1a69a1ee8331ec104805cc1e3a3b7aa5b"
+      },
+      "HE-TEXT": {
+        "min_pointer": 0,
+        "max_pointer": 5,
+        "source_text_sha256": "f08390055cbfec689e79d491f3a866fe83cba449c28964d84f97b5c0d868eb28"
+      },
+      "LAW-A": {
+        "min_pointer": 0,
+        "max_pointer": 5,
+        "source_text_sha256": "9c00343f093574dd3f499f273787a0197a78bf7ca49882eace45efbbf0345022"
+      },
+      "LAW-B": {
+        "min_pointer": 0,
+        "max_pointer": 4,
+        "source_text_sha256": "027ad926e186d0c901008ecb77bad4f4e5b4e4abf23c825569b00e18b4358b7f"
+      },
+      "LAW-B-CORRECTION": {
+        "min_pointer": 0,
+        "max_pointer": 5,
+        "source_text_sha256": "d6857442e6da9eb5288780b8d5bcb229b0d33824b6800beb075287a946d79aef"
+      },
+      "LAW-C": {
+        "min_pointer": 0,
+        "max_pointer": 4,
+        "source_text_sha256": "86b9c5244a53476bd06a960102f7e0644c669c54823a5ba3a3796750b82cf4a2"
+      }
+    },
+    "read_completeness": "COMPLETE"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "paa.source_critique.v1",
+  "critique_id": "REV-D1-fixture",
+  "state": "SOURCE_BACKED_CRITIQUE_NOT_EXPECTED_ANSWER",
+  "reviewer": {
+    "id": "fixture-reviewer",
+    "kind": "HUMAN",
+    "human_certification": true
+  },
+  "candidate": {
+    "sha256": "d0abd7964a1e64110da0b07ac1dbcb8c95375d0765b79a8ff7089240bfd4b597",
+    "task_id": "REV-D1",
+    "schema_version": "paa.source_question.v5",
+    "status": "PRESERVED_UNCHANGED"
+  },
+  "input_contract": {
+    "questions_sha256": "4c38506a798f480d09f05ec4b49441abc356ea9d1903aa748be04fc5e2271423",
+    "sources_sha256": "653c88873b1ae3a54dbd6002c9f5d2e684a1d848fa2c98f7104443a34e4fc347",
+    "task_source_ids": [
+      "HE1"
+    ],
+    "source_versions": [
+      {
+        "source_id": "HE1",
+        "text_sha256": "8f7270b66af504c5ad2a3c62501a82630c9d43670d139bb67093bdb8fc482a26"
+      }
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "ONLY_WARNING_FALSE",
+      "status": "MATERIAL_SOURCE_CONTRADICTION",
+      "candidate_excerpts": [
+        {
+          "json_field": "answer",
+          "start": 8,
+          "end": 38,
+          "text": "wrong excerpt text"
+        },
+        {
+          "json_field": "claims[0].text",
+          "start": 0,
+          "end": 30,
+          "text": "aloite ehdotti vain varoitusta"
+        }
+      ],
+      "source_evidence": [
+        {
+          "source_id": "HE1",
+          "text_sha256": "8f7270b66af504c5ad2a3c62501a82630c9d43670d139bb67093bdb8fc482a26",
+          "start": 107,
+          "end": 163,
+          "quote": "Valiokunta ei sano, että aloite koskisi vain varoitusta.",
+          "identifier": "HE 1/2099 vp",
+          "raw_path": "/tmp/private/not/for/provider.xml"
+        }
+      ],
+      "reason": "Source does not support only-warning exclusion.",
+      "revision_scope": "Reassess exclusion against full source context."
+    }
+  ],
+  "revision_requirements": {
+    "bounded_successor": true,
+    "preserve_original_candidate": true,
+    "record_predecessor_candidate_sha256": "d0abd7964a1e64110da0b07ac1dbcb8c95375d0765b79a8ff7089240bfd4b597",
+    "preserve_source_universe": true,
+    "review_after_revision": "Independent review remains necessary.",
+    "not_supplied": "No expected full answer."
+  }
+}

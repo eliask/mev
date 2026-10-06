@@ -1,0 +1,336 @@
+{
+  "schema_version": "paa.publication_selection.v2",
+  "release_id": "paa-beta-reader-2026-10-08",
+  "checked_on": "2026-10-08",
+  "publisher": "eliask / PAA",
+  "correction_url": "https://github.com/eliask/mev/issues/new",
+  "introduction": "Mitä poliitikko lupasi, mitä päätöksessä muuttui ja mitä oikeasti toteutui? Seuraa vastausta alkuperäislähteistä. Kahden 91 %:n yhteneväisyys terapiatakuussa on nimittäjäregressio, ei lippulaivalöytö.",
+  "cases": [
+    {
+      "case_id": "therapy-2025-2026-implementation-measurement",
+      "sources_file": "therapy_implementation_source_versions.jsonl",
+      "reviews_file": "therapy_implementation_case_reviews.json",
+      "packet_sha256": "0f017b2875e011527bea4a054d8aabe5b69734a023652f83087c91684f3415c0",
+      "takeaway": "Vuoden 2025 aineistossa 91 % hoitotapahtumista toteutui määräajassa. Myös 91 % havainnoista tuli YTHS:ltä. Luvut kuvaavat eri asioita — tämä on nimittäjäregressio, ei hallinnon epäonnistumisen löytö.",
+      "why_it_matters": "Prosenttiluvun tulkinta muuttuu, kun selviää, mistä kello alkaa, keitä aineistossa on ja ketkä puuttuvat. Kahden 91 %:n yhteneväisyys ei ole itsessään hallintolöytö.",
+      "main_limit": "Aineisto ei ratkaise kaikkien nuorten hoitoonpääsyä, hoidon laatua tai vaikutuksia. Helsingin erillisistä kuukausiprosenteista puuttuu tässä lähdeversiossa lukumääräinen nimittäjä.",
+      "source_period": "Vuoden 2025 ja 15.5.2026 asti kertynyt STM:n aineisto; Helsingin kesä–elokuun 2026 seuranta; THL:n vuoden 2026 ohje.",
+      "review_date": "2026-10-08",
+      "permissions": [
+        {
+          "source_id": "HELSINKI-TERAPIA:MONITORING:2026-09-01",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Julkaisijan Helsingin kaupunki attribuoitu lyhyt lainaus mittarin ja havaintojen arvioimiseksi. Kokonaista julkaisua ei jaeta eikä sen lisenssiä muuteta.",
+          "terms_url": "https://www.hel.fi/fi/sosiaali-ja-terveyspalvelut/asiakkaan-tiedot-ja-oikeudet/odotusajat-ja-asiakaskokemus"
+        },
+        {
+          "source_id": "STM-TERAPIA:ANNOUNCEMENT:2026-06-10",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Julkaisijan Sosiaali- ja terveysministeriö attribuoitu lyhyt lainaus mittarin ja havaintojen arvioimiseksi. Kokonaista julkaisua ei jaeta eikä sen lisenssiä muuteta.",
+          "terms_url": "https://valtioneuvosto.fi/-/1271139/terapiatakuu-on-toteutunut-paasaantoisesti-hyvin-mutta-puutteellinen-tietopohja-vaikeuttaa-arviointia"
+        },
+        {
+          "source_id": "STM-TERAPIA:INTERIM-REPORT:2026-06-10",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Julkaisijan Sosiaali- ja terveysministeriö attribuoitu lyhyt lainaus mittarin ja havaintojen arvioimiseksi. Kokonaista julkaisua ei jaeta eikä sen lisenssiä muuteta. Alkuperäisraportti: CC BY-NC-ND 4.0; tekijät Helena Haikonen ja Tiina Louhi, STM 2026:23.",
+          "terms_url": "https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/ee3d8fbc-d4ab-4e00-be03-89ea12e563ad/content"
+        },
+        {
+          "source_id": "THL-TERAPIA:GUIDANCE:2026-01",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Julkaisijan Terveyden ja hyvinvoinnin laitos THL attribuoitu lyhyt lainaus mittarin ja havaintojen arvioimiseksi. Kokonaista julkaisua ei jaeta eikä sen lisenssiä muuteta.",
+          "terms_url": "https://www.julkari.fi/bitstreams/25972311-740d-415b-856e-833269828d80/download"
+        }
+      ],
+      "sequence": [
+        "Tarve kirjataan: vain takuuseen kuuluva interventio käynnistää tämän seurannan.",
+        "Kello päättyy ensimmäiseen toteutuneeseen interventiokäyntiin.",
+        "Raportti kuvaa käytettävissä olevaa kirjausaineistoa, ei kaikkien oikeutettujen henkilöiden kattavaa joukkoa."
+      ],
+      "article_title": "Terapiatakuun kaksi 91 %:n lukua (nimittäjäregressio)",
+      "audience": "SPECIALIST",
+      "comparison_label": "STM:n taulukon kirjatut hoitotapahtumat. YTHS-rivi koskee 18–22-vuotiaita. Nimittäjä ei ole kaikkien hoitoa tarvitsevien nuorten määrä.",
+      "comparison": [
+        {
+          "period": "2025",
+          "measure": "Määräajassa (28 vrk)",
+          "numerator": 310,
+          "denominator": 340,
+          "evidence_ids": [
+            "inquiry-evidence:08c6838cab5a9032eb57fba1",
+            "inquiry-evidence:d23227e45578bd7bc3f081c7",
+            "inquiry-evidence:3e2e7dcd91cbe67bd8ab5c94",
+            "inquiry-evidence:323c342440833b4604b24f34"
+          ]
+        },
+        {
+          "period": "2025",
+          "measure": "Havainnoista YTHS:ltä",
+          "numerator": 310,
+          "denominator": 340,
+          "evidence_ids": [
+            "inquiry-evidence:08c6838cab5a9032eb57fba1",
+            "inquiry-evidence:d23227e45578bd7bc3f081c7",
+            "inquiry-evidence:3e2e7dcd91cbe67bd8ab5c94",
+            "inquiry-evidence:323c342440833b4604b24f34"
+          ]
+        },
+        {
+          "period": "2026 (15.5.)",
+          "measure": "Määräajassa (28 vrk)",
+          "numerator": 291,
+          "denominator": 334,
+          "evidence_ids": [
+            "inquiry-evidence:08c6838cab5a9032eb57fba1",
+            "inquiry-evidence:d23227e45578bd7bc3f081c7",
+            "inquiry-evidence:3e2e7dcd91cbe67bd8ab5c94",
+            "inquiry-evidence:323c342440833b4604b24f34"
+          ]
+        },
+        {
+          "period": "2026 (15.5.)",
+          "measure": "Havainnoista YTHS:ltä",
+          "numerator": 178,
+          "denominator": 334,
+          "evidence_ids": [
+            "inquiry-evidence:08c6838cab5a9032eb57fba1",
+            "inquiry-evidence:d23227e45578bd7bc3f081c7",
+            "inquiry-evidence:3e2e7dcd91cbe67bd8ab5c94",
+            "inquiry-evidence:323c342440833b4604b24f34"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Miksi ero on olennainen?",
+          "text": "Määräaikaosuus kuvaa kirjattujen käyntien ajoitusta. YTHS:n osuus kuvaa aineiston koostumusta. Vuonna 2026 määräajassa oli 291/334 tapahtumaa (87 %), ja YTHS:n osuus oli 178/334 (53 %). Eri koostumuksen vuoksi prosentteja ei voi sellaisenaan tulkita koko maan hoitoonpääsyn muutokseksi.",
+          "claim_dimensions": [
+            "STM:n julkaisema havainto rajatusta kirjausaineistosta",
+            "YTHS:n osuus yhdistetystä taulukosta",
+            "Tietopohjan kattavuus rajoittaa kansallista johtopäätöstä"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:08c6838cab5a9032eb57fba1",
+            "inquiry-evidence:d23227e45578bd7bc3f081c7",
+            "inquiry-evidence:3e2e7dcd91cbe67bd8ab5c94",
+            "inquiry-evidence:323c342440833b4604b24f34"
+          ],
+          "source_label": "STM 2026:23, taulukko 2 (PDF-sivut 19–20)"
+        },
+        {
+          "title": "Mistä kello alkaa?",
+          "text": "THL:n ohjeessa aika alkaa, kun alle 23-vuotiaalla todetaan ensisijainen tarve takuun piiriin kuuluvalle interventiolle. Se päättyy ensimmäiseen toteutuneeseen interventiokäyntiin. Tämä ei mittaa koko aikaa ensimmäisestä avun hakemisesta eikä hoidon vaikutusta. Ohje käsittelee ryhmämuotoiset interventiot ja potilaan toivoman ylityksen erikseen.",
+          "claim_dimensions": [
+            "Mittarin kellon alku, loppu ja palvelukanava",
+            "Kohderajat ja poikkeukset muuttavat nimittäjää"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:4aa2bdd9986a983b2f8d7b79",
+            "inquiry-evidence:85c7baf5fd48ebd2d2477002",
+            "inquiry-evidence:9e687891f9f7f1775ce6ef9f",
+            "inquiry-evidence:38c44a281b17f862f0369316"
+          ],
+          "source_label": "THL:n kirjaamisohje, sivut 1–2"
+        },
+        {
+          "title": "Myönteinen havainto, rajattu kattavuus",
+          "text": "STM arvioi toimeenpanon pääosin myönteisesti mutta kertoo tietopuutteista. Raportin tilastot kattavat kahdeksan hyvinvointialuetta, Helsingin ja YTHS:n; sosiaalihuollon tiedot puuttuivat. Se ei ole koko väestön toteutumisaste. Varsinainen selvitys on annettava valiokunnalle 1.5.2027 mennessä.",
+          "claim_dimensions": [
+            "Tietopohjan kattavuus rajoittaa kansallista johtopäätöstä",
+            "Väliaikainen myönteinen arvio ja 1.5.2027 tarkistuspiste"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:3cf5e576244c6748f5c170f5",
+            "inquiry-evidence:242fe5c685a4188fa8d01824",
+            "inquiry-evidence:79cf96100fd89a53c1041782",
+            "inquiry-evidence:67137d5f0734b35c3fb141a9"
+          ],
+          "source_label": "STM:n raportti ja tiedote 10.6.2026"
+        }
+      ]
+    },
+    {
+      "case_id": "person-bergbom-councils-followup-2023",
+      "sources_file": "public_beta_person_followup_sources.jsonl",
+      "reviews_file": "public_beta_person_followup_reviews.json",
+      "packet_sha256": "15798eea68583894c8837f05133aa9a72d14edc4f2f4f6cc5c3357f36b8edeb4",
+      "takeaway": "Bergbom lupasi jättää kaksi valtuustopaikkaa, jos tulee valituksi eduskuntaan. Pirkanmaan ero on päätöksellä vahvistettu; Sastamalan eropyynnöstä on uutisraportti, mutta lopullinen päätös puuttuu tästä aineistosta.",
+      "why_it_matters": "Oma eropyyntö ja valtuuston lopullinen päätös ovat eri tekoja. Lähteet yhdistävät lupauksen henkilön toimeen ja toimielimen ratkaisuun yhden toimielimen osalta.",
+      "main_limit": "Tämä lähdepaketti ei ratkaise Sastamalan kaupunginvaltuuston osuutta eikä koko kaksiosaisen lupauksen toteutumista.",
+      "source_period": "Vuoden 2023 kampanja ja vaalitulos; Pirkanmaan päätös 5.6.2023; Alueviestin raportti 27.4.2023.",
+      "review_date": "2026-10-08",
+      "permissions": [
+        {
+          "source_id": "SRC-YLE-2023-C7",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Yle, vuoden 2023 ehdokasaineisto: vain lupauksen arvioimiseksi tarvittava, attribuoitu lause. Kokonaista kampanja-aineistoa ei jaeta; Yle 2011:n lisenssiä ei sovelleta tähän lähteeseen. Lainausperuste: tekijänoikeuslain 22 §.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-VAALIT-2023",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Oikeusministeriön virallisen vaalituloksen kenttänäkymä. Kentistä muodostettu esitys ei ole sanatarkka lainaus alkuperäissivun ulkoasusta.",
+          "terms_url": "https://tulospalvelu.vaalit.fi/EKV-2023/"
+        },
+        {
+          "source_id": "SRC-PIRHA-2023-7933",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "SRC-ALUEVIESTI-20230427",
+          "basis": "SHORT_EXCERPTS",
+          "notice": "Alueviesti, toimitus, 27.4.2023: vain eropyynnön ja päätösvaiheen arvioimiseksi tarpeelliset lyhyet, attribuoidut lainaukset. Kokonaista artikkelia tai sen kuvia ei jaeta.",
+          "terms_url": "https://alueviesti.fi/2023/04/27/miko-bergbom-pyytaa-eroa-sastamalan-valtuustosta-tilalle-nousee-aulis-kulmala/"
+        }
+      ],
+      "sequence": [
+        "Kampanja 2023: ehdollinen lupaus jättää alue- ja kaupunginvaltuuston paikat.",
+        "7.4.2023: Pirkanmaan päätösasiakirjaan kirjattu eropyyntö.",
+        "5.6.2023: aluevaltuusto myöntää eron. Kaupunginvaltuuston osuus tarvitsee eri lähteen."
+      ],
+      "article_title": "Bergbomin valtuustolupaus: mitä teoista tiedetään?",
+      "audience": "ONGOING",
+      "sections": [
+        {
+          "title": "Mitä hän lupasi?",
+          "text": "Bergbom lupasi jättää sekä aluevaltuuston että kaupunginvaltuuston paikan, jos hänet valitaan eduskuntaan. Ehto täyttyi vuoden 2023 vaaleissa.",
+          "claim_dimensions": [
+            "Alkuperäinen kaksiosainen vaalilupaus",
+            "Vuoden 2023 vaalitulos"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:1912a2d3266ba419a2252a5f",
+            "inquiry-evidence:6cc876f9fddc54a67efee5a4"
+          ],
+          "source_label": "Ylen ehdokaskatkelma ja virallinen vaalitulos"
+        },
+        {
+          "title": "Pirkanmaa: pyyntö ja myönnetty ero",
+          "text": "Bergbom pyysi eroa 7.4.2023. Aluevaltuusto myönsi eron 5.6.2023. Pyynnön tekeminen ja toimielimen ratkaisu ovat eri tapahtumia.",
+          "claim_dimensions": [
+            "Pyyntö ja Pirkanmaan lopullinen myöntö"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:5ace11d4b96fd35b1be6f34b",
+            "inquiry-evidence:b6c8a5b41bf742f19c80afb7"
+          ],
+          "source_label": "Pirkanmaan aluevaltuusto 5.6.2023"
+        },
+        {
+          "title": "Sastamala: pyyntö raportoitu, päätös vielä haussa",
+          "text": "Alueviesti raportoi eropyynnöstä 27.4.2023 ja kuvasi asian olevan vielä kaupunginhallituksen käsiteltävänä. Vuoden 2023 lopullista kaupunginvaltuuston päätöstä ei saatu tähän lähdepakettiin. Koko lupausta ei siis voi tämän aineiston perusteella merkitä toteutuneeksi tai rikotuksi.",
+          "claim_dimensions": [
+            "Sastamalan eropyynnöstä on uutisraportti",
+            "Vain osittainen komponentti on varmennettu"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:2a623c6cf055ad07b14b45d3",
+            "inquiry-evidence:d037f0a1f814d5ae01371beb",
+            "inquiry-evidence:1912a2d3266ba419a2252a5f",
+            "inquiry-evidence:5ace11d4b96fd35b1be6f34b",
+            "inquiry-evidence:b6c8a5b41bf742f19c80afb7"
+          ],
+          "source_label": "Alueviesti 27.4.2023: pyyntö ja käsittelyvaihe"
+        }
+      ]
+    },
+    {
+      "case_id": "rai-2020-constitutional-repair",
+      "sources_file": "public_beta_rai_sources.jsonl",
+      "reviews_file": "public_beta_rai_reviews.json",
+      "packet_sha256": "429848e9efba77d1e4f6cbd61e84f14e34fc63fcfb94f0cf3f7383c66026859d",
+      "takeaway": "Perustuslakivaliokunta vaati RAI-arvioinnin perusteet lakiin. Sosiaali- ja terveysvaliokunta kirjasi sitä toteuttavan muutoksen, joka sisältyy julkaistuun muutoslakiin.",
+      "why_it_matters": "Kun mittari ohjaa iäkkäiden palvelutarpeen arviointia, on olennaista tietää, mikä on kirjattu lakiin ja mitä vastuutaholta edellytetään.",
+      "main_limit": "Vuoden 2020 lakiteksti ei osoita käytännön käyttöönottoa, vaikutuksia eikä vuoden 2026 vastuutahoa.",
+      "source_period": "Vuoden 2020 esitys, valiokunta-asiakirjat ja muutoslaki 565/2020; käyttö aloitettava viimeistään 1.4.2023.",
+      "review_date": "2026-10-08",
+      "permissions": [
+        {
+          "source_id": "MEV-LEGISLATIVE:he:he-4-2020",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "MEV-LEGISLATIVE:committee_report:stvm18-2020",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "MEV-LEGISLATIVE:committee_report:pevl15-2020",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "finlex:operation_source_statute_xml:2020/565:operation",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "finlex:operation_source_statute_xml:2020/565:provision",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        },
+        {
+          "source_id": "finlex:operation_source_statute_xml:2020/565:commencement",
+          "basis": "OFFICIAL_DOCUMENT",
+          "notice": "Virallisen säädöksen, päätöksen tai lausuman yksilöity katkelma alkuperäisen asiakirjan arvioimiseksi; tekijänoikeuslain 9 §. Ei kolmannen osapuolen kuvia tai kokonaisia raportteja.",
+          "terms_url": "https://www.finlex.fi/fi/lainsaadanto/1961/404"
+        }
+      ],
+      "sequence": [
+        "Hallituksen esitys: lisäykset 3 §:n kohtiin 4 ja 5.",
+        "Valiokunnat: laintasoisen määritelmän vaatimus, 3 §:n 6 kohta ja uusi 15 a §.",
+        "Muutoslaki 565/2020: lisäykset hyväksytyssä tekstissä. Toimeenpano arvioitava erikseen."
+      ],
+      "article_title": "RAI-arviointi: miten perustuslakihuomautukseen vastattiin?",
+      "audience": "SPECIALIST",
+      "sections": [
+        {
+          "title": "Mikä oli ongelma?",
+          "text": "Perustuslakivaliokunta edellytti, että palvelutarpeeseen vaikuttavan arviointijärjestelmän perusteet määritellään laissa. Täydennys oli tavallisen lain säätämisjärjestyksen ehto.",
+          "claim_dimensions": [
+            "Toimija ja dokumentoitu rajoite"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:21d5e1d64b9c3d011a638621"
+          ],
+          "source_label": "PeVL 15/2020 vp, sivu 3"
+        },
+        {
+          "title": "Miten siihen vastattiin?",
+          "text": "Sosiaali- ja terveysvaliokunta ehdotti uutta määritelmää ja erillistä 15 a §:ää. Se perusteli muutosta nimenomaisesti perustuslakivaliokunnan huomautuksella. Lisäykset sisältyvät julkaistuun muutoslakiin 565/2020.",
+          "claim_dimensions": [
+            "Politiikan muutos: määritelmä ja erillinen pykälä",
+            "Vastaus huomautukseen: nimenomainen korjaava muutosehdotus"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:a294e30f424ccf3b27d4bb28",
+            "inquiry-evidence:ba36afa90ad26fb284bd519c",
+            "inquiry-evidence:16fbc5242011c3b82dfe5dbd"
+          ],
+          "source_label": "StVM 18/2020 vp, sivu 8; muutoslaki 565/2020"
+        },
+        {
+          "title": "Miksi tämä on hyödyllinen esimerkki?",
+          "text": "Kirjattu huomautus voidaan yhdistää yksilöityyn muutokseen ja hyväksyttyyn tekstiin. Tässä näkyy toimiva institutionaalinen korjaus. Asiakirjat eivät yksilöi kenen henkilökohtainen panos aiheutti sen.",
+          "claim_dimensions": [
+            "Vastaus huomautukseen: nimenomainen korjaava muutosehdotus",
+            "Toimija ja dokumentoitu rajoite"
+          ],
+          "evidence_ids": [
+            "inquiry-evidence:21d5e1d64b9c3d011a638621",
+            "inquiry-evidence:a294e30f424ccf3b27d4bb28"
+          ],
+          "source_label": "PeVL ja StVM: kirjattu huomautus ja vastaus"
+        }
+      ]
+    }
+  ]
+}

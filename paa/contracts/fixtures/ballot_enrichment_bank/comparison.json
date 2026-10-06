@@ -1,0 +1,21 @@
+{
+  "schema_version": "bs02.per_event_version_comparison.v1",
+  "events": [
+    {
+      "event_id": "90001",
+      "status": "MATCH_CURRENT_RAW",
+      "comparison_status": "MATCH_CURRENT_RAW",
+      "mismatches": {},
+      "errors": [],
+      "historical_version_status": "NOT_RECONSTRUCTIBLE_WITHOUT_PRIOR_RECEIPT"
+    },
+    {
+      "event_id": "90002",
+      "status": "MATCH_CURRENT_RAW",
+      "comparison_status": "MATCH_CURRENT_RAW",
+      "mismatches": {},
+      "errors": [],
+      "historical_version_status": "NOT_RECONSTRUCTIBLE_WITHOUT_PRIOR_RECEIPT"
+    }
+  ]
+}

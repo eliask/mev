@@ -1,0 +1,131 @@
+[
+  {
+    "case_id": "rai-2020-constitutional-repair",
+    "source_episode_id": "public-beta-rai-2020-repair",
+    "source_versions": {
+      "he-4-2020": "949f169f16ee24d24ad5f0ad24ef14679dbabff500142347e0116a7b8368612f",
+      "stvm18-2020": "aa9407e99a10358abe6fd58f132d7bd2191ee73fea959005beaf6e9e798cb18a",
+      "pevl15-2020": "9b2293a07a811ddcd9048154a232d99557ac3aba5c2e6215ac60648122b90787",
+      "finlex:operation_source_statute_xml:2020/565:operation": "3cb5442f4fc9417db3395aa1ffbafb5bc830c96f7e8570aaae87ae65a7867dfc",
+      "finlex:operation_source_statute_xml:2020/565:provision": "9e87809011268915c913023577fc9193db8ebf207015f53b9d130bf7b9e43ef1",
+      "finlex:operation_source_statute_xml:2020/565:commencement": "53802aed8d853189c2c9859e14577a67484c81366d9767ee1389bad4c24d7668"
+    },
+    "title": "Vanhuspalvelujen RAI-arviointi: miten lakiehdotusta korjattiin?",
+    "question_id": "q-public-beta-rai-2020-repair",
+    "question": {
+      "text": "Miten arviointijärjestelmän laintasoisia perusteita koskeva huomautus näkyy hallituksen esityksen ja valiokunnan lakiehdotuksen välisessä muutoksessa?",
+      "scope": "HE 4/2020 vp, PeVL 15/2020 vp, StVM 18/2020 vp ja julkaistu muutoslaki 565/2020. Historiallinen asiakirjamuutos; ei vuoden 2026 voimassaolon, toimeenpanon tai vaikutusten arvio.",
+      "answer_standard": "Täsmällinen huomautus, alkuperäinen ehdotettu rakenne, valiokunnan muutosehdotus ja nimenomainen perustelu. Julkaistu muutoslaki osoittaa hyväksytyn tekstin ja siinä ilmoitetun käyttöönoton takarajan; tekstivertailu ei todista käytännön toimeenpanoa."
+    },
+    "quotes": [
+      {
+        "key": "quote-1",
+        "record_id": "he-4-2020",
+        "quote": "lisätään\n3 §:ään uusi 4 ja 5 kohta",
+        "start": 0
+      },
+      {
+        "key": "quote-2",
+        "record_id": "stvm18-2020",
+        "quote": "Sosiaali- ja terveysvaliokunta ehdottaa, että 3 §:ään lisätään uusi 6 kohta. Muutoksen tarkoituksena on osaltaan toteuttaa perustuslakivaliokunnan lausunnossa esitetty, lakiehdotuksen säätämisjärjestykseen vaikuttava huomautus.",
+        "start": 0
+      },
+      {
+        "key": "quote-3",
+        "record_id": "stvm18-2020",
+        "quote": "Sosiaali- ja terveysvaliokunta ehdottaa, että lakiin lisätään uusi 15 a §, joka korvaa hallituksen esitykseen sisältyvän 15 §:n 4 momentin.",
+        "start": 232
+      },
+      {
+        "key": "quote-4",
+        "record_id": "pevl15-2020",
+        "quote": "Perustuslakivaliokunnan mielestä perustuslain 19 §:n 3 momentissa ja 121 §:n 2 momentissa säädetyistä lakivarauksista johtuu, että vanhuspalvelutehtävän sisältöön ja laajuuteen vaikuttavan arviointijärjestelmän perusteet on määriteltävä laintasoisesti. Sääntelyä on täydennettävä ja täsmennettävä olennaisesti. Tällainen muutos on edellytyksenä lakiehdotuksen käsittelemiselle tavallisen lain säätämisjärjestyksessä.",
+        "start": 0
+      },
+      {
+        "key": "quote-5",
+        "record_id": "finlex:operation_source_statute_xml:2020/565:operation",
+        "quote": "muutetaan\n                         ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain (\n                        980/2012\n                        ) 3 §:n 3 kohta sekä lisätään\n                         3 §:ään uusi 4–6 kohta, lakiin uusi 3 a § ja 15 a §, jolloin nykyinen 15 a § siirtyy 15 b §:ksi, sekä 20 §:ään uusi 2 ja 3 momentti, jolloin nykyinen 2 momentti siirtyy 4 momentiksi, seuraavasti:",
+        "start": 0
+      },
+      {
+        "key": "quote-6",
+        "record_id": "finlex:operation_source_statute_xml:2020/565:provision",
+        "quote": "15 a § RAI-arviointivälineistön käyttäminen Kunnan on käytettävä RAI-arviointivälineistöä iäkkään henkilön toimintakyvyn arvioinnissa, jos hän 15 §:n 1 momentissa tarkoitetun ammattihenkilön alustavan arvion mukaan tarvitsee säännöllisesti annettavia sosiaalipalveluja hoitonsa ja huolenpitonsa turvaamiseksi. Lisäksi kunnan on huolehdittava, että RAI-arviointivälineistöä käytetään myös silloin, kun iäkäs henkilö saa edellä tarkoitettuja kunnan järjestämiä palveluja ja hänen olosuhteissaan tapahtuu olennaisia muutoksia. RAI-arviointivälineistö kuuluu 15 §:n 3 momentissa tarkoitettuihin luotettaviin toimintakyvyn arviointivälineisiin. Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että kunnilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön. Lisäksi Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että sopimusteksti sekä arviointivälineistön sisältö siltä osin, kuin sitä ei ole suojattu tekijänoikeudella, ovat julkisesti saatavilla suomeksi ja ruotsiksi.",
+        "start": 0
+      },
+      {
+        "key": "quote-7",
+        "record_id": "finlex:operation_source_statute_xml:2020/565:commencement",
+        "quote": "Tämä laki tulee voimaan 1 päivänä lokakuuta 2020. Lain 15 a §:ssä tarkoitetun arviointijärjestelmän käyttö on aloitettava viimeistään 1 päivänä huhtikuuta 2023. Edellä 20 §:n 2 momentissa säädettyä henkilöstömitoitusta sovelletaan 1 päivästä huhtikuuta 2023. Henkilöstömitoituksen on oltava 1 päivästä lokakuuta 2020 vähintään 0,5 työntekijää, 1 päivästä tammikuuta 2021 vähintään 0,55 työntekijää ja 1 päivästä tammikuuta 2022 vähintään 0,6 työntekijää asiakasta kohti.",
+        "start": 0
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Politiikan muutos: määritelmä ja erillinen pykälä",
+        "text": "Hallituksen esityksessä 3 §:ään lisättiin kohdat 4 ja 5. Sosiaali- ja terveysvaliokunta ehdotti lisäksi kohtaa 6 ja uutta 15 a §:ää alkuperäisen 15 §:n 4 momentin tilalle. Julkaistu muutoslaki 565/2020 sisältää nämä lisäykset. Tämä osoittaa muutoksen esityksestä hyväksyttyyn tekstiin.",
+        "quote_keys": [
+          "quote-1",
+          "quote-2",
+          "quote-3",
+          "quote-5"
+        ],
+        "rationale": "Esityksen muutosehdotus ja valiokunnan laintasoista määritelmää koskeva perustelu verrataan julkaistun muutoslain lisäystekstiin. Tässä luetaan hyväksytty alkuperäinen muutos, ei myöhempää konsolidoitua oikeustilaa."
+      },
+      {
+        "dimension": "Vastaus huomautukseen: nimenomainen korjaava muutosehdotus",
+        "text": "Valiokunta perustelee uutta määritelmää nimenomaisesti perustuslakivaliokunnan huomautuksen toteuttamisella. Huomautusta ei tässä kohdassa vain mainita: siihen liitetään yksilöity säännösmuutos. Tämä osoittaa julkiseen asiakirjaan kirjatun perustelun, ei yksittäisen asiantuntijan tai poliitikon kausaalista vaikutusta.",
+        "quote_keys": [
+          "quote-4",
+          "quote-2"
+        ],
+        "rationale": "StVM nimeää PeVL:n huomautuksen muutoksen tarkoitukseksi. Dokumentoitu institutionaalinen vastaus ei tarvitse yksityisen neuvottelun tai henkilövaikutuksen oletusta."
+      },
+      {
+        "dimension": "Toimija ja dokumentoitu rajoite",
+        "text": "Perustuslakivaliokunta piti laintasoista täydennystä tavallisen lain säätämisjärjestyksen edellytyksenä. Sosiaali- ja terveysvaliokunta esitti siihen vastaavan muutoksen. Näyttö koskee kahden valiokunnan julkisia tehtäviä ja asiakirjoja; sitä ei jaeta automaattisesti niiden jokaisen jäsenen henkilökohtaiseksi suunnittelu- tai vaikutusansioksi.",
+        "quote_keys": [
+          "quote-4",
+          "quote-2"
+        ],
+        "rationale": "Rajoitteen sisältö, institutionaalinen esittäjä ja muutosta ehdottava toimielin on ilmaistu lähteissä. Henkilökohtaisesta vaikutuksesta ei ole lähdeperustaa."
+      },
+      {
+        "dimension": "Säädös hyväksytty ja viimeinen aloitusajankohta",
+        "text": "Muutossäädös 2020/565 lisää lähdekatkelman mukaan tarkastellun pykälän, ja sen voimaantuloteksti asettaa käytön viimeistään aloitettavaksi 2023-04-01. Tämä dokumentoi säädöksen sisällön ja viimeisen aloitusajankohdan; se ei ratkaise aikaisempaa operatiivista soveltamista, toimeenpanoa tai vaikutuksia.",
+        "quote_keys": [
+          "quote-5",
+          "quote-6",
+          "quote-7"
+        ],
+        "rationale": "An automated XML surface check and source reading bind the captured Finlex operation wording, selected provision text and explicit commencement sentence separately. This is AI-assisted source reading, not independent human adjudication. The LawVM reconstruction is retained as a comparison artifact, not as an operative-law determination."
+      },
+      {
+        "dimension": "Kenelle julkaistu teksti antaa toimeenpanotehtävän?",
+        "text": "Vuoden 2020 muutoslain 15 a § osoittaa RAI-arvioinnin käyttöä koskevan tehtävän kunnalle, kun ammattihenkilön alustava arvio osoittaa säännöllisten sosiaalipalvelujen tarvetta, sekä palveluja jo saavan henkilön olosuhteiden olennaisesti muuttuessa. THL:n tehtäväksi kirjataan välineistön maksuton saatavuus ja koulutuksen saatavuus. Teksti erottaa palvelun järjestäjän ja välineistön tarjoajan tehtävät. Se ei osoita tehtävien tosiasiallista suorittamista tai vuoden 2026 vastuutahoa.",
+        "quote_keys": [
+          "quote-6"
+        ],
+        "rationale": "Julkaistun pykälän kaksi erillistä velvoitetta ja niiden ehdot luetaan suoraan lähdetekstistä. Tämä on vuoden 2020 tekstin tehtäväjako, ei historiallisesti varmennettu soveltamisratkaisu, nykyisen toimivallan rekonstruktio tai vaikutusväite."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Miten RAI-arviointi otettiin käytännössä käyttöön ja mitä vaikutuksia siitä seurasi?",
+        "missing_evidence": "Tarvitaan käyttöönoton, palvelujen ja vaikutusten erilliset lähteet. Julkaistu muutoslaki ja käyttöönoton takaraja eivät osoita niitä."
+      },
+      {
+        "question": "Kenen henkilökohtainen panos oli ratkaiseva?",
+        "missing_evidence": "Valiokunta-asiakirjat osoittavat toimielinten perustelut ja muutokset. Ne eivät yksilöi sisäistä valmistelua tai kenen panos aiheutti muutoksen."
+      },
+      {
+        "question": "Mikä on voimassa oleva velvoite ja vastuutaho vuonna 2026?",
+        "missing_evidence": "Tämä tapaus koskee vuoden 2020 muutoslakia, jossa tehtävä osoitettiin kunnalle. Ajantasainen oikeustila ja myöhemmät muutokset tarvitsevat erillisen ajallisen tarkastelun."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-08",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Julkaisua varten tehty tekoälyavusteinen lähdeluku. Alkuperäiset HE 4/2020, PeVL 15/2020 ja StVM 18/2020 sekä muutoslain 565/2020 katkelmat säilytetään täsmällisinä. Hakasulkeinen […] erottaa eri lähdekohdat eikä kuulu alkuperäiseen tekstiin. Kokonaisten lähteiden aiempi lukeminen ja versiot ovat lähtökohta; julkaisu ei väitä ihmistarkistusta tai käytännön toimeenpanoa."
+  }
+]

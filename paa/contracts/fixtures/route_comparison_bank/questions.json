@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "task_id": "ROUTE-FULL",
+      "split": "dev",
+      "matter_id": "LA 9/2099 vp",
+      "question": "Mitä Ada First ja Bea Second tekivät LA 9/2099 vp:ssä, miten reitti vertautui HE 9/2099 vp:n kautta säädettyyn 100/2099 ja myöhempään 200/2100, ja mitä oli voimassa 9.10.2100?"
+    },
+    {
+      "task_id": "ROUTE-OMIT-ENACTED",
+      "split": "dev",
+      "matter_id": "LA 9/2099 vp",
+      "question": "Hylättiinkö LA 9/2099 vp ja mikä vaihtoehtoinen säädösreitti tuli voimaan 9.10.2100?"
+    },
+    {
+      "task_id": "ROUTE-SIGNERS",
+      "split": "dev",
+      "matter_id": "LA 9/2099 vp",
+      "question": "Kuka allekirjoitti LA 9/2099 vp:n ja missä roolissa 1.3.2099?"
+    }
+  ]
+}

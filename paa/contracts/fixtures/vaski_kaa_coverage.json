@@ -1,0 +1,21 @@
+{
+  "coverage_id": "SRC-EDUSKUNTA-VASKI:82ba6736aa1c0318",
+  "source_id": "SRC-EDUSKUNTA-VASKI",
+  "publisher": "Eduskunta / Parliament of Finland",
+  "url": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows",
+  "retrieved_at": "2026-10-06T00:00:00+00:00",
+  "query": {
+    "columnName": "Eduskuntatunnus",
+    "matter_ids": ["KAA 1/2023 vp", "KAA 2/2023 vp", "KAA 5/2023 vp", "KAA 11/2021 vp"]
+  },
+  "enumeration": "EXACT_MATTER_IDENTIFIERS",
+  "requested_matter_count": 4,
+  "requested_row_count": 8,
+  "parsed_row_count": 8,
+  "merged_object_count": 4,
+  "limitations": [
+    "This is an exact-identifier slice, not the complete citizen-initiative register.",
+    "The row records a parliamentary disposition and does not establish the merits of the initiative.",
+    "The rejection quote is the official procedural label Hylätty; broader committee wording is not copied into this packet without its own source row."
+  ]
+}

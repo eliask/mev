@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "source_id": "SRC-EDUSKUNTA-VASKI",
+  "endpoint": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows",
+  "retrieved_at": "2026-10-06",
+  "purpose": "Frozen parser slice for one real written question and its separate government-answer record.",
+  "queries": [
+    {
+      "columnName": "Eduskuntatunnus",
+      "columnValue": "KK 1/2023 vp",
+      "perPage": 100,
+      "page": 0,
+      "fixture": "vaski_kk1_2023_rows.json",
+      "fixture_sha256": "7ac7ac12f901e671ae17edee4252bf7d7a3401dd69cbffdff7f1e61e08527ba8",
+      "row_ids": ["252304", "252305", "252306"]
+    },
+    {
+      "columnName": "Eduskuntatunnus",
+      "columnValue": "KKV 1/2023 vp",
+      "perPage": 100,
+      "page": 0,
+      "fixture": "vaski_kkv1_2023_rows.json",
+      "fixture_sha256": "61d5f51dfdf485da2f347e2c20c14209d88200a61e144944927425670cf9612f",
+      "row_ids": ["252633"]
+    }
+  ],
+  "source_records": 4,
+  "normalized_objects": [
+    {"object_id": "eduskunta:KK 1/2023 vp", "kind": "WRITTEN_QUESTION"},
+    {"object_id": "eduskunta:KKV 1/2023 vp", "kind": "GOVERNMENT_ANSWER"}
+  ],
+  "date_note": "The question action date is the Vaski JATTO/VIREILLETULO event on 2023-04-20; publication metadata is not used as a filing date.",
+  "answer_note": "The VASTKK event records an institutional response on 2023-05-09; it does not establish policy implementation or an outcome."
+}

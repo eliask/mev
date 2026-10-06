@@ -1,0 +1,159 @@
+[
+  {
+    "case_id": "person-miko-bergbom-sastamala-request-2023",
+    "source_episode_id": "public-beta-person-miko-bergbom-sastamala-request-2023",
+    "canonical_statement_id": "yle2023-1029-3",
+    "canonical_target_scope": "CITY_COUNCIL_COMPONENT_REQUEST_ONLY",
+    "source_versions": {
+      "bergbom-promise-2023-03": "efa7f56b4a659ecbfc47ce3ed2cc84a8dacf2ffe0d52a4bc266b727dedecc3a5",
+      "bergbom-election-role-2023": "9c2faa7dafa5c6087b73e6b95d996bd60df78b64e75af436baf766d9f3ced092",
+      "alueviesti-request-2023-04-27": "c9dedc9c726df47041795793d433789c4c1858ebf0c0c6b842b7edcbc833f441",
+      "yle-request-2023-04-11": "8913cc166214666e00b3218ee8d9f910c4f873e357f8c220986e701b52c92dd5",
+      "sastamala-council-membership-2024-12-09": "854e1dc39770ea454f4e842cd3f64d2e4e6f19ac1e34cf11819b47b719cb04e5"
+    },
+    "title": "Bergbomin Sastamalan valtuustopaikan pyyntö: julkinen lead, päätös avoinna",
+    "question_id": "q-public-beta-person-miko-bergbom-sastamala-request",
+    "question": {
+      "text": "Mitä Miko Bergbomin Sastamalan kaupunginvaltuustoa koskevasta vaalilupauksesta voidaan osoittaa ilman että eropyyntö sekoitetaan valtuuston lopulliseen päätökseen?",
+      "scope": "Ylen vuoden 2023 ehdollinen lupaus, virallinen vaalitulos, 11.4. ja 27.4.2023 julkaistut toissijaiset eropyyntöraportit sekä Sastamalan 9.12.2024 virallinen osallistujatieto. Lähdeketju ei sisällä vuoden 2023 kaupunginhallituksen tai kaupunginvaltuuston alkuperäistä päätösasiakirjaa.",
+      "answer_standard": "Erota lupaus, eduskuntaan valinta, pyyntö, päätösprosessi ja myöhempi jäsenyystieto. Nimeä Alueviesti ja Yle toissijaisiksi raporttilähteiksi. Älä väitä Sastamalan kaupunginvaltuuston myöntöä, päätöspäivää, Auliksen vaihtumisen syytä tai koko lupauksen toteutumista.",
+      "period": "2023-03-01–2024-12-09",
+      "target_scope": "CITY_COUNCIL_COMPONENT_REQUEST_ONLY"
+    },
+    "quotes": [
+      {
+        "key": "original_promise",
+        "record_id": "bergbom-promise-2023-03",
+        "quote": "Mikäli valitset minut eduskuntaan edustamaan Suomea ja suomalaisia, jätän paikkani sekä aluevaltuustossa että kaupunginvaltuustossa."
+      },
+      {
+        "key": "election_role_projection",
+        "record_id": "bergbom-election-role-2023",
+        "quote": "Miko Bergbom · Pirkanmaa · ehdokasnumero 149 · valittu 2023",
+        "quote_kind": "STRUCTURED_FIELD_PROJECTION",
+        "verbatim": false,
+        "note_fi": "Jäsennelty kenttäprojisointi jäädytetystä ehdokastietueesta; ei lähdeasiakirjan yhtenäinen alkuperäissanamuoto."
+      },
+      {
+        "key": "alue_request_2023-04-27",
+        "record_id": "alueviesti-request-2023-04-27",
+        "quote": "Sastamalassa Miko Bergbom (ps.) pyytää eroa valtuuston jäsenyydestä. Hänet valittiin eduskuntavaaleissa kansanedustajaksi."
+      },
+      {
+        "key": "alue_expected_successor_2023-04-27",
+        "record_id": "alueviesti-request-2023-04-27",
+        "quote": "Valtuustoon nousee perussuomalaisten valtuustoryhmän ensimmäinen varavaltuutettu Aulis Kulmala."
+      },
+      {
+        "key": "alue_pending_process_2023-04-27",
+        "record_id": "alueviesti-request-2023-04-27",
+        "quote": "Asia on kaupunginhallituksen käsiteltävänä ja lopulta valtuuston päätettävänä."
+      },
+      {
+        "key": "yle_intended_request_2023-04-11",
+        "record_id": "yle-request-2023-04-11",
+        "quote": "– Jätän eropyyntöni Pirkanmaan hyvinvointialueelle ja Sastamalan kunnanvaltuustolle lähipäivinä, Bergbom vastaa puhelimeen."
+      },
+      {
+        "key": "yle_council_decision_process_2023-04-11",
+        "record_id": "yle-request-2023-04-11",
+        "quote": "Bergbom ei ole aivan varma siitä, miten pyyntöön suhtaudutaan. Valtuustot käsittelevät eropyynnöt ja tekevät ratkaisun siitä, ovatko kansanedustajan tehtävät tarpeeksi hyvä peruste eroamiselle."
+      },
+      {
+        "key": "later_membership_2024-12-09",
+        "record_id": "sastamala-council-membership-2024-12-09",
+        "quote": "Kulmala Aulis — jäsen",
+        "quote_kind": "STRUCTURED_FIELD_PROJECTION",
+        "verbatim": false,
+        "note_fi": "Virallisen pöytäkirjan osallistujataulukosta muodostettu kenttäprojisointi; tämä ei ole vuoden 2023 vaihtopäätös eikä nimeä jäsenyyden alkamista."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Lupaus ja sen toteutumisedellytys",
+        "text": "Ylen ehdokaskatkelma lupaa ehdollisesti jättää sekä aluevaltuuston että kaupunginvaltuuston paikan, jos ehdokas valitaan eduskuntaan. Virallinen vaalitulosprojisointi osoittaa, että Miko Bergbom valittiin Pirkanmaalta vuonna 2023. Tämä avaa lupauksen ehdon, mutta ei vielä osoita kaupunginvaltuuston eroa.",
+        "quote_keys": [
+          "original_promise",
+          "election_role_projection"
+        ],
+        "rationale": "Kampanjalause ja vaalitulos pidetään erillään myöhemmästä eropyyntöraportista. Ehdon täyttyminen ei ole sama asia kuin luvattu toimielintoimi."
+      },
+      {
+        "dimension": "Sastamalan eropyyntö on dokumentoitu toissijaisessa raportissa",
+        "text": "Alueviestin 27.4.2023 julkaistu juttu raportoi, että Bergbom pyysi eroa Sastamalan valtuuston jäsenyydestä ja että Aulis Kulmala oli nousemassa tilalle. Tämä on uutislähteen kuvaus pyynnöstä ja odotetusta seuraajasta, ei Sastamalan kaupunginvaltuuston pöytäkirjasta.",
+        "quote_keys": [
+          "alue_request_2023-04-27",
+          "alue_expected_successor_2023-04-27"
+        ],
+        "rationale": "Lähteen publisher, julkaisupäivä ja source_projection säilyvät packetissa. Väite rajataan siihen, mitä toissijainen artikkeli raportoi."
+      },
+      {
+        "dimension": "Raportit erottavat pyynnön lopullisesta päätöksestä",
+        "text": "Ylen 11.4.2023 haastattelussa Bergbom ilmoitti jättävänsä eropyynnön, ja samassa katkelmassa todetaan valtuustojen tekevän ratkaisun. Alueviestin 27.4.2023 jutussa asia kuvataan kaupunginhallituksen käsiteltäväksi ja lopulta valtuuston päätettäväksi. Näistä lähteistä ei pidä päätellä, että valtuusto oli jo myöntänyt eron.",
+        "quote_keys": [
+          "yle_intended_request_2023-04-11",
+          "yle_council_decision_process_2023-04-11",
+          "alue_pending_process_2023-04-27"
+        ],
+        "rationale": "Molemmat raportit ovat ajallisesti ennen mahdollista kaupungin lopullista päätöstä ja käyttävät pyyntöä/prosessia kuvaavaa kieltä. Niitä ei muuteta päätösasiakirjaksi."
+      },
+      {
+        "dimension": "Aulis Kulmala näkyy myöhemmin virallisena jäsenenä",
+        "text": "Sastamalan kaupunginvaltuuston 9.12.2024 osallistujanäkymässä Aulis Kulmala on merkitty jäseneksi. Tämä vahvistaa myöhemmän jäsenyyden tässä kokouksessa, mutta ei osoita milloin paikka vaihtui, millä päätöksellä tai seurasiko vaihto Bergbomin eropyyntöä.",
+        "quote_keys": [
+          "later_membership_2024-12-09"
+        ],
+        "rationale": "Myöhempi virallinen osallistujatieto on ajallisesti erillinen ja rakenteinen. Se ei sisällä vuoden 2023 päätöksen asia-, pykälä- tai täydennysvaalitietoa."
+      },
+      {
+        "dimension": "Kaupunginvaltuuston lopullinen tulos jää avoimeksi",
+        "text": "Tämä lähdepaketti osoittaa ehdollisen lupauksen, eduskuntaan valinnan, Sastamalan eropyyntöä koskevan uutisraportin ja myöhemmän Aulis Kulmalan jäsenyystiedon. Se ei sisällä Sastamalan kaupunginhallituksen käsittelyä eikä kaupunginvaltuuston lopullista päätöstä, joten kaupungin komponenttia ei voi merkitä myönnetyksi, kiistatta täytetyksi tai rikotuksi.",
+        "quote_keys": [
+          "alue_pending_process_2023-04-27",
+          "later_membership_2024-12-09"
+        ],
+        "rationale": "Tuntematon rajataan puuttuvaan päätösasiakirjaan; myöhempi jäsenyys ei täytä tätä aukkoa eikä siitä johdeta syy-yhteyttä."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mikä oli Sastamalan kaupunginhallituksen käsittely ja kaupunginvaltuuston lopullinen päätös?",
+        "missing_evidence": "Tarvitaan vuoden 2023 virallinen esityslista/pöytäkirja tai allekirjoitettu päätös, jossa asia, päätöspäivä ja mahdollinen täydennysvaali yksilöidään."
+      },
+      {
+        "question": "Milloin Aulis Kulmala tuli juuri tälle paikalle, ja millä päätöksellä?",
+        "missing_evidence": "9.12.2024 osallistujatieto osoittaa jäsenyyden vain tuona kokouspäivänä; tarvitaan jäseneksi kutsumisen tai vaalin alkuperäinen pöytäkirjakohta."
+      },
+      {
+        "question": "Toteutuiko koko kaksiosainen lupaus?",
+        "missing_evidence": "Aluevaltuuston komponentin erillinen virallinen myöntö on vanhassa tapauksessa varmennettu, mutta Sastamalan kaupunginvaltuuston lopullinen ratkaisu puuttuu tästä successor-paketista."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-08",
+    "method": "AI_SOURCE_READING",
+    "review_state": "RESEARCH_ONLY",
+    "source_rights_disclosure": [
+      {
+        "record_id": "bergbom-promise-2023-03",
+        "notice": "Vain lupauslauseen projisointi; koko Ylen kampanjalähdettä ei levitetä."
+      },
+      {
+        "record_id": "bergbom-election-role-2023",
+        "notice": "Virallisen ehdokastietueen jäsennelty kenttäprojisointi, ei lähteen yhtenäinen alkuperäislainaus."
+      },
+      {
+        "record_id": "alueviesti-request-2023-04-27",
+        "notice": "Vain lyhyt toissijainen lähdeprojisointi; suora tallennus palautti 403-sivun ja oikeudet koko artikkelin levitykseen ovat vahvistamatta."
+      },
+      {
+        "record_id": "yle-request-2023-04-11",
+        "notice": "Vain lyhyt Ylen tekstikatkelma; koko artikkelia ei levitetä."
+      },
+      {
+        "record_id": "sastamala-council-membership-2024-12-09",
+        "notice": "Lyhyt virallisen osallistujataulukon kenttäprojisointi ja lähdeviite."
+      }
+    ],
+    "selection_basis": "Uusi successor-tapaus laajentaa vanhaa Pirkanmaan aluevaltuuston osittaista jäljitystä vain Sastamalan komponentin pyynnön ja prosessin osalta. Alueviesti kertoo 27.4.2023 pyynnöstä, odotetusta seuraajasta ja siitä, että asia oli vielä kaupungin päätettävänä. Yle tukee pyyntövaiheen ajallista eroa, ja Sastamalan virallinen 9.12.2024 osallistujatieto antaa myöhemmän jäsenyyskontekstin. Alkuperäinen kaupunginvaltuuston päätös jäi tässä tarkistuksessa tavoittamatta; siksi paketti on tutkimus-/successor-tapaus eikä koko lupauksen lopputulos."
+  }
+]

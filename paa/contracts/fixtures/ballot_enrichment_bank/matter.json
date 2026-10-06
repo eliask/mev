@@ -1,0 +1,40 @@
+{
+  "schema_version": "paa.matter.fixture.v1",
+  "matter": {
+    "matter_id": "HE 9/2099 vp"
+  },
+  "vote_sources": [
+    {
+      "event_id": "90001",
+      "title": "Good vote",
+      "rows": [
+        {
+          "person_id": "1",
+          "response": "JAA"
+        },
+        {
+          "person_id": "2",
+          "response": "EI"
+        },
+        {
+          "person_id": "3",
+          "response": "POISSA"
+        }
+      ]
+    },
+    {
+      "event_id": "90002",
+      "title": "Bad vote",
+      "rows": [
+        {
+          "person_id": "1",
+          "response": "JAA"
+        },
+        {
+          "person_id": "2",
+          "response": "EI"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "captured_at": "2026-10-07",
+  "case": {
+    "as_of": "2026-10-07",
+    "legal_address": "chapter:2/section:11",
+    "source_note": "Captured from the local LawVM Finlex farchive; source hashes are raw archive bytes, not generated text.",
+    "statute_id": "2003/1281",
+    "subject": "Käyttövoimavero (diesel included in § 11 rates)",
+    "title": "Ajoneuvoverolaki"
+  },
+  "commands": [
+    "UV_CACHE_DIR=/tmp/uv-cache uv run lawvm provision-state 2003/1281 --provision chapter:2/section:11 --as-of 2026-10-07",
+    "UV_CACHE_DIR=/tmp/uv-cache uv run lawvm oracle-text 2003/1281 --section chapter:2/section:11 --json --no-hints",
+    "UV_CACHE_DIR=/tmp/uv-cache uv run lawvm reconcile 2003/1281 chapter:2/section:11 --as-of 2026-10-07 --json"
+  ],
+  "captured_cli_artifacts": [
+    {
+      "plane": "replay",
+      "capture_role": "lawvm_cli_stdout_json_bytes_sha256",
+      "stdout_sha256": "215de7dc5938e408376af7e4cbcde13eb24eef3ce195d6e4959676e4ee3ff093"
+    },
+    {
+      "plane": "oracle",
+      "capture_role": "lawvm_cli_stdout_json_bytes_sha256",
+      "stdout_sha256": "7d46602e71e2a0de0050198cc34927cf1b1c7733c124ec0372eaba629c7e50b0"
+    },
+    {
+      "plane": "reconcile",
+      "capture_role": "lawvm_cli_stdout_json_bytes_sha256",
+      "stdout_sha256": "759627124147d5afc19d08b844d19b6b798852a51f8640bdb3c07606c59f22fc"
+    }
+  ],
+  "fixture_kind": "real_lawvm_cli_capture",
+  "oracle": {
+    "coverage_possibly_stale": false,
+    "found": true,
+    "full_text": "11 § Käyttövoimavero Ajoneuvolle, jota käytetään muulla voimalla tai polttoaineella kuin moottoribensiinillä, määrätään käyttövoimaveroa. Käyttövoimaveron määrä päivää kohden on: 1) henkilöautosta (M1- ja M1G-luokka), kaksikäyttöautosta (N1-luokka) sekä ajoneuvosta, joka siihen tehtyjen katsastamattomien muutosten johdosta vastaa käyttötarkoitukseltaan lähinnä henkilöautoa, 5,5 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; 2) poiketen siitä, mitä 1 kohdassa säädetään, käyttövoimaveron määrä päivää kohden on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta: a) 1,9 senttiä, jos ajoneuvon käyttövoima on sähkö; b) 0,95 senttiä, jos ajoneuvon käyttövoima on sähkö ja moottoribensiini; c) 3,6 senttiä, jos ajoneuvon käyttövoima on sähkö ja dieselöljy; d) 3,1 senttiä, jos ajoneuvon käyttövoima on metaanista koostuva polttoaine; L:lla 814/2024 muutettu 2 kohta tuli voimaan 1.1.2025. Aiempi sanamuoto kuuluu: 2) poiketen siitä, mitä 1 kohdassa säädetään, käyttövoimaveron määrä päivää kohden on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta: a) 1,5 senttiä, jos ajoneuvon käyttövoima on sähkö; b) 0,5 senttiä, jos ajoneuvon käyttövoima on sähkö ja moottoribensiini; c) 4,9 senttiä, jos ajoneuvon käyttövoima on sähkö ja dieselöljy; d) 3,1 senttiä, jos ajoneuvon käyttövoima on metaanista koostuva polttoaine; 3) pakettiautosta (N1- ja N1G-luokka) ja huoltoautosta (M1-, N1-, N2-, N3-, M1G-, N1G-, N2G- ja N3G-luokka) 0,9 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; L:lla 815/2024 muutettu 3 kohta tuli voimaan 1.1.2025. Aiempi sanamuoto kuuluu: 3) pakettiautosta (N1- ja N1G-luokka), matkailuautosta (M1-luokka) ja huoltoautosta (M1-, N1-, N2-, N3-, M1G-, N1G-, N2G- ja N3G-luokka) 0,9 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; 4) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), jossa ei käytetä perävaunua, jokaiselta kokonaismassan alkavalta sadalta kilogrammalta 0,6 senttiä 12 000 kilogramman kokonaismassaan saakka ja jokaiselta tämän massan ylittävältä kokonaismassan alkavalta sadalta kilogrammalta 1,3 senttiä, jos ajoneuvossa on kaksi akselia; vero on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta 0,8 senttiä, jos ajoneuvossa on kolme akselia, 0,7 senttiä, jos ajoneuvossa on neljä akselia, ja 0,6 senttiä, jos ajoneuvossa on viisi akselia tai useampia; 5) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), joka on varustettu ja jota käytetään puoliperävaunun vetoon, 2,2 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta, jos ajoneuvossa on kaksi akselia, 1,3 senttiä, jos akseleita on kolme, 1,2 senttiä, jos akseleita on neljä, ja 1,0 senttiä, jos ajoneuvossa on viisi akselia tai useampia; 6) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), joka on varustettu ja jota käytetään varsinaisen tai keskiakseliperävaunun vetoon, 2,1 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta, jos ajoneuvossa on kaksi akselia, 1,4 senttiä, jos akseleita on kolme, 1,3 senttiä, jos akseleita on neljä, ja 1,2 senttiä, jos ajoneuvossa on viisi akselia tai useampia. Erikoisautona rekisterissä olevan ajoneuvon vero on sama kuin akseliluvultaan vastaavan M- tai N-luokan ajoneuvon vero. Erikoisauton ajoneuvoluokka määrätään tarkemmin niiden ajoneuvojen luokituksesta annettujen säännösten mukaan, joita sovellettaisiin, jos ajoneuvon rekisteriin merkittyä luokkaa tarkistettaisiin verokauden alkaessa. Kaksikäyttöautona pidetään N1-luokkaan kuuluvaa ajoneuvoa, joka on varustettu kuljettajan istuimen ja tämän vieressä olevien istuinten lisäksi muilla istuimilla tai niiden kiinnitykseen tarkoitetuilla laitteilla, lukuun ottamatta autoverolain (1482/1994) 24 §:n mukaisia tilapäiseen käyttöön tarkoitettuja istuimia, tai ennen 30 päivää syyskuuta 1998 voimassa olleiden tieliikennesäännösten mukaisesti pakettiautoon hyväksyttyjä istuimia. Kuorma-autoa, joka on varustettu perävaunun vetoautoksi, katsotaan käytettävän perävaunun vetoon, jollei muuta ilmoiteta. Jos perävaunun vetoon varustettua kuorma-autoa ei käytetä perävaunun vetoon, ajoneuvon omistajan tai haltijan on ilmoitettava siitä kuorma-auton ensi- ja uudelleenrekisteröinnin sekä liikennekäyttöön oton yhteydessä tai ennen perävaunun käytön lopettamista. Vastaavasti etukäteen on tehtävä ilmoitus, jos kuorma-autoa, josta on tehty perävaunun käytön lopettamisilmoitus, ryhdytään käyttämään perävaunun vetoon. Ilmoitus tehdään vahvistettua lomaketta käyttäen rekisteröintiä suorittavassa katsastustoimipaikassa tai Liikenne- ja viestintävirastolle. Poiketen siitä, mitä 1 momentissa säädetään, matkailuauton (M1-luokka) käyttövoimavero määrätään enintään 7 500 kilogramman kokonaismassaan saakka. L:lla 815/2024 lisätty 4 momentti tuli voimaan 1.1.2025.",
+    "full_text_length": 4747,
+    "locator": "finlex://sd-cons/2003/1281/fin@20240815/main.xml",
+    "oracle_cutoff_date": "2024-12-19",
+    "oracle_version_amendment_id": "2024/815",
+    "resolved_section": "section:11",
+    "section_filter": "chapter:2/section:11",
+    "statute_id": "2003/1281",
+    "subsection_count": 4,
+    "total_section_count": 72
+  },
+  "reconcile": {
+    "agree_ratio": 0.9133,
+    "as_of": "2026-10-07",
+    "divergence_class": "temporal",
+    "locator": "chapter:2/section:11",
+    "oracle": {
+      "available": true,
+      "basis": "structural",
+      "cutoff_date": "2024-12-19",
+      "oracle_version_amendment_id": "2024/815",
+      "version_markers": [
+        "19.12.2024/815"
+      ]
+    },
+    "query_type": "in_force",
+    "replay": {
+      "available": true,
+      "replay_status": "selected",
+      "source_amendment": "2024/815",
+      "version": {
+        "applicability": [],
+        "content_state": "live",
+        "effective": "2025-01-01",
+        "enacted": "2024-12-19",
+        "expires": "",
+        "variant_kind": "permanent"
+      }
+    },
+    "scope": "section",
+    "scope_note": null,
+    "selector": "chapter:2/section:11",
+    "statute_id": "2003/1281",
+    "verdict": "DISAGREE"
+  },
+  "replay": {
+    "base": {
+      "statute_id": "2003/1281",
+      "title": "Ajoneuvoverolaki"
+    },
+    "engine": {
+      "build_id": "git:82ac91ddac0b91685f7c92ff19ecc1dec437cce2+dirty",
+      "git_commit": "82ac91ddac0b91685f7c92ff19ecc1dec437cce2",
+      "git_dirty": "true",
+      "interface": "lawvm provision-state",
+      "producer": "lawvm",
+      "repository": "LawVM"
+    },
+    "hashes": {
+      "content_hash": "8a7920af1131922e045397accaa220d4ce651ecc9d4ac5bca579a90ebd2d37b7",
+      "content_hash_semantics": "sha256(irnode_to_text(content)); text-only; empty for absent/tombstone",
+      "derived_state_hash": "6a9e6dfd2e94805c82c11d5c47d4c009af3d971a3d796d4dcc588dbfa22625dc",
+      "derived_state_hash_semantics": "sha256(canonical lawvm.provision_state.v1 state: status, query, resolved address, lineage control fields, version temporal metadata, applicability, content_hash)",
+      "structured_content_hash": "dfbcdf68b0220145e1749af339f5aba58f9a8f347f1b2fc26e87eaa45dd4a927",
+      "structured_content_hash_semantics": "sha256(canonical IRNode.to_jsonable_dict(content)); structure+attrs+labels+text; empty for absent/tombstone; excluded from derived_state_hash"
+    },
+    "jurisdiction": "fi",
+    "provision_status": "selected",
+    "query": {
+      "as_of": "2026-10-07",
+      "provision": "chapter:2/section:11",
+      "query_type": "governing",
+      "statute_id": "2003/1281",
+      "territory": null
+    },
+    "resolved_address": {
+      "path": [
+        {
+          "kind": "chapter",
+          "label": "2"
+        },
+        {
+          "kind": "section",
+          "label": "11"
+        }
+      ],
+      "special": null,
+      "text": "chapter:2/section:11"
+    },
+    "schema": "lawvm.provision_state.v1",
+    "selection": {
+      "certificate": {
+        "address": {
+          "path": [
+            {
+              "kind": "chapter",
+              "label": "2"
+            },
+            {
+              "kind": "section",
+              "label": "11"
+            }
+          ],
+          "special": null,
+          "text": "chapter:2/section:11"
+        },
+        "as_of": "2026-10-07",
+        "candidate_count": 8,
+        "query_type": "governing",
+        "required_dimensions": [],
+        "selected_effective": "2025-01-01",
+        "selected_enacted": "2024-12-19",
+        "selected_rail": "background",
+        "territory": null
+      },
+      "required_dimensions": [],
+      "selection_status": "selected"
+    },
+    "source": {
+      "branch_id": "",
+      "commencement_source": "",
+      "effective": "2025-01-01",
+      "enacted": "2024-12-19",
+      "expires": "",
+      "scenario_id": "",
+      "statute_id": "2024/815",
+      "title": "Laki ajoneuvoverolain 11 §:n muuttamisesta"
+    },
+    "source_locator": {
+      "artifact_digest": "905b8d23943229c4521aecf74e6a7d9279a93c0fc5039454236c8829db896380",
+      "artifact_digest_algorithm": "sha256",
+      "artifact_kind": "operation_source_statute_xml",
+      "byte_span": [
+        3485,
+        4336
+      ],
+      "char_span": [
+        3480,
+        4321
+      ],
+      "detail": {
+        "artifact_digest": "905b8d23943229c4521aecf74e6a7d9279a93c0fc5039454236c8829db896380",
+        "artifact_digest_algorithm": "sha256",
+        "artifact_digest_status": "source_xml_bytes_sha256",
+        "byte_span": [
+          3485,
+          4336
+        ],
+        "byte_span_basis": "UTF-8 byte offsets derived from raw XML containing-element character span.",
+        "byte_span_status": "operation_source_raw_xml_text_container_sourceline_scan_utf8",
+        "char_span": [
+          3480,
+          4321
+        ],
+        "char_span_basis": "Raw Finlex operation-source XML decoded as UTF-8; exact raw quote did not occur, but normalized OperationSource.raw_text was contained in exactly one smallest XML element text surface. Span covers that containing XML element, or its nearest eId ancestor when the text container itself has no eId; when no eId ancestor exists, the span is balanced from the element source line and stable raw XML attributes. It does not cover exact quote bytes.",
+        "char_span_status": "operation_source_raw_xml_text_container_sourceline_scan",
+        "document_locator_status": "canonical_finlex_document_uri",
+        "hash_role": "excluded_from_derived_state_hash",
+        "locator_status": "operation_source_locator",
+        "operation_source_xml_quote_match_count": 0,
+        "operation_source_xml_span_status": "available",
+        "operation_source_xml_text_container_ancestor_steps": 4,
+        "operation_source_xml_text_container_candidate_count": 4,
+        "operation_source_xml_text_container_local_tag": "formula",
+        "operation_source_xml_text_container_match_count": 1,
+        "operation_source_xml_text_container_span_basis": "source_line_and_stable_attrs",
+        "precision": "document_plus_resolved_target_legal_address",
+        "selected_target_address": "chapter:2/section:11",
+        "source_witness": {
+          "artifact_byte_span": [
+            3485,
+            4336
+          ],
+          "artifact_char_span": [
+            3480,
+            4321
+          ],
+          "artifact_id": "2024/815",
+          "artifact_span_basis": "Raw Finlex operation-source XML decoded as UTF-8; exact raw quote did not occur, but normalized OperationSource.raw_text was contained in exactly one smallest XML element text surface. Span covers that containing XML element, or its nearest eId ancestor when the text container itself has no eId; when no eId ancestor exists, the span is balanced from the element source line and stable raw XML attributes. It does not cover exact quote bytes.",
+          "artifact_span_match_count": 1,
+          "artifact_span_status": "operation_source_raw_xml_text_container_sourceline_scan",
+          "bounded_preview": "muutetaan\n                         ajoneuvoverolain (\n                        1281/2003\n                        ) 11 §:n 1 momentin 3 kohta, sellaisena kuin se on laissa 943/2018, ja lisätään\n                         11 §:ään, sellaisena kuin se on laeissa 943/2018 ja 814/2024, uusi 4 momentti seuraavasti:",
+          "char_span_basis": "OperationSource.raw_text after boundary whitespace trimming",
+          "char_span_status": "operation_source_raw_text_char_span",
+          "digest": "905b8d23943229c4521aecf74e6a7d9279a93c0fc5039454236c8829db896380",
+          "digest_algorithm": "sha256",
+          "digest_witness": {
+            "digest": "905b8d23943229c4521aecf74e6a7d9279a93c0fc5039454236c8829db896380",
+            "digest_algorithm": "sha256"
+          },
+          "full_raw_text_char_span": [
+            0,
+            307
+          ],
+          "kind": "operation_source_raw_text",
+          "locator": "finlex://sd/2024/815/fin/main.xml",
+          "precision": "bounded_source_quote",
+          "preview_digest": "e664e9975d7af8df25cef29a21b9a008b81dd62004d47db076225bfa3b31e56c",
+          "preview_digest_algorithm": "sha256",
+          "preview_digest_witness": {
+            "digest": "e664e9975d7af8df25cef29a21b9a008b81dd62004d47db076225bfa3b31e56c",
+            "digest_algorithm": "sha256"
+          },
+          "quote": "muutetaan\n                         ajoneuvoverolain (\n                        1281/2003\n                        ) 11 §:n 1 momentin 3 kohta, sellaisena kuin se on laissa 943/2018, ja lisätään\n                         11 §:ään, sellaisena kuin se on laeissa 943/2018 ja 814/2024, uusi 4 momentti seuraavasti:",
+          "quote_char_span": [
+            0,
+            307
+          ],
+          "quote_hash": "e664e9975d7af8df25cef29a21b9a008b81dd62004d47db076225bfa3b31e56c",
+          "quote_hash_semantics": "sha256(trimmed full OperationSource.raw_text)",
+          "quote_truncated": false,
+          "source_lane": "finlex_source_xml",
+          "source_role": "operation_source_raw_text"
+        },
+        "source_witness_status": "operation_source_raw_text_available",
+        "target_address_authority": "resolved_replay_timeline_address",
+        "target_legal_address_kind": "lawvm_resolved_target",
+        "target_xpath_candidate": "//*[local-name()='body']/*[local-name()='chapter'][translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='2' or translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='2luku' or translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='ii' or translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='iiluku']/*[local-name()='section'][translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='11']",
+        "target_xpath_candidate_status": "finlex_structural_xpath_candidate",
+        "xpath": "unavailable",
+        "xpath_status": "unavailable_operation_source_target_not_xml_anchored"
+      },
+      "document_uri": "finlex://sd/2024/815/fin/main.xml",
+      "jurisdiction": "fi",
+      "normalization_policy": "finlex_statute_document_locator.v1",
+      "quote_hash": "e664e9975d7af8df25cef29a21b9a008b81dd62004d47db076225bfa3b31e56c",
+      "source_id": "finlex:operation_source_statute_xml:2024/815",
+      "statute_id": "2024/815",
+      "structural_path": "lawvm-target:chapter:2/section:11"
+    },
+    "source_locator_status": "canonical_document_locator",
+    "spec_version": "0.3",
+    "statute_id": "2003/1281",
+    "text": {
+      "available": true,
+      "rendered": "11 § Käyttövoimavero Ajoneuvolle, jota käytetään muulla voimalla tai polttoaineella kuin moottoribensiinillä, määrätään käyttövoimaveroa. Käyttövoimaveron määrä päivää kohden on: 1) henkilöautosta (M1- ja M1G-luokka), kaksikäyttöautosta (N1-luokka) sekä ajoneuvosta, joka siihen tehtyjen katsastamattomien muutosten johdosta vastaa käyttötarkoitukseltaan lähinnä henkilöautoa, 5,5 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; 2) poiketen siitä, mitä 1 kohdassa säädetään, käyttövoimaveron määrä päivää kohden on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta: a) 1,9 senttiä, jos ajoneuvon käyttövoima on sähkö; b) 0,95 senttiä, jos ajoneuvon käyttövoima on sähkö ja moottoribensiini; c) 3,6 senttiä, jos ajoneuvon käyttövoima on sähkö ja dieselöljy; d) 3,1 senttiä, jos ajoneuvon käyttövoima on metaanista koostuva polttoaine; 3) pakettiautosta (N1- ja N1G-luokka) ja huoltoautosta (M1-, N1-, N2-, N3-, M1G-, N1G-, N2G- ja N3G-luokka) 0,9 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; 4) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), jossa ei käytetä perävaunua, jokaiselta kokonaismassan alkavalta sadalta kilogrammalta 0,6 senttiä 12 000 kilogramman kokonaismassaan saakka ja jokaiselta tämän massan ylittävältä kokonaismassan alkavalta sadalta kilogrammalta 1,3 senttiä, jos ajoneuvossa on kaksi akselia; vero on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta 0,8 senttiä, jos ajoneuvossa on kolme akselia, 0,7 senttiä, jos ajoneuvossa on neljä akselia, ja 0,6 senttiä, jos ajoneuvossa on viisi akselia tai useampia; 5) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), joka on varustettu ja jota käytetään puoliperävaunun vetoon, 2,2 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta, jos ajoneuvossa on kaksi akselia, 1,3 senttiä, jos akseleita on kolme, 1,2 senttiä, jos akseleita on neljä, ja 1,0 senttiä, jos ajoneuvossa on viisi akselia tai useampia; 6) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), joka on varustettu ja jota käytetään varsinaisen tai keskiakseliperävaunun vetoon, 2,1 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta, jos ajoneuvossa on kaksi akselia, 1,4 senttiä, jos akseleita on kolme, 1,3 senttiä, jos akseleita on neljä, ja 1,2 senttiä, jos ajoneuvossa on viisi akselia tai useampia. Erikoisautona rekisterissä olevan ajoneuvon vero on sama kuin akseliluvultaan vastaavan M- tai N-luokan ajoneuvon vero. Erikoisauton ajoneuvoluokka määrätään tarkemmin niiden ajoneuvojen luokituksesta annettujen säännösten mukaan, joita sovellettaisiin, jos ajoneuvon rekisteriin merkittyä luokkaa tarkistettaisiin verokauden alkaessa. Kaksikäyttöautona pidetään N1-luokkaan kuuluvaa ajoneuvoa, joka on varustettu kuljettajan istuimen ja tämän vieressä olevien istuinten lisäksi muilla istuimilla tai niiden kiinnitykseen tarkoitetuilla laitteilla, lukuun ottamatta autoverolain (1482/1994) 24 §:n mukaisia tilapäiseen käyttöön tarkoitettuja istuimia, tai ennen 30 päivää syyskuuta 1998 voimassa olleiden tieliikennesäännösten mukaisesti pakettiautoon hyväksyttyjä istuimia. Kuorma-autoa, joka on varustettu perävaunun vetoautoksi, katsotaan käytettävän perävaunun vetoon, jollei muuta ilmoiteta. Jos perävaunun vetoon varustettua kuorma-autoa ei käytetä perävaunun vetoon, ajoneuvon omistajan tai haltijan on ilmoitettava siitä kuorma-auton ensi- ja uudelleenrekisteröinnin sekä liikennekäyttöön oton yhteydessä tai ennen perävaunun käytön lopettamista. Vastaavasti etukäteen on tehtävä ilmoitus, jos kuorma-autoa, josta on tehty perävaunun käytön lopettamisilmoitus, ryhdytään käyttämään perävaunun vetoon. Ilmoitus tehdään vahvistettua lomaketta käyttäen rekisteröintiä suorittavassa katsastustoimipaikassa tai Liikenne- ja viestintävirastolle. Poiketen siitä, mitä 1 momentissa säädetään, matkailuauton (M1-luokka) käyttövoimavero määrätään enintään 7 500 kilogramman kokonaismassaan saakka."
+    },
+    "title": "Ajoneuvoverolaki",
+    "version": {
+      "applicability": [],
+      "content_state": "live",
+      "effective": "2025-01-01",
+      "enacted": "2024-12-19",
+      "expires": "",
+      "variant_kind": "permanent"
+    }
+  },
+  "schema_version": "paa.lawvm_capture.v1",
+  "source_views": [
+    {
+      "locator": "finlex://sd/2024/815/fin/main.xml",
+      "plane": "replay",
+      "quote": "muutetaan\n                         ajoneuvoverolain (\n                        1281/2003\n                        ) 11 §:n 1 momentin 3 kohta, sellaisena kuin se on laissa 943/2018, ja lisätään\n                         11 §:ään, sellaisena kuin se on laeissa 943/2018 ja 814/2024, uusi 4 momentti seuraavasti:",
+      "quote_hash": "e664e9975d7af8df25cef29a21b9a008b81dd62004d47db076225bfa3b31e56c",
+      "quote_role": "operation_source_raw_text",
+      "raw_hash_role": "source_xml_bytes_sha256",
+      "raw_sha256": "905b8d23943229c4521aecf74e6a7d9279a93c0fc5039454236c8829db896380",
+      "record_locator": "lawvm-target:chapter:2/section:11",
+      "source_id": "finlex:operation_source_statute_xml:2024/815"
+    },
+    {
+      "locator": "finlex://sd-cons/2003/1281/fin@20240815/main.xml",
+      "plane": "oracle",
+      "quote": "11 § Käyttövoimavero Ajoneuvolle, jota käytetään muulla voimalla tai polttoaineella kuin moottoribensiinillä, määrätään käyttövoimaveroa. Käyttövoimaveron määrä päivää kohden on: 1) henkilöautosta (M1- ja M1G-luokka), kaksikäyttöautosta (N1-luokka) sekä ajoneuvosta, joka siihen tehtyjen katsastamattomien muutosten johdosta vastaa käyttötarkoitukseltaan lähinnä henkilöautoa, 5,5 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; 2) poiketen siitä, mitä 1 kohdassa säädetään, käyttövoimaveron määrä päivää kohden on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta: a) 1,9 senttiä, jos ajoneuvon käyttövoima on sähkö; b) 0,95 senttiä, jos ajoneuvon käyttövoima on sähkö ja moottoribensiini; c) 3,6 senttiä, jos ajoneuvon käyttövoima on sähkö ja dieselöljy; d) 3,1 senttiä, jos ajoneuvon käyttövoima on metaanista koostuva polttoaine; L:lla 814/2024 muutettu 2 kohta tuli voimaan 1.1.2025. Aiempi sanamuoto kuuluu: 2) poiketen siitä, mitä 1 kohdassa säädetään, käyttövoimaveron määrä päivää kohden on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta: a) 1,5 senttiä, jos ajoneuvon käyttövoima on sähkö; b) 0,5 senttiä, jos ajoneuvon käyttövoima on sähkö ja moottoribensiini; c) 4,9 senttiä, jos ajoneuvon käyttövoima on sähkö ja dieselöljy; d) 3,1 senttiä, jos ajoneuvon käyttövoima on metaanista koostuva polttoaine; 3) pakettiautosta (N1- ja N1G-luokka) ja huoltoautosta (M1-, N1-, N2-, N3-, M1G-, N1G-, N2G- ja N3G-luokka) 0,9 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; L:lla 815/2024 muutettu 3 kohta tuli voimaan 1.1.2025. Aiempi sanamuoto kuuluu: 3) pakettiautosta (N1- ja N1G-luokka), matkailuautosta (M1-luokka) ja huoltoautosta (M1-, N1-, N2-, N3-, M1G-, N1G-, N2G- ja N3G-luokka) 0,9 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta; 4) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), jossa ei käytetä perävaunua, jokaiselta kokonaismassan alkavalta sadalta kilogrammalta 0,6 senttiä 12 000 kilogramman kokonaismassaan saakka ja jokaiselta tämän massan ylittävältä kokonaismassan alkavalta sadalta kilogrammalta 1,3 senttiä, jos ajoneuvossa on kaksi akselia; vero on jokaiselta kokonaismassan alkavalta sadalta kilogrammalta 0,8 senttiä, jos ajoneuvossa on kolme akselia, 0,7 senttiä, jos ajoneuvossa on neljä akselia, ja 0,6 senttiä, jos ajoneuvossa on viisi akselia tai useampia; 5) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), joka on varustettu ja jota käytetään puoliperävaunun vetoon, 2,2 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta, jos ajoneuvossa on kaksi akselia, 1,3 senttiä, jos akseleita on kolme, 1,2 senttiä, jos akseleita on neljä, ja 1,0 senttiä, jos ajoneuvossa on viisi akselia tai useampia; 6) kuorma-autosta (N2-, N3-, N2G- ja N3G-luokka), joka on varustettu ja jota käytetään varsinaisen tai keskiakseliperävaunun vetoon, 2,1 senttiä jokaiselta kokonaismassan alkavalta sadalta kilogrammalta, jos ajoneuvossa on kaksi akselia, 1,4 senttiä, jos akseleita on kolme, 1,3 senttiä, jos akseleita on neljä, ja 1,2 senttiä, jos ajoneuvossa on viisi akselia tai useampia. Erikoisautona rekisterissä olevan ajoneuvon vero on sama kuin akseliluvultaan vastaavan M- tai N-luokan ajoneuvon vero. Erikoisauton ajoneuvoluokka määrätään tarkemmin niiden ajoneuvojen luokituksesta annettujen säännösten mukaan, joita sovellettaisiin, jos ajoneuvon rekisteriin merkittyä luokkaa tarkistettaisiin verokauden alkaessa. Kaksikäyttöautona pidetään N1-luokkaan kuuluvaa ajoneuvoa, joka on varustettu kuljettajan istuimen ja tämän vieressä olevien istuinten lisäksi muilla istuimilla tai niiden kiinnitykseen tarkoitetuilla laitteilla, lukuun ottamatta autoverolain (1482/1994) 24 §:n mukaisia tilapäiseen käyttöön tarkoitettuja istuimia, tai ennen 30 päivää syyskuuta 1998 voimassa olleiden tieliikennesäännösten mukaisesti pakettiautoon hyväksyttyjä istuimia. Kuorma-autoa, joka on varustettu perävaunun vetoautoksi, katsotaan käytettävän perävaunun vetoon, jollei muuta ilmoiteta. Jos perävaunun vetoon varustettua kuorma-autoa ei käytetä perävaunun vetoon, ajoneuvon omistajan tai haltijan on ilmoitettava siitä kuorma-auton ensi- ja uudelleenrekisteröinnin sekä liikennekäyttöön oton yhteydessä tai ennen perävaunun käytön lopettamista. Vastaavasti etukäteen on tehtävä ilmoitus, jos kuorma-autoa, josta on tehty perävaunun käytön lopettamisilmoitus, ryhdytään käyttämään perävaunun vetoon. Ilmoitus tehdään vahvistettua lomaketta käyttäen rekisteröintiä suorittavassa katsastustoimipaikassa tai Liikenne- ja viestintävirastolle. Poiketen siitä, mitä 1 momentissa säädetään, matkailuauton (M1-luokka) käyttövoimavero määrätään enintään 7 500 kilogramman kokonaismassaan saakka. L:lla 815/2024 lisätty 4 momentti tuli voimaan 1.1.2025.",
+      "quote_hash": "8bacb7a5db576e426a8ddf0bcea524daa85f5d6d743569a05e7d6d2b8dce2674",
+      "quote_role": "lawvm_oracle_text_view",
+      "raw_hash_role": "consolidated_oracle_xml_bytes_sha256",
+      "raw_sha256": "9cdd278e46b4b2fbe3bc0fd6f82caa99dc8b8836e6e6d041dc924d6771a87177",
+      "record_locator": "chapter:2/section:11",
+      "source_id": "finlex:consolidated_oracle:2003/1281"
+    }
+  ]
+}
