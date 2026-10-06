@@ -1,0 +1,25 @@
+{
+  "kind": "relation_review",
+  "row": {
+    "review_id": "review-initiative-arja-juvonen-2011-la72",
+    "statement_id": "yle2011-3823",
+    "proposition_id": "yle2011-3823-p3",
+    "object_id": "eduskunta:LA 72/2017 vp",
+    "matter_id": "LA 72/2017 vp",
+    "normalized_target": "Vanhuspalvelujen hoitajamitoituksen lakisääteinen vähimmäismäärä",
+    "relation": "SAME_POLICY_OBJECT",
+    "status": "SAME_POLICY_OBJECT",
+    "statement_sha256": "dc0f8da452d9afc44813264244576c7b8dc25291716b613d28b6dfb6ae2d2b5b",
+    "object_sha256": "6a45b419a39a5d8d81e8e769503f5f081aa7e981dcc8214ddaebd5f45d7d048e",
+    "statement_quote": "Pidän tärkeänä päästä vaikuttamaan syntyvään vanhuslakiin: siihen on kirjattava mm. hoitajavahvuus.Ihmisen hoidon arkikuvioiden, hoidon epäkohtien ja todellisuuden on aika myös päästä esiin.",
+    "object_quote": "Hoitajamitoituksessa havaitut epäkohdat, hoitajamitoituksen ailahtelevaisuus ja hoitajamitoituksen epätasapuolinen jakautuminen ovat syitä siihen, että vanhuspalvelulakia on ryhdyttävä täsmentämään hoitajamitoituksen osalta välittömästi.",
+    "reviewer": "paa-live-source-review-2026-10-06",
+    "rationale": "Matter LA 72/2017 vp and official first-signer person 1129 independently identify the later initiative. The reviewed quote is in the live proposition and live object text. This admits a related policy-object relation only; the 2017 action is outside the 2011–2015 campaign term and is not pledge fulfillment.",
+    "evidence_ids": [
+      "yle2011-3823-e",
+      "SRC-EDUSKUNTA-VASKI:1a577d27104e65f1:record",
+      "SRC-EDUSKUNTA-VASKI:ed6ec5f04f41428a:record"
+    ],
+    "action_alignment": "ALIGNED"
+  }
+}

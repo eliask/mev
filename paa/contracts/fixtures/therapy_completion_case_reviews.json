@@ -1,0 +1,185 @@
+[
+  {
+    "case_id": "therapy-2024-final-adopted-scope",
+    "source_episode_id": "therapy-final-2024-1107-1110",
+    "source_versions": {
+      "he-131-2024": "76667016de0a0e64f845a71c8a5be35f8660eede25a85b3dc3c8781b1e131b5d",
+      "stvm26-2024": "9c403d6bdba97e89e7557e085f389b1dac140d98719e65a307cf4e975b5310cc",
+      "act-1107-2024": "63fa44e8a32eae136293ceaa074ecea104d4fc36980d6320f6955af5d7327fdb",
+      "act-1108-2024": "32d3f5741d0a5ace0258b2b1803efb0e807af88a27be8633c26ae080ef3c5318",
+      "act-1109-2024": "0d8fc5b52c3be677895c94934de8bd6321eb369360c4bff0e1cad985b9a2cda8",
+      "act-1110-2024": "f53239abeebbd015bc28b90b8ad814b0d1e0eef10ce87b506eb0899358f4ea3e"
+    },
+    "title": "Terapiatakuu: mitä lopullisissa laeissa säädettiin?",
+    "question": {
+      "answer_standard": "Erottele ehdotettu ja hyväksytty sanamuoto; nimeä hoitoluokka, ikäraja, määräajan alkuehto, poikkeukset ja voimaantulo. Älä käsittele säädöstekstiä näyttönä palvelun toteutumisesta.",
+      "comparison": "proposal and committee record versus enacted legal text",
+      "evidence_needed": [
+        "complete HE 131/2024 source",
+        "complete StVM 26/2024 source",
+        "official enacted AKN text for laws 1107/2024–1110/2024"
+      ],
+      "period": "2024 enactments; commencement 2025-05-01",
+      "practical_use": "separate an adopted statutory rule from the proposal, institutional recommendation, and later service delivery.",
+      "question_id": "q-therapy-final-adopted-legal-text",
+      "scope": "HE 131/2024 vp, StVM 26/2024 vp and the four enacted Finlex AKN texts 1107/2024–1110/2024.",
+      "text": "Mitä lasten ja nuorten terapiatakuusta säädettiin lopullisissa laeissa HE 131/2024 vp:n käsittelyn jälkeen: mikä on terveydenhuollon 28 vuorokauden kellon alkuehto ja hoidon kohde, mikä sosiaalihuollon määräaika ja mitä muuta pakettiin sisältyy?",
+      "unknowns": [
+        "whether services were delivered on time",
+        "actual regional compliance",
+        "resource sufficiency and service effects",
+        "private negotiation or individual political causation"
+      ],
+      "valid_outputs": [
+        "exact adopted legal scope",
+        "clock/exception/commencement comparison",
+        "bounded legal-state answer"
+      ]
+    },
+    "quotes": [
+      {
+        "key": "proposal_health",
+        "record_id": "he-131-2024",
+        "quote": "Esityksen mukaan terveydenhuoltolakiin ja korkeakouluopiskelijoiden opiskeluterveydenhuollosta annettuun lakiin lisättäisiin säännös siitä, että perusterveydenhuollossa lyhytpsykoterapia tai psykologiseen vuorovaikutukseen perustuva määrämuotoinen ja aikarajoitteinen psykososiaalinen hoito olisi aloitettava 28 vuorokauden kuluessa siitä, kun tarve tällaiselle hoidolle on todettu, jolleivat lääketieteelliset, hoidolliset tai muut vastaavat seikat muuta edellytä."
+      },
+      {
+        "key": "proposal_start",
+        "record_id": "he-131-2024",
+        "quote": "Ehdotetut lait on tarkoitettu tulemaan voimaan 1.5.2025."
+      },
+      {
+        "key": "committee_clock",
+        "record_id": "stvm26-2024",
+        "quote": "Terapiatakuun piiriin kuuluvan psykososiaalisen hoidon tarve voidaan saadun selvityksen mukaan todeta asiakkaan ottaessa yhteyttä perusterveydenhuoltoon (51 §), mutta nämä tilanteet olisivat käytännössä varsin harvinaisia. Tyypillisemmin tarve todetaan ensimmäisen hoitotapahtuman yhteydessä (51 a §) tai tarve ilmenee myöhemmin hoidon aikana."
+      },
+      {
+        "key": "adopted_health_scope",
+        "record_id": "act-1107-2024",
+        "quote": "Lasten ja alle 23-vuotiaiden nuorten perusterveydenhuoltoon kuuluva lyhytpsykoterapia tai psykologiseen vuorovaikutukseen perustuva määrämuotoinen ja aikarajoitteinen psykososiaalinen hoito on aloitettava 28 vuorokauden kuluessa siitä, kun tarve tällaiselle hoidolle on todettu, jolleivat lääketieteelliset, hoidolliset tai muut vastaavat seikat muuta edellytä."
+      },
+      {
+        "key": "adopted_health_reporting",
+        "record_id": "act-1107-2024",
+        "quote": "Hyvinvointialueen on julkaistava kuukausittain yleisessä tietoverkossa edellistä kalenterikuukautta koskevat tunnusluvut siitä, miten 51, 51 a ja 51 b §:ssä sekä 53 §:n 1 momentissa säädettyjen enimmäisaikojen noudattaminen toteutui sekä neljän kuukauden välein siitä, miten 51 c ja 52 §:ssä sekä 53 §:n 2 ja 3 momentissa säädettyjen enimmäisaikojen noudattaminen toteutui."
+      },
+      {
+        "key": "adopted_social_scope",
+        "record_id": "act-1108-2024",
+        "quote": "Lisäksi lapsille ja alle 23-vuotiaille nuorille on mielenterveystyön palveluna järjestettävä hyvinvointialueen määrittämällä tavalla psykososiaalista tukea, jossa käytetään psykologiseen vuorovaikutukseen perustuvia määrämuotoisia ja aikarajoitteisia psykososiaalisia työmenetelmiä."
+      },
+      {
+        "key": "adopted_social_clock",
+        "record_id": "act-1108-2024",
+        "quote": "Poiketen siitä, mitä 2 momentissa säädetään, 25 a §:n 2 momentissa tarkoitettua lasten ja alle 23-vuotiaiden nuorten mielenterveystyön palvelua koskeva päätös on toimeenpantava kuukauden kuluessa tuen tarpeen toteamisesta. Aika voi olla tätä pidempi, jos asian selvittäminen erityisestä syystä vaatii pidempää käsittelyaikaa tai toimeenpanon viivästymiselle on muu asiakkaan tarpeeseen liittyvä erityinen peruste."
+      },
+      {
+        "key": "adopted_student",
+        "record_id": "act-1109-2024",
+        "quote": "Alle 23-vuotiaan korkeakouluopiskelijan perusterveydenhuoltoon kuuluva lyhytpsykoterapia tai psykologiseen vuorovaikutukseen perustuva määrämuotoinen ja aikarajoitteinen psykososiaalinen hoito on aloitettava 28 vuorokauden kuluessa siitä, kun tarve tällaiselle hoidolle on todettu, jolleivat lääketieteelliset, hoidolliset tai muut vastaavat seikat muuta edellytä."
+      },
+      {
+        "key": "adopted_free",
+        "record_id": "act-1110-2024",
+        "quote": "25 a §:n 2 momentissa tarkoitettu mielenterveystyön palveluna järjestettävä psykososiaalinen tuki"
+      },
+      {
+        "key": "effective_1107",
+        "record_id": "act-1107-2024",
+        "quote": "Tämä laki tulee voimaan 1 päivänä toukokuuta 2025."
+      },
+      {
+        "key": "effective_1108",
+        "record_id": "act-1108-2024",
+        "quote": "Tämä laki tulee voimaan 1 päivänä toukokuuta 2025."
+      },
+      {
+        "key": "effective_1109",
+        "record_id": "act-1109-2024",
+        "quote": "Tämä laki tulee voimaan 1 päivänä toukokuuta 2025."
+      },
+      {
+        "key": "effective_1110",
+        "record_id": "act-1110-2024",
+        "quote": "Tämä laki tulee voimaan 1 päivänä toukokuuta 2025."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Lopullinen säädöspaketti ja voimaantulo",
+        "text": "HE 131/2024 vp:n terapiatakuuta koskeva paketti toteutui neljänä alkuperäisenä säädöstekstinä: lait 1107/2024, 1108/2024, 1109/2024 ja 1110/2024. Kaikissa tähän pakettiin kuuluvissa Finlexin AKN-teksteissä voimaantuloksi ilmoitetaan 1.5.2025. Tämä osoittaa säädösten voimaantulopäivän, ei palvelujen tosiasiallista käynnistymistä tai määräaikojen noudattamista.",
+        "quote_keys": [
+          "effective_1107",
+          "effective_1108",
+          "effective_1109",
+          "effective_1110"
+        ],
+        "rationale": "Neljä erillistä Finlexin alkuperäistä säädöstekstiä on säilytetty omine lähdetunnisteineen, raakahasheineen ja täsmällisine voimaantulokatkelmineen. Säädöstekstiä ei tulkita palvelujen toteutumiseksi."
+      },
+      {
+        "dimension": "Terveydenhuollon 28 vuorokauden sääntö",
+        "text": "Lopullinen terveydenhuoltolain 53 § koskee lapsia ja alle 23-vuotiaita nuoria ja siinä nimettyä lyhytpsykoterapiaa tai psykologiseen vuorovaikutukseen perustuvaa määrämuotoista ja aikarajoitteista psykososiaalista hoitoa. Hoito on aloitettava 28 vuorokaudessa siitä, kun tällaisen hoidon tarve on todettu. Säännös ei aseta kelloa yleisesti ensimmäisestä yhteydenotosta, ja siinä säilyy lääketieteellisiin, hoidollisiin tai muihin vastaaviin seikkoihin perustuva poikkeus.",
+        "quote_keys": [
+          "adopted_health_scope",
+          "committee_clock"
+        ],
+        "rationale": "Hyväksytyn lain täsmällinen sanamuoto sitoo määräajan tarpeen toteamiseen, ei ensimmäiseen yhteydenottoon. Valiokunnan lähde erottaa nämä ajankohdat ja tukee varovaista kellotulkintaa; se ei laajenna säännöksen hoitoluokkaa."
+      },
+      {
+        "dimension": "Sosiaalihuollon määräaika ja sisältö",
+        "text": "Sosiaalihuoltolain 25 a §:n mukainen palvelu koskee lapsille ja alle 23-vuotiaille nuorille järjestettävää psykososiaalista tukea hyvinvointialueen määrittämällä tavalla ja määrämuotoisilla, aikarajoitteisilla psykososiaalisilla työmenetelmillä. Päätös on toimeenpantava kuukaudessa tuen tarpeen toteamisesta, mutta laissa on nimenomainen mahdollisuus pidempään aikaan erityisen selvitys- tai asiakastarpeen vuoksi.",
+        "quote_keys": [
+          "adopted_social_scope",
+          "adopted_social_clock"
+        ],
+        "rationale": "Lain 1108/2024 alkuperäinen säädösteksti sisältää sekä palvelun kohteen että toimeenpanon määräajan ja poikkeuslauseen."
+      },
+      {
+        "dimension": "Korkeakouluopiskelijat ja maksuttomuus",
+        "text": "Korkeakouluopiskelijoiden opiskeluterveydenhuoltolakiin lisätty 10 a § ulottaa vastaavan 28 vuorokauden säännön alle 23-vuotiaaseen korkeakouluopiskelijaan. Lisäksi laki 1110/2024 lisää terapiatakuun sosiaalihuollon psykososiaalisen tuen sosiaalipalvelujen maksuttomuuden piiriin.",
+        "quote_keys": [
+          "adopted_student",
+          "adopted_free"
+        ],
+        "rationale": "Kaksi erillistä alkuperäistä säädöstekstiä osoittaa opiskeluterveydenhuollon kohderajauksen ja sosiaalihuollon tuen maksuttomuusviittauksen. Näistä ei päätellä palvelujen tosiasiallista saatavuutta."
+      },
+      {
+        "dimension": "Ehdotuksesta säädökseksi",
+        "text": "Hallituksen esityksen terveydenhuollon ehdotus vastaa lopulliseen terveydenhuoltolain 53 §:ään kirjattua 28 vuorokauden perusrakennetta ja ehdotettua 1.5.2025 voimaantuloa. Lähdeketju osoittaa tässä rajatussa kohdassa siirtymän ehdotuksesta hyväksyttyyn sanamuotoon; se ei osoita yksittäisen toimijan henkilökohtaista syytä tai neuvottelujen syy-seuraussuhdetta.",
+        "quote_keys": [
+          "proposal_health",
+          "proposal_start",
+          "adopted_health_scope",
+          "effective_1107"
+        ],
+        "rationale": "Ehdotus ja alkuperäinen säädösteksti voidaan verrata suorilla lainauksilla. Yhtäläisyys dokumentoi tekstin jatkuvuutta, ei yksittäistä vaikuttajaa eikä palvelun toteutumista."
+      },
+      {
+        "dimension": "Säädös ei ole toimitustulos",
+        "text": "Tämä lähdepaketti vahvistaa hyväksytyn säädöstekstin, sen kohderajat, alkuehdot, poikkeukset ja voimaantulon. Se ei osoita, että hoito tai tuki aloitettiin määräajassa, että kaikilla alueilla oli tarvittavat resurssit tai että terapiatakuun tavoitteet tai vaikutukset toteutuivat.",
+        "quote_keys": [
+          "adopted_health_scope",
+          "adopted_social_clock",
+          "adopted_health_reporting"
+        ],
+        "rationale": "Säädöstekstit sisältävät normatiivisen velvoitteen ja seurannan julkaisukehyksen, mutta eivät yksilö- tai aluekohtaisia hoidon aloitushavaintoja, resurssitietoja tai vaikutusarvioita."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Noudatettiinko 28 vuorokauden ja kuukauden määräaikoja käytännössä 1.5.2025 jälkeen?",
+        "missing_evidence": "Tarvitaan hyvinvointialueiden, YTHS:n ja THL:n toteutuma- ja julkaisutiedot sekä niiden kattavuuden arvio."
+      },
+      {
+        "question": "Olivatko menetelmät, henkilöstö ja rahoitus riittäviä ja saavutettiinko tarkoitettu palveluvaikutus?",
+        "missing_evidence": "Tarvitaan toimeenpanon resurssi-, palvelu- ja vaikutusaineistoa; säädöstekstin voimaantulo ei vastaa toimitettua hoitoa."
+      },
+      {
+        "question": "Kuka yksittäinen toimija aiheutti lopullisen sanamuodon?",
+        "missing_evidence": "Asiakirjajoukko osoittaa ehdotuksen, valiokunta-asiakirjan ja hyväksytyn lain, mutta ei yksinään yksilöi yksittäistä neuvottelijaa tai kausaalista vaikutusta."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Aiemman terapiatakuun ehdotusvertailun avoin kysymys suljettiin hakemalla neljä alkuperäistä Finlexin AKN-säädöstekstiä. Katselupäivä 2026-10-07; tarkat raakabytet ja SHA-256-tiivisteet säilytetään source fixture -tietueissa. Tämä on suora lähdelukeminen, ei riippumaton ihmiskultatarkistus eikä toimeenpanon arvio."
+  }
+]

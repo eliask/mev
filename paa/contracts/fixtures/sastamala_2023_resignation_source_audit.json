@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-SASTAMALA-DYNASTY-2023",
+  "publisher": "Sastamalan kaupunki",
+  "public_archive": "https://sastamalad10.oncloudos.com//cgi/DREQUEST.PHP?page=meeting_frames",
+  "retrieved_at": "2026-10-06T00:00:00+00:00",
+  "target": "Miko Bergbom city-council resignation decision, 2023",
+  "status": "SOURCE_NOT_RETRIEVABLE_FROM_PUBLIC_ARCHIVE",
+  "attempts": [
+    {
+      "url": "https://sastamalad10.oncloudos.com//cgi/DREQUEST.PHP?page=meeting_frames",
+      "method": "GET",
+      "result": "Current public Dynasty listing exposes newer meetings; no 2023 Miko Bergbom decision was returned."
+    },
+    {
+      "url": "https://sastamalad10.oncloudos.com/kokous/2023318.PDF",
+      "method": "GET",
+      "result": "HTTP 404; indexed legacy PDF path no longer serves the record."
+    },
+    {
+      "url": "https://sastamalad10.oncloudos.com/cgi/DREQUEST.PHP?id=2023405-5&page=meetingitem",
+      "method": "GET",
+      "result": "Legacy item path returned a removed-server placeholder rather than the minutes."
+    }
+  ],
+  "known_meeting_date": "2023-05-15",
+  "primary_source_claim": null,
+  "safe_conclusion": "No Sastamala city-council resignation action is admitted from this audit. The Pirkanmaa regional-council grant remains a separately scoped positive action.",
+  "limitations": [
+    "This is a retrieval-failure audit, not evidence that no city-council decision existed.",
+    "No secondary report is promoted to an official action object.",
+    "A future archive export or municipal request is required before adjudicating the city-council component."
+  ]
+}

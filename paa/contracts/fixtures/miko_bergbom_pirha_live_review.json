@@ -1,0 +1,27 @@
+{
+  "kind": "relation_review",
+  "row": {
+    "review_id": "review-miko-pirha-live",
+    "statement_id": "yle2023-1029-3",
+    "proposition_id": "yle2023-1029-3-p1",
+    "object_id": "pirha-2023-9112-bergbom",
+    "matter_id": "9112/2023",
+    "normalized_target": "Pirkanmaan aluevaltuuston jäsenyydestä ja 2. varapuheenjohtajan tehtävästä eroaminen",
+    "target_scope": "PARTIAL_COMPONENT",
+    "bounded_claim": "Lähde osoittaa vain Miko Bergbomin eron Pirkanmaan aluevaltuuston jäsenyydestä ja 2. varapuheenjohtajan tehtävästä; Sastamalan kaupunginvaltuuston osaa ei ole tässä aineistossa varmennettu.",
+    "relation": "SAME_POLICY_OBJECT",
+    "status": "SAME_POLICY_OBJECT",
+    "action_alignment": "ALIGNED",
+    "statement_sha256": "2a927bcfa736d4914e05d9c8b004659b8e2e6fbeb6f232dd496f1ccb66992cf9",
+    "object_sha256": "fd3d0a3cf12b5ebc952c81d2c90ce4a09304cdc392bc40ac98c8f92c2ff70fb2",
+    "statement_quote": "Mikäli valitset minut eduskuntaan edustamaan Suomea ja suomalaisia, jätän paikkani sekä aluevaltuustossa että kaupunginvaltuustossa.",
+    "object_quote": "Aluevaltuusto päätti myöntää Miko Bergbomille eron aluevaltuuston jäsenyydestä ja aluevaltuuston 2. varapuheenjohtajan tehtävästä,",
+    "reviewer": "paa-live-primary-source-review-2026-10-06",
+    "rationale": "The final Pirkanmaa regional-council item verifies the regional-council component on 5.6.2023. The campaign names a second Sastamala city-council seat; that component is outside this source slice and is not inferred.",
+    "evidence_ids": [
+      "yle2023-1029-3-e",
+      "pirha-2023-9112-bergbom:request",
+      "pirha-2023-9112-bergbom:decision"
+    ]
+  }
+}

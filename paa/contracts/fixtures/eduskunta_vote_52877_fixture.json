@@ -1,0 +1,72 @@
+{
+  "schema_version": "paa.frozen_eduskunta_vote.v1",
+  "fixture_kind": "EDUSKUNTA_BALLOT_VOTE",
+  "source_id": "SRC-EDUSKUNTA-BALLOTS-52877",
+  "vote_id": "52877",
+  "metadata_fixture": {
+    "file": "eduskunta_vote_52877_meta.json",
+    "source_id": "SRC-EDUSKUNTA-VOTE-52877-META",
+    "url": "https://avoindata.eduskunta.fi/api/v1/tables/SaliDBAanestys/rows",
+    "request": {
+      "columnName": "AanestysId",
+      "columnValue": "52877",
+      "perPage": 100,
+      "page": 0
+    },
+    "raw_sha256": "270589cd5bc00905f3882b7c94e787c98862d6d47e90a46bdfb98d11809e2ab7",
+    "raw_bytes": 1667,
+    "row_count": 1,
+    "record_locator": "SaliDBAanestys.AanestysId=52877"
+  },
+  "ballot_source": {
+    "url": "https://avoindata.eduskunta.fi/api/v1/tables/SaliDBAanestysEdustaja/rows",
+    "record_locator": "SaliDBAanestysEdustaja.AanestysId=52877",
+    "request_template": {
+      "columnName": "AanestysId",
+      "columnValue": "52877",
+      "perPage": 100
+    },
+    "pages": [
+      {
+        "file": "eduskunta_vote_52877_page0.json",
+        "page": 0,
+        "raw_sha256": "b57e97ee0ab074d5cfabbbf3589efb168375b67f07f3e5ed15f7d4adcb284459",
+        "raw_bytes": 11465,
+        "row_count": 100,
+        "has_more": true
+      },
+      {
+        "file": "eduskunta_vote_52877_page1.json",
+        "page": 1,
+        "raw_sha256": "a6183d41a01b34b51543f8eb7859f7faa46890c3e9ae8d012cd8f64c790e6999",
+        "raw_bytes": 11420,
+        "row_count": 99,
+        "has_more": false
+      }
+    ]
+  },
+  "expected": {
+    "row_count": 199,
+    "unique_person_count": 199,
+    "published_totals": {
+      "JAA": 120,
+      "EI": 62,
+      "TYHJA": 0,
+      "POISSA": 17,
+      "TOTAL": 199
+    },
+    "mitatoity": 0,
+    "year": 2024,
+    "session_date": "2024-04-05",
+    "number": 3,
+    "matter": "KAA 1/2023 vp",
+    "title": "Lausumaehdotus, mietintö /Saara Hyrkkö"
+  },
+  "normalization_version": "eduskunta-ballot-v1",
+  "rights_status": "PUBLIC_SOURCE_REFERENCE",
+  "limitations": [
+    "This is one official vote and its complete 199-row ballot register, not a term-wide ballot fixture.",
+    "The normalized fixture does not infer a member's policy position from a raw ballot.",
+    "The official metadata and ballot pages are retained separately; the metadata row supplies the published totals and formal matter label."
+  ]
+}

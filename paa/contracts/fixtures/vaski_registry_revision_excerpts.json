@@ -1,0 +1,26 @@
+{
+  "source_id": "SRC-EDUSKUNTA-VASKI",
+  "source_url": "https://avoindata.eduskunta.fi/api/v1/tables/VaskiData/rows",
+  "retrieved_at": "2026-10-06T00:00:00+00:00",
+  "note": "Observed official API rows, retained as compact drift checkpoints. Raw XML bodies remain identified by hash; this fixture is not a substitute for those bodies.",
+  "matters": [
+    {
+      "matter_id": "LA 35/2025 vp",
+      "title": "Lakialoite laiksi rikoslain 25 luvun muuttamisesta",
+      "rows": [
+        {"id": "328404", "status": 5, "created": "2026-02-19 13:39:22", "raw_sha256": "536ec781b151f7d0a3ff2a93ba214ee440da1c0255647bfd23ec0698dd1b4fc1", "record_class": "CONTENT_REFERENCE", "record_quality": "REFERENCE_SHELL", "publication_date": "2025-12-19", "action_date": null, "text_length": 50},
+        {"id": "328293", "status": 5, "created": "2026-02-19 13:39:23", "raw_sha256": "975020d72bd31016de305ba2a48c782d966624f9d5c69e22b1b445a97d0414f7", "record_class": "CONTENT", "record_quality": "SUBSTANTIVE", "publication_date": "2026-02-03", "action_date": "2025-12-19", "action_date_basis": "SIGNATURE_DATE", "text_length": 9890},
+        {"id": "328294", "status": 5, "created": "2026-05-04 18:21:40", "raw_sha256": "f07fbc2abc2908eff237d8f96968050323e57b9faccde722845314a8bce2626d", "record_class": "PROCEDURAL", "record_quality": "PROCEDURAL", "publication_date": "2025-12-19", "action_date": "2025-12-19", "action_date_basis": "VIREILLETULO_EVENT", "text_length": 349}
+      ]
+    },
+    {
+      "matter_id": "LA 22/2025 vp",
+      "title": "Lakialoite laiksi eduskunnan turvatoimista",
+      "rows": [
+        {"id": "315482", "status": 5, "created": "2026-06-12 12:48:07", "raw_sha256": "bb483063922e388d93c0be7be0f8368afee0a8cc8bdcb174ab1af987282cac53", "record_class": "PROCEDURAL", "record_quality": "PROCEDURAL", "publication_date": "2025-09-25", "action_date": "2025-09-25", "action_date_basis": "VIREILLETULO_EVENT", "text_length": 1620},
+        {"id": "315481", "status": 5, "created": "2026-01-02 10:36:23", "raw_sha256": "cb9c1010ef21aec47bc146e07a8a6b7559b63980fc7a7572e3c3f0a36aa79497", "record_class": "CONTENT", "record_quality": "SUBSTANTIVE", "publication_date": "2026-01-02", "action_date": "2025-09-25", "action_date_basis": "SIGNATURE_DATE", "text_length": 115706},
+        {"id": "328313", "status": 5, "created": "2026-01-02 10:36:20", "raw_sha256": "2a1a065c6d3de028b2a03c2a58f65dc14bdb8c2e84bd61de04568455f5d6a31f", "record_class": "CONTENT_REFERENCE", "record_quality": "REFERENCE_SHELL", "publication_date": "2025-09-25", "action_date": null, "text_length": 42}
+      ]
+    }
+  ]
+}

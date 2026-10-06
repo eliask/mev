@@ -1,0 +1,69 @@
+[project]
+name = "mev"
+version = "0.1.0"
+description = "MeV CLI"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "aiohttp>=3.9",
+    "diskcache>=5.6",
+    "farchive",
+    "lxml>=5.1",
+    "httpx>=0.27",
+    "tenacity>=8.2",
+    "libvoikko>=0.5",
+    "matplotlib>=3.10.8",
+    "zstandard>=0.21",
+    "jsonschema>=4.21",
+]
+
+[project.scripts]
+mev = "mev.cli:main"
+paa = "paa.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mev", "paa"]
+
+[tool.uv]
+exclude-newer = "7 days"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9",
+    "pytest>=8.0",
+    "hypothesis>=6.100",
+    "pytest-asyncio>=0.23",
+    "ty>=0.0.28",
+]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 120
+
+[tool.ruff.lint]
+ignore = [
+    "E701",  # multiple statements on one line (guard clauses are intentional)
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+
+# The first maintained typed semantic boundary is deliberately narrow.  Keep
+# this include list aligned with the module's producer/consumer tests while
+# the rest of the historical package remains on the migration backlog.
+[tool.ty.src]
+include = ["paa/opportunity_records.py", "paa/opportunity_codec.py"]
+
+[tool.ty.rules]
+division-by-zero = "error"
+invalid-ignore-comment = "error"
+possibly-unresolved-reference = "error"
+unresolved-import = "error"
+unused-ignore-comment = "error"
+
+[tool.hypothesis]
+# Keep fast during normal runs; increase with --hypothesis-seed or profiles
+max_examples = 60

@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Multi-axis accountable finding v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "finding_id": {
+      "type": "string"
+    },
+    "finding_type": {
+      "enum": [
+        "RECORD",
+        "RELATION",
+        "TARGET_STATE",
+        "ACTION_CONGRUENCE",
+        "ROLE_DUTY",
+        "CAUSAL_EFFECT",
+        "EPISTEMIC"
+      ]
+    },
+    "proposition_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "plan_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "as_of": {
+      "type": "string"
+    },
+    "temporal_state": {
+      "enum": [
+        "NOT_DUE",
+        "DUE",
+        "EXPIRED",
+        "NO_DETERMINABLE_DEADLINE",
+        "NOT_APPLICABLE",
+        "UNKNOWN"
+      ]
+    },
+    "condition_state": {
+      "enum": [
+        "SATISFIED",
+        "NOT_SATISFIED",
+        "UNRESOLVED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "target_state": {
+      "enum": [
+        "MET",
+        "PARTLY_MET",
+        "UNMET",
+        "NOT_OBSERVABLE",
+        "DISPUTED",
+        "NOT_APPLICABLE",
+        "UNKNOWN"
+      ]
+    },
+    "action_congruence": {
+      "enum": [
+        "ALIGNED",
+        "CONTRARY",
+        "MIXED",
+        "INSUFFICIENT_EVIDENCE",
+        "NO_OBSERVABLE_OPPORTUNITY",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "attribution": {
+      "enum": [
+        "ACTOR_CONTROLLED_ACTION",
+        "DOCUMENTED_COLLECTIVE_CONTRIBUTION",
+        "CAUSAL_ESTIMATE_WITH_ASSUMPTIONS",
+        "UNASSIGNED"
+      ]
+    },
+    "supported_claim": {
+      "type": "string"
+    },
+    "support_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "counterevidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coverage_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "defeaters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "admission_state": {
+      "enum": [
+        "CANDIDATE",
+        "ADMITTED",
+        "CONTESTED",
+        "WITHHELD",
+        "RETRACTED"
+      ]
+    },
+    "admission_route": {
+      "enum": [
+        "NONE",
+        "DETERMINISTIC_VALIDATION",
+        "VALIDATED_AUTOMATIC_CLASS",
+        "INDEPENDENT_CASE_REVIEW"
+      ]
+    },
+    "validation_artifact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "causal_estimand": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "identification_assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "run_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "finding_id",
+    "finding_type",
+    "proposition_ids",
+    "actor_ids",
+    "plan_id",
+    "as_of",
+    "temporal_state",
+    "condition_state",
+    "target_state",
+    "action_congruence",
+    "attribution",
+    "supported_claim",
+    "support_evidence_ids",
+    "counterevidence_ids",
+    "coverage_ids",
+    "limitations",
+    "defeaters",
+    "admission_state",
+    "admission_route",
+    "validation_artifact_ids",
+    "causal_estimand",
+    "identification_assumptions",
+    "run_id"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "admission_state": {
+            "const": "ADMITTED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "support_evidence_ids": {
+            "minItems": 1
+          },
+          "validation_artifact_ids": {
+            "minItems": 1
+          },
+          "admission_route": {
+            "not": {
+              "const": "NONE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "finding_type": {
+            "const": "CAUSAL_EFFECT"
+          },
+          "admission_state": {
+            "const": "ADMITTED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "causal_estimand": {
+            "type": "string",
+            "minLength": 1
+          },
+          "identification_assumptions": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}

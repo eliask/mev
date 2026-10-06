@@ -1,0 +1,19 @@
+{
+  "source_id": "SRC-PIRHA-2023-7933",
+  "url": "https://pirha.cloudnc.fi/fi-FI/content/7933/12670",
+  "raw_sha256": "9ff99c9682c7d6c98b590402785a86f2d1c480f54d2eab911d66e36225fd07d5",
+  "raw_bytes": 82712,
+  "record_locator": "Pirkanmaan aluevaltuusto, kokous 05.06.2023, §54, content/7933/12670, Päätös",
+  "normalization_version": "html-visible-text-nfc-whitespace-1",
+  "title": "Aluevaltuuston jäsenen ja 2. varapuheenjohtajan vaihtuminen",
+  "matter_id": "9112/2023",
+  "request_date": "2023-04-07",
+  "request_quote": "Aluevaltuuston varsinainen jäsen Miko Bergbom on 7.4.2023 pyytänyt eroa aluevaltuuston jäsenyydestä ja aluevaltuuston 2. varapuheenjohtajan tehtävästä. Perusteluina hän on esittänyt kansanedustajan tehtävää. Eroanomus on liitteenä.",
+  "decision_date": "2023-06-05",
+  "decision_quote": "Aluevaltuusto päätti myöntää Miko Bergbomille eron aluevaltuuston jäsenyydestä ja aluevaltuuston 2. varapuheenjohtajan tehtävästä, että aluevaltuuston 2. varapuheenjohtajan vaali käsitellään pykälässä 55 Puheenjohtaja kutsui 1. varavaltuutettu Arto Grönroosin aluevaltuuston varsinaiseksi jäseneksi jäljellä olevaksi toimikaudeksi. Pykälä tarkastettiin kokouksessa.",
+  "actor_id": "mp-1514",
+  "actor_name": "Miko Bergbom",
+  "role": "Pirkanmaan hyvinvointialueen aluevaltuuston jäsen ja 2. varapuheenjohtaja",
+  "object_id": "pirha-2023-9112-bergbom",
+  "coverage_scope": "single_final_area_council_decision"
+}

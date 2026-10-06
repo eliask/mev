@@ -1,0 +1,344 @@
+{
+  "captured_at": "2026-10-07",
+  "captured_cli_artifacts": [
+    {
+      "capture_role": "lawvm_cli_stdout_json_bytes_sha256",
+      "plane": "replay",
+      "stdout_sha256": "f26d81828e06fcd4c5fcfaf456cd304aa039a4bfcbd4640958b0ee1ebf6e69a9"
+    },
+    {
+      "capture_role": "lawvm_cli_stdout_json_bytes_sha256",
+      "plane": "oracle",
+      "stdout_sha256": "810b1e3d041a399a18e243ff9f0a74659384079e78aec4dc8300b3e6c62c6ea4"
+    },
+    {
+      "capture_role": "lawvm_cli_stdout_json_bytes_sha256",
+      "plane": "reconcile",
+      "stdout_sha256": "510b7e29cec5c06ca0b3384df4b096caf58d71747865af388cef8195bdbce7ff"
+    }
+  ],
+  "case": {
+    "as_of": "2020-12-31",
+    "documentary_context": {
+      "episode_id": "mev-he4-2020-staffing",
+      "note": "This legal receipt covers the provision reconstruction/comparison only; the documentary packet remains separate.",
+      "question": "What did the institutional record change or preserve about a proposed staffing requirement and its monitoring?",
+      "question_id": "q-staffing-response",
+      "source_ids": [
+        "MEV-LEGISLATIVE:he:he-4-2020",
+        "MEV-LEGISLATIVE:committee_report:stvm18-2020",
+        "MEV-LEGISLATIVE:committee_report:pevl15-2020"
+      ]
+    },
+    "legal_address": "chapter:3/section:15a",
+    "source_note": "Captured from the local LawVM Finlex farchive; source hashes are raw archive bytes, not generated text.",
+    "statute_id": "2012/980",
+    "subject": "RAI-arviointivälineistön käyttäminen",
+    "title": "Laki ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista"
+  },
+  "commands": [
+    "UV_CACHE_DIR=/tmp/uv-cache uv run lawvm provision-state 2012/980 --provision chapter:3/section:15a --as-of 2020-12-31",
+    "UV_CACHE_DIR=/tmp/uv-cache uv run lawvm oracle-text 2012/980 --section chapter:3/section:15a --json --no-hints",
+    "UV_CACHE_DIR=/tmp/uv-cache uv run lawvm reconcile 2012/980 chapter:3/section:15a --as-of 2020-12-31 --json"
+  ],
+  "fixture_kind": "real_lawvm_cli_capture",
+  "oracle": {
+    "coverage_possibly_stale": false,
+    "found": true,
+    "full_text": "15 a § RAI-arviointivälineistön käyttäminen Hyvinvointialueen on käytettävä RAI-arviointivälineistöä iäkkään henkilön toimintakyvyn arvioinnissa, jos hän 15 §:n 1 momentissa tarkoitetun ammattihenkilön alustavan arvion mukaan tarvitsee säännöllisesti annettavia sosiaalipalveluja hoitonsa ja huolenpitonsa turvaamiseksi. Lisäksi hyvinvointialueen on huolehdittava, että RAI-arviointivälineistöä käytetään myös silloin, kun iäkäs henkilö saa edellä tarkoitettuja hyvinvointialueen järjestämiä palveluja ja hänen olosuhteissaan tapahtuu olennaisia muutoksia. RAI-arviointivälineistö kuuluu 15 §:n 3 momentissa tarkoitettuihin luotettaviin toimintakyvyn arviointivälineisiin. Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että hyvinvointialueilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön. Lisäksi Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että sopimusteksti sekä arviointivälineistön sisältö siltä osin, kuin sitä ei ole suojattu tekijänoikeudella, ovat julkisesti saatavilla suomeksi ja ruotsiksi.",
+    "full_text_length": 1082,
+    "locator": "finlex://sd-cons/2012/980/fin@20240742/main.xml",
+    "oracle_cutoff_date": "2024-12-05",
+    "oracle_version_amendment_id": "2024/742",
+    "resolved_section": "section:15a",
+    "section_filter": "chapter:3/section:15a",
+    "statute_id": "2012/980",
+    "subsection_count": 2,
+    "total_section_count": 34
+  },
+  "reconcile": {
+    "agree_ratio": 0.4522,
+    "as_of": "2020-12-31",
+    "divergence_class": "editorial",
+    "locator": "chapter:3/section:15a",
+    "oracle": {
+      "available": true,
+      "basis": "inline_unsegmented",
+      "cutoff_date": "2024-12-05",
+      "oracle_version_amendment_id": "2024/742",
+      "version_markers": []
+    },
+    "query_type": "in_force",
+    "replay": {
+      "available": true,
+      "replay_status": "selected",
+      "source_amendment": "2020/565",
+      "version": {
+        "applicability": [],
+        "content_state": "live",
+        "effective": "2020-10-01",
+        "enacted": "2020-07-09",
+        "expires": "",
+        "variant_kind": "permanent"
+      }
+    },
+    "scope": "section",
+    "scope_note": null,
+    "selector": "chapter:3/section:15a",
+    "statute_id": "2012/980",
+    "verdict": "DISAGREE"
+  },
+  "replay": {
+    "base": {
+      "statute_id": "2012/980",
+      "title": "Laki ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista"
+    },
+    "engine": {
+      "build_id": "git:82ac91ddac0b91685f7c92ff19ecc1dec437cce2+dirty",
+      "git_commit": "82ac91ddac0b91685f7c92ff19ecc1dec437cce2",
+      "git_dirty": "true",
+      "interface": "lawvm provision-state",
+      "producer": "lawvm",
+      "repository": "LawVM"
+    },
+    "hashes": {
+      "content_hash": "9e87809011268915c913023577fc9193db8ebf207015f53b9d130bf7b9e43ef1",
+      "content_hash_semantics": "sha256(irnode_to_text(content)); text-only; empty for absent/tombstone",
+      "derived_state_hash": "43e8cd1ef8dd7ea467dbddacc3a41f00ddac8a397d71c53ba982b28a738a2ccb",
+      "derived_state_hash_semantics": "sha256(canonical lawvm.provision_state.v1 state: status, query, resolved address, lineage control fields, version temporal metadata, applicability, content_hash)",
+      "structured_content_hash": "ed4b6cfe0f62dc0ad660e7c800d03fb01385bb43864d5918971da81f889f1b96",
+      "structured_content_hash_semantics": "sha256(canonical IRNode.to_jsonable_dict(content)); structure+attrs+labels+text; empty for absent/tombstone; excluded from derived_state_hash"
+    },
+    "jurisdiction": "fi",
+    "provision_status": "selected",
+    "query": {
+      "as_of": "2020-12-31",
+      "provision": "chapter:3/section:15a",
+      "query_type": "governing",
+      "statute_id": "2012/980",
+      "territory": null
+    },
+    "resolved_address": {
+      "path": [
+        {
+          "kind": "chapter",
+          "label": "3"
+        },
+        {
+          "kind": "section",
+          "label": "15a"
+        }
+      ],
+      "special": null,
+      "text": "chapter:3/section:15a"
+    },
+    "schema": "lawvm.provision_state.v1",
+    "selection": {
+      "certificate": {
+        "address": {
+          "path": [
+            {
+              "kind": "chapter",
+              "label": "3"
+            },
+            {
+              "kind": "section",
+              "label": "15a"
+            }
+          ],
+          "special": null,
+          "text": "chapter:3/section:15a"
+        },
+        "as_of": "2020-12-31",
+        "candidate_count": 1,
+        "query_type": "governing",
+        "required_dimensions": [],
+        "selected_effective": "2020-10-01",
+        "selected_enacted": "2020-07-09",
+        "selected_rail": "background",
+        "territory": null
+      },
+      "required_dimensions": [],
+      "selection_status": "selected"
+    },
+    "source": {
+      "branch_id": "",
+      "commencement_source": "",
+      "effective": "2020-10-01",
+      "enacted": "2020-07-09",
+      "expires": "",
+      "scenario_id": "",
+      "statute_id": "2020/565",
+      "title": "Laki ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain muuttamisesta"
+    },
+    "source_locator": {
+      "artifact_digest": "1c61506a5379afc516f049cd07903de5dfdad6e80cdc3ffe65d9609ed1b9c9bf",
+      "artifact_digest_algorithm": "sha256",
+      "artifact_kind": "operation_source_statute_xml",
+      "byte_span": [
+        3573,
+        4583
+      ],
+      "char_span": [
+        3562,
+        4544
+      ],
+      "detail": {
+        "artifact_digest": "1c61506a5379afc516f049cd07903de5dfdad6e80cdc3ffe65d9609ed1b9c9bf",
+        "artifact_digest_algorithm": "sha256",
+        "artifact_digest_status": "source_xml_bytes_sha256",
+        "byte_span": [
+          3573,
+          4583
+        ],
+        "byte_span_basis": "UTF-8 byte offsets derived from raw XML containing-element character span.",
+        "byte_span_status": "operation_source_raw_xml_text_container_sourceline_scan_utf8",
+        "char_span": [
+          3562,
+          4544
+        ],
+        "char_span_basis": "Raw Finlex operation-source XML decoded as UTF-8; exact raw quote did not occur, but normalized OperationSource.raw_text was contained in exactly one smallest XML element text surface. Span covers that containing XML element, or its nearest eId ancestor when the text container itself has no eId; when no eId ancestor exists, the span is balanced from the element source line and stable raw XML attributes. It does not cover exact quote bytes.",
+        "char_span_status": "operation_source_raw_xml_text_container_sourceline_scan",
+        "document_locator_status": "canonical_finlex_document_uri",
+        "hash_role": "excluded_from_derived_state_hash",
+        "locator_status": "operation_source_locator",
+        "operation_source_xml_quote_match_count": 0,
+        "operation_source_xml_span_status": "available",
+        "operation_source_xml_text_container_ancestor_steps": 4,
+        "operation_source_xml_text_container_candidate_count": 4,
+        "operation_source_xml_text_container_local_tag": "formula",
+        "operation_source_xml_text_container_match_count": 1,
+        "operation_source_xml_text_container_span_basis": "source_line_and_stable_attrs",
+        "precision": "document_plus_resolved_target_legal_address",
+        "selected_target_address": "chapter:3/section:15a",
+        "source_witness": {
+          "artifact_byte_span": [
+            3573,
+            4583
+          ],
+          "artifact_char_span": [
+            3562,
+            4544
+          ],
+          "artifact_id": "2020/565",
+          "artifact_span_basis": "Raw Finlex operation-source XML decoded as UTF-8; exact raw quote did not occur, but normalized OperationSource.raw_text was contained in exactly one smallest XML element text surface. Span covers that containing XML element, or its nearest eId ancestor when the text container itself has no eId; when no eId ancestor exists, the span is balanced from the element source line and stable raw XML attributes. It does not cover exact quote bytes.",
+          "artifact_span_match_count": 1,
+          "artifact_span_status": "operation_source_raw_xml_text_container_sourceline_scan",
+          "bounded_preview": "muutetaan\n                         ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain (\n                        980/2012\n                        ) 3 §:n 3 kohta sekä lisätään\n                         3 §:ään uusi 4–6 kohta, lakiin uusi 3 a § ja 15 a §, jolloin nykyinen 15 a § siirtyy 15 b §:ksi, sekä 20 §:ään uusi 2 ja 3 momentti, jolloin nykyinen 2 momentti siirtyy 4 momentiksi, seuraavasti:",
+          "char_span_basis": "OperationSource.raw_text after boundary whitespace trimming",
+          "char_span_status": "operation_source_raw_text_char_span",
+          "digest": "1c61506a5379afc516f049cd07903de5dfdad6e80cdc3ffe65d9609ed1b9c9bf",
+          "digest_algorithm": "sha256",
+          "digest_witness": {
+            "digest": "1c61506a5379afc516f049cd07903de5dfdad6e80cdc3ffe65d9609ed1b9c9bf",
+            "digest_algorithm": "sha256"
+          },
+          "full_raw_text_char_span": [
+            0,
+            450
+          ],
+          "kind": "operation_source_raw_text",
+          "locator": "finlex://sd/2020/565/fin/main.xml",
+          "precision": "bounded_source_quote",
+          "preview_digest": "3cb5442f4fc9417db3395aa1ffbafb5bc830c96f7e8570aaae87ae65a7867dfc",
+          "preview_digest_algorithm": "sha256",
+          "preview_digest_witness": {
+            "digest": "3cb5442f4fc9417db3395aa1ffbafb5bc830c96f7e8570aaae87ae65a7867dfc",
+            "digest_algorithm": "sha256"
+          },
+          "quote": "muutetaan\n                         ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain (\n                        980/2012\n                        ) 3 §:n 3 kohta sekä lisätään\n                         3 §:ään uusi 4–6 kohta, lakiin uusi 3 a § ja 15 a §, jolloin nykyinen 15 a § siirtyy 15 b §:ksi, sekä 20 §:ään uusi 2 ja 3 momentti, jolloin nykyinen 2 momentti siirtyy 4 momentiksi, seuraavasti:",
+          "quote_char_span": [
+            0,
+            450
+          ],
+          "quote_hash": "3cb5442f4fc9417db3395aa1ffbafb5bc830c96f7e8570aaae87ae65a7867dfc",
+          "quote_hash_semantics": "sha256(trimmed full OperationSource.raw_text)",
+          "quote_truncated": false,
+          "source_lane": "finlex_source_xml",
+          "source_role": "operation_source_raw_text"
+        },
+        "source_witness_status": "operation_source_raw_text_available",
+        "target_address_authority": "resolved_replay_timeline_address",
+        "target_legal_address_kind": "lawvm_resolved_target",
+        "target_xpath_candidate": "//*[local-name()='body']/*[local-name()='chapter'][translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='3' or translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='3luku' or translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='iii' or translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='iiiluku']/*[local-name()='section'][translate(normalize-space(string(*[local-name()='num'][1])), 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ §).', 'abcdefghijklmnopqrstuvwxyzåäö')='15a']",
+        "target_xpath_candidate_status": "finlex_structural_xpath_candidate",
+        "xpath": "unavailable",
+        "xpath_status": "unavailable_operation_source_target_not_xml_anchored"
+      },
+      "document_uri": "finlex://sd/2020/565/fin/main.xml",
+      "jurisdiction": "fi",
+      "normalization_policy": "finlex_statute_document_locator.v1",
+      "quote_hash": "3cb5442f4fc9417db3395aa1ffbafb5bc830c96f7e8570aaae87ae65a7867dfc",
+      "source_id": "finlex:operation_source_statute_xml:2020/565",
+      "statute_id": "2020/565",
+      "structural_path": "lawvm-target:chapter:3/section:15a"
+    },
+    "source_locator_status": "canonical_document_locator",
+    "spec_version": "0.3",
+    "statute_id": "2012/980",
+    "text": {
+      "available": true,
+      "rendered": "15 a § RAI-arviointivälineistön käyttäminen Kunnan on käytettävä RAI-arviointivälineistöä iäkkään henkilön toimintakyvyn arvioinnissa, jos hän 15 §:n 1 momentissa tarkoitetun ammattihenkilön alustavan arvion mukaan tarvitsee säännöllisesti annettavia sosiaalipalveluja hoitonsa ja huolenpitonsa turvaamiseksi. Lisäksi kunnan on huolehdittava, että RAI-arviointivälineistöä käytetään myös silloin, kun iäkäs henkilö saa edellä tarkoitettuja kunnan järjestämiä palveluja ja hänen olosuhteissaan tapahtuu olennaisia muutoksia. RAI-arviointivälineistö kuuluu 15 §:n 3 momentissa tarkoitettuihin luotettaviin toimintakyvyn arviointivälineisiin. Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että kunnilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön. Lisäksi Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että sopimusteksti sekä arviointivälineistön sisältö siltä osin, kuin sitä ei ole suojattu tekijänoikeudella, ovat julkisesti saatavilla suomeksi ja ruotsiksi."
+    },
+    "title": "Laki ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista",
+    "version": {
+      "applicability": [],
+      "content_state": "live",
+      "effective": "2020-10-01",
+      "enacted": "2020-07-09",
+      "expires": "",
+      "variant_kind": "permanent"
+    }
+  },
+  "schema_version": "paa.lawvm_capture.v1",
+  "source_artifacts": [
+    {
+      "artifact_kind": "finlex_operation_source_xml",
+      "capture_role": "full_finlex_source_xml_plus_selected_human_text",
+      "commencement": {
+        "date": "2023-04-01",
+        "date_basis": "explicit_entry_into_force_text",
+        "kind": "rai_use_latest_start",
+        "quote": "Tämä laki tulee voimaan 1 päivänä lokakuuta 2020. Lain 15 a §:ssä tarkoitetun arviointijärjestelmän käyttö on aloitettava viimeistään 1 päivänä huhtikuuta 2023. Edellä 20 §:n 2 momentissa säädettyä henkilöstömitoitusta sovelletaan 1 päivästä huhtikuuta 2023. Henkilöstömitoituksen on oltava 1 päivästä lokakuuta 2020 vähintään 0,5 työntekijää, 1 päivästä tammikuuta 2021 vähintään 0,55 työntekijää ja 1 päivästä tammikuuta 2022 vähintään 0,6 työntekijää asiakasta kohti."
+      },
+      "effective_date": "2020-10-01",
+      "enacted_date": "2020-07-09",
+      "human_text": "15 a § RAI-arviointivälineistön käyttäminen Kunnan on käytettävä RAI-arviointivälineistöä iäkkään henkilön toimintakyvyn arvioinnissa, jos hän 15 §:n 1 momentissa tarkoitetun ammattihenkilön alustavan arvion mukaan tarvitsee säännöllisesti annettavia sosiaalipalveluja hoitonsa ja huolenpitonsa turvaamiseksi. Lisäksi kunnan on huolehdittava, että RAI-arviointivälineistöä käytetään myös silloin, kun iäkäs henkilö saa edellä tarkoitettuja kunnan järjestämiä palveluja ja hänen olosuhteissaan tapahtuu olennaisia muutoksia. RAI-arviointivälineistö kuuluu 15 §:n 3 momentissa tarkoitettuihin luotettaviin toimintakyvyn arviointivälineisiin. Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että kunnilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön. Lisäksi Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että sopimusteksti sekä arviointivälineistön sisältö siltä osin, kuin sitä ei ole suojattu tekijänoikeudella, ovat julkisesti saatavilla suomeksi ja ruotsiksi.",
+      "human_text_role": "lawvm_replay_selected_provision_text",
+      "human_text_sha256": "9e87809011268915c913023577fc9193db8ebf207015f53b9d130bf7b9e43ef1",
+      "locator": "finlex://sd/2020/565/fin/main.xml",
+      "plane": "replay",
+      "raw_bytes": 20442,
+      "raw_hash_role": "source_xml_bytes_sha256",
+      "raw_sha256": "1c61506a5379afc516f049cd07903de5dfdad6e80cdc3ffe65d9609ed1b9c9bf",
+      "raw_text": "<akomaNtoso xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" xmlns:finlex=\"http://data.finlex.fi/schema/finlex\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <act contains=\"originalVersion\" name=\"main\">\n        <meta>\n            <identification source=\"#organization_fi.finlex\">\n                <FRBRWork>\n                    <FRBRthis value=\"/akn/fi/act/statute/2020/565/!main\"/>\n                    <FRBRuri value=\"/akn/fi/act/statute/2020/565\"/>\n                    <FRBRalias name=\"eli\" value=\"http://data.finlex.fi/eli/sd/2020/565/alkup\"/>\n                    <FRBRdate date=\"2020-07-09\" name=\"dateIssued\"/>\n                    <FRBRdate date=\"2020-07-13\" name=\"datePublished\"/>\n                    <FRBRauthor as=\"#role_author\" href=\"#organization_fi.parliament\"/>\n                    <FRBRcountry value=\"fi\"/>\n                    <FRBRsubtype value=\"statute\"/>\n                    <FRBRnumber value=\"565\"/>\n                    <FRBRprescriptive value=\"true\"/>\n                    <FRBRauthoritative value=\"true\"/>\n                </FRBRWork>\n                <FRBRExpression>\n                    <FRBRthis value=\"/akn/fi/act/statute/2020/565/fin@/!main\"/>\n                    <FRBRuri value=\"/akn/fi/act/statute/2020/565/fin@\"/>\n                    <FRBRalias name=\"eli\" value=\"http://data.finlex.fi/eli/sd/2020/565/alkup/fin\"/>\n                    <FRBRdate date=\"2020-07-09\" name=\"dateIssued\"/>\n                    <FRBRdate date=\"2020-07-13\" name=\"datePublished\"/>\n                    <FRBRauthor as=\"#role_author\" href=\"#organization_fi.parliament\"/>\n                    <FRBRlanguage language=\"fin\"/>\n                </FRBRExpression>\n                <FRBRManifestation>\n                    <FRBRthis value=\"/akn/fi/act/statute/2020/565/fin@/!main.xml\"/>\n                    <FRBRuri value=\"/akn/fi/act/statute/2020/565/fin@.akn\"/>\n                    <FRBRalias name=\"eli\" value=\"http://data.finlex.fi/eli/sd/2020/565/alkup/fin/xml\"/>\n                    <FRBRdate date=\"2025-02-21\" name=\"dateProduced\"/>\n                    <FRBRdate date=\"2020-07-13\" name=\"datePublished\"/>\n                    <FRBRauthor as=\"#role_editor\" href=\"#organization_fi.finlex\"/>\n                    <FRBRformat value=\"xml\"/>\n                </FRBRManifestation>\n            </identification>\n            <references source=\"#organization_fi.finlex\">\n                <TLCOrganization eId=\"organization_fi.finlex\" href=\"/akn/ontology/organization/fi.finlex\" showAs=\"Finlex\"/>\n                <TLCRole eId=\"role_author\" href=\"/akn/ontology/role/author\" showAs=\"Tekijä\"/>\n                <TLCRole eId=\"role_editor\" href=\"/akn/ontology/role/editor\" showAs=\"Toimittaja\"/>\n                <TLCConcept eId=\"act\" href=\"/akn/ontology/concept/statute/type-statute.act\" showAs=\"Laki\"/>\n                <TLCConcept eId=\"amending-statute\" href=\"/akn/ontology/concept/statute/category-statute.amending-statute\" showAs=\"Muutossäädös\"/>\n            </references>\n            <proprietary source=\"#organization_fi.finlex\">\n                <finlex:typeStatute refersTo=\"#act\"/>\n                <finlex:categoryStatute refersTo=\"#amending-statute\"/>\n                <finlex:documentYear>2020</finlex:documentYear>\n            </proprietary>\n        </meta>\n        <preface>\n            <p>\n                <docNumber>565/2020</docNumber>\n                <docTitle>Laki ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain muuttamisesta</docTitle>\n            </p>\n        </preface>\n        <preamble>\n            <formula name=\"enactingClause\">\n                <p>Eduskunnan päätöksen mukaisesti</p>\n                <blockContainer>\n                    <block name=\"substitutions\">\n                        <i>muutetaan</i>\n                         ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain (\n                        <affectedDocument href=\"/akn/fi/act/statute/2012/980\">980/2012</affectedDocument>\n                        ) 3 §:n 3 kohta sekä\n                    </block>\n                </blockContainer>\n                <blockContainer>\n                    <block name=\"insertions\">\n                        <i>lisätään</i>\n                         3 §:ään uusi 4–6 kohta, lakiin uusi 3 a § ja 15 a §, jolloin nykyinen 15 a § siirtyy 15 b §:ksi, sekä 20 §:ään uusi 2 ja 3 momentti, jolloin nykyinen 2 momentti siirtyy 4 momentiksi, seuraavasti:\n                    </block>\n                </blockContainer>\n            </formula>\n        </preamble>\n        <body>\n            <hcontainer finlex:outline=\"Säädöksen teksti\" name=\"statuteProvisionsWrapper\">\n                <chapter>\n                    <num>1 luku</num>\n                    <heading>Yleiset säännökset</heading>\n                    <section>\n                        <num>3 §</num>\n                        <heading>Määritelmät</heading>\n                        <subsection>\n                            <intro>\n                                <p>Tässä laissa tarkoitetaan:</p>\n                            </intro>\n                            <hcontainer name=\"omission\"/>\n                            <paragraph>\n                                <num>3) </num>\n                                <content>\n                                    <p>\n                                        <i>toimintayksiköllä</i>\n                                         julkisen tai yksityisen palveluntuottajan ylläpitämää toiminnallista kokonaisuutta, jossa tuotetaan sosiaali- tai terveyspalveluja pääasiassa iäkkäille henkilöille siten, että palvelut toteutetaan palveluntuottajan tiloissa tai iäkkään henkilön yksityiskodissa;\n                                    </p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>4) </num>\n                                <content>\n                                    <p>\n                                        <i>välittömällä asiakastyöllä</i>\n                                         hoitoa ja huolenpitoa sekä asiakkaan toimintakykyä ja kuntoutumista edistäviä ja ylläpitäviä tehtäviä, asiakasta koskevien tietojen kirjaamista, palvelutarpeen arviointia sekä hoito- ja palvelusuunnitelman laatimista ja päivittämistä;\n                                    </p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>5) </num>\n                                <content>\n                                    <p>\n                                        <i>välillisellä työllä</i>\n                                         huoneiden ja yhteisten tilojen siivousta, pyykki- ja kiinteistöhuoltoa, ruoan valmistusta ja lämmitystä, yksikön johtajan ja vastuuhenkilön esimies- ja hallinnollista työtä sekä muita vastaavia hoitoa ja huolenpitoa mahdollistavia tehtäviä;\n                                    </p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>6) </num>\n                                <content>\n                                    <p>\n                                        <i>RAI-arviointivälineistöllä</i>\n                                         arviointivälineistöä, jonka interRAI-niminen kansainvälinen sosiaali- ja terveysalan tutkijoiden ja ammattilaisten yhteistyöjärjestö on kehittänyt ja jonka käyttö perustuu lisenssisopimukseen, jolla on myönnetty Terveyden ja hyvinvoinnin laitokselle oikeus arviointivälineistön maksuttomaan käyttöön ja alilisenssointiin Suomessa toimiville palvelujen järjestäjille ja tuottajille.\n                                    </p>\n                                </content>\n                            </paragraph>\n                        </subsection>\n                    </section>\n                    <section>\n                        <num>3 a §</num>\n                        <heading>Välittömään asiakastyöhön osallistuvat henkilöt tehostetussa palveluasumisessa ja pitkäaikaisessa laitoshoidossa</heading>\n                        <subsection>\n                            <intro>\n                                <p>Iäkkäiden henkilöiden tehostetussa palveluasumisessa ja pitkäaikaisessa laitoshoidossa välittömään asiakastyöhön osallistuvia työntekijöitä ovat:</p>\n                            </intro>\n                            <paragraph>\n                                <num>1) </num>\n                                <content>\n                                    <p>sairaan- ja terveydenhoitajat;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>2) </num>\n                                <content>\n                                    <p>lähi- ja perushoitajat;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>3) </num>\n                                <content>\n                                    <p>geronomit;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>4) </num>\n                                <content>\n                                    <p>kodinhoitajat;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>5) </num>\n                                <content>\n                                    <p>sosiaalialan ohjaajat ja kasvattajat;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>6) </num>\n                                <content>\n                                    <p>sosionomi AMK -tutkinnon suorittaneet;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>7) </num>\n                                <content>\n                                    <p>soveltuvan ammatti- tai erikoisammattitutkinnon suorittaneet;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>8) </num>\n                                <content>\n                                    <p>soveltuvan opistoasteisen tutkinnon suorittaneet;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>9) </num>\n                                <content>\n                                    <p>fysio- ja toimintaterapeutit;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>10) </num>\n                                <content>\n                                    <p>kuntoutuksen ohjaajat;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>11) </num>\n                                <content>\n                                    <p>kotiavustajat, hoitoapulaiset ja hoiva-avustajat;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>12) </num>\n                                <content>\n                                    <p>viriketoiminnan ohjaajat ja muut vastaavat asiakkaan sosiaalisen toimintakyvyn ylläpitoon osallistuvat työntekijät;</p>\n                                </content>\n                            </paragraph>\n                            <paragraph>\n                                <num>13) </num>\n                                <content>\n                                    <p>toimintayksiköiden johtajat ja vastuuhenkilöt.</p>\n                                </content>\n                            </paragraph>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Välittömään asiakastyöhön osallistuvat myös työsopimussuhteessa toimintayksikköön olevat opiskelijat koulutusmuodosta riippumatta, jos heillä on opintojen kautta hankittu riittävä osaaminen suhteessa tutkinnon perusteisiin, ammattihenkilölainsäädännön edellyttämään osaamiseen sekä työpaikan osaamistarpeisiin.</p>\n                            </content>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Työvuoron henkilöstö ei saa koostua pelkästään 1 momentin 9–12 kohdassa tarkoitetuista työntekijöistä eikä 2 momentissa tarkoitetuista opiskelijoista. Työnantajan on huolehdittava, että toimintayksikössä on asiakkaiden tarpeisiin ja määrään nähden riittävä määrä sosiaali- ja terveydenhuollon ammattihenkilöitä jokaisessa työvuorossa.</p>\n                            </content>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Toimintayksikön työntekijä ei saa ilman lääkehoidon koulutusta osallistua lääkehoidon tehtäviin ja toteuttamiseen.</p>\n                            </content>\n                        </subsection>\n                    </section>\n                    <section>\n                        <num>15 a §</num>\n                        <heading>RAI-arviointivälineistön käyttäminen</heading>\n                        <subsection>\n                            <content>\n                                <p>Kunnan on käytettävä RAI-arviointivälineistöä iäkkään henkilön toimintakyvyn arvioinnissa, jos hän 15 §:n 1 momentissa tarkoitetun ammattihenkilön alustavan arvion mukaan tarvitsee säännöllisesti annettavia sosiaalipalveluja hoitonsa ja huolenpitonsa turvaamiseksi. Lisäksi kunnan on huolehdittava, että RAI-arviointivälineistöä käytetään myös silloin, kun iäkäs henkilö saa edellä tarkoitettuja kunnan järjestämiä palveluja ja hänen olosuhteissaan tapahtuu olennaisia muutoksia. RAI-arviointivälineistö kuuluu 15 §:n 3 momentissa tarkoitettuihin luotettaviin toimintakyvyn arviointivälineisiin.</p>\n                            </content>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että kunnilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön. Lisäksi Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että sopimusteksti sekä arviointivälineistön sisältö siltä osin, kuin sitä ei ole suojattu tekijänoikeudella, ovat julkisesti saatavilla suomeksi ja ruotsiksi.</p>\n                            </content>\n                        </subsection>\n                    </section>\n                    <section>\n                        <num>15 b §</num>\n                        <heading>Pitkäaikaisen laitoshoidon edellytysten selvittäminen</heading>\n                        <subsection>\n                            <content>\n                                <p>Ennen hoidon ja huolenpidon toteuttamista pitkäaikaisena laitoshoitona kunnan on selvitettävä 15 §:ssä tarkoitetulla tavalla mahdollisuudet vastata iäkkään henkilön palveluntarpeeseen hänen kotiinsa annettavilla ja muilla sosiaali- ja terveydenhuollon avopalveluilla.</p>\n                            </content>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Edellä 1 momentissa tarkoitettu selvitys on tehtävä myös silloin, kun iäkkään henkilön ympärivuorokautinen laitoshoito on jatkunut kolme kuukautta, eikä selvitystä ole aiemmin tehty.</p>\n                            </content>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Ratkaisu hoidon ja huolenpidon toteuttamisesta pitkäaikaisena laitoshoitona on perusteltava.</p>\n                            </content>\n                        </subsection>\n                    </section>\n                    <section>\n                        <num>20 §</num>\n                        <heading>Henkilöstö</heading>\n                        <hcontainer name=\"omission\"/>\n                        <subsection>\n                            <content>\n                                <p>Toteutuneen henkilöstömitoituksen tehostetun palveluasumisen ja pitkäaikaisen laitoshoidon toimintayksikössä, jolla on yhteiset toimitilat ja oma työvuorosuunnittelu ja joka toimii yhden esimiehen alaisuudessa, on oltava vähintään 0,7 työntekijää asiakasta kohti.</p>\n                            </content>\n                        </subsection>\n                        <subsection>\n                            <content>\n                                <p>Toteutunut henkilöstömitoitus tarkoittaa toimintayksikössä paikalla olevien välitöntä asiakastyötä tekevien 3 a §:ssä tarkoitettujen työntekijöiden työpanosta suhteessa toimintayksikössä kolmen viikon seurantajakson aikana olevien asiakkaiden määrään. Välillistä työtä ei oteta huomioon henkilöstömitoituksessa.</p>\n                            </content>\n                        </subsection>\n                        <hcontainer name=\"omission\"/>\n                    </section>\n                </chapter>\n            </hcontainer>\n            <hcontainer name=\"entryIntoForceStart\"/>\n            <hcontainer eId=\"entryIntoForce\" name=\"entryIntoForce\">\n                <content>\n                    <p>Tämä laki tulee voimaan 1 päivänä lokakuuta 2020.</p>\n                    <p>Lain 15 a §:ssä tarkoitetun arviointijärjestelmän käyttö on aloitettava viimeistään 1 päivänä huhtikuuta 2023.</p>\n                    <p>Edellä 20 §:n 2 momentissa säädettyä henkilöstömitoitusta sovelletaan 1 päivästä huhtikuuta 2023. Henkilöstömitoituksen on oltava 1 päivästä lokakuuta 2020 vähintään 0,5 työntekijää, 1 päivästä tammikuuta 2021 vähintään 0,55 työntekijää ja 1 päivästä tammikuuta 2022 vähintään 0,6 työntekijää asiakasta kohti.</p>\n                </content>\n            </hcontainer>\n            <hcontainer finlex:outline=\"Esityöt ja allekirjoitukset\" name=\"conclusions\">\n                <hcontainer finlex:outline=\"Esityöt\" name=\"preliminaryWork\">\n                    <content>\n                        <p>\n                            <ref href=\"/akn/fi/doc/government-proposal/2020/4\">HE 4/2020</ref>\n                        </p>\n                        <p>StVM 18/2020</p>\n                        <p>EV 90/2020</p>\n                    </content>\n                </hcontainer>\n                <hcontainer finlex:outline=\"Allekirjoitukset\" name=\"signatures\">\n                    <content>\n                        <p>Naantalissa 9 päivänä heinäkuuta 2020</p>\n                        <p>\n                            <signature>\n                                <role refersTo=\"\">Tasavallan Presidentti</role>\n                                <person refersTo=\"\">Sauli Niinistö</person>\n                            </signature>\n                            <signature>\n                                <role refersTo=\"\">Perhe- ja peruspalveluministeri</role>\n                                <person refersTo=\"\">Krista Kiuru</person>\n                            </signature>\n                        </p>\n                    </content>\n                </hcontainer>\n            </hcontainer>\n        </body>\n    </act>\n</akomaNtoso>\n",
+      "record_locator": "lawvm-target:chapter:3/section:15a",
+      "source_id": "finlex:operation_source_statute_xml:2020/565"
+    }
+  ],
+  "source_views": [
+    {
+      "locator": "finlex://sd/2020/565/fin/main.xml",
+      "plane": "replay",
+      "quote": "muutetaan\n                         ikääntyneen väestön toimintakyvyn tukemisesta sekä iäkkäiden sosiaali- ja terveyspalveluista annetun lain (\n                        980/2012\n                        ) 3 §:n 3 kohta sekä lisätään\n                         3 §:ään uusi 4–6 kohta, lakiin uusi 3 a § ja 15 a §, jolloin nykyinen 15 a § siirtyy 15 b §:ksi, sekä 20 §:ään uusi 2 ja 3 momentti, jolloin nykyinen 2 momentti siirtyy 4 momentiksi, seuraavasti:",
+      "quote_hash": "3cb5442f4fc9417db3395aa1ffbafb5bc830c96f7e8570aaae87ae65a7867dfc",
+      "quote_role": "operation_source_raw_text",
+      "raw_hash_role": "source_xml_bytes_sha256",
+      "raw_sha256": "1c61506a5379afc516f049cd07903de5dfdad6e80cdc3ffe65d9609ed1b9c9bf",
+      "record_locator": "lawvm-target:chapter:3/section:15a",
+      "source_id": "finlex:operation_source_statute_xml:2020/565"
+    },
+    {
+      "locator": "finlex://sd-cons/2012/980/fin@20240742/main.xml",
+      "plane": "oracle",
+      "quote": "15 a § RAI-arviointivälineistön käyttäminen Hyvinvointialueen on käytettävä RAI-arviointivälineistöä iäkkään henkilön toimintakyvyn arvioinnissa, jos hän 15 §:n 1 momentissa tarkoitetun ammattihenkilön alustavan arvion mukaan tarvitsee säännöllisesti annettavia sosiaalipalveluja hoitonsa ja huolenpitonsa turvaamiseksi. Lisäksi hyvinvointialueen on huolehdittava, että RAI-arviointivälineistöä käytetään myös silloin, kun iäkäs henkilö saa edellä tarkoitettuja hyvinvointialueen järjestämiä palveluja ja hänen olosuhteissaan tapahtuu olennaisia muutoksia. RAI-arviointivälineistö kuuluu 15 §:n 3 momentissa tarkoitettuihin luotettaviin toimintakyvyn arviointivälineisiin. Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että hyvinvointialueilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön. Lisäksi Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että sopimusteksti sekä arviointivälineistön sisältö siltä osin, kuin sitä ei ole suojattu tekijänoikeudella, ovat julkisesti saatavilla suomeksi ja ruotsiksi.",
+      "quote_hash": "8106b9bf280dc99a9cd3ede558529d9519e57c4a418dd7e52f6d67b03668e92b",
+      "quote_role": "lawvm_oracle_text_view",
+      "raw_hash_role": "consolidated_oracle_xml_bytes_sha256",
+      "raw_sha256": "0fd59a2d1c5e13b2fbd44cb21988e7bf16b8c2369788279acf9733c8fdc4416f",
+      "record_locator": "chapter:3/section:15a",
+      "source_id": "finlex:consolidated_oracle:2012/980"
+    }
+  ]
+}
+

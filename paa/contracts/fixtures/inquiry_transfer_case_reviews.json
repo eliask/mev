@@ -1,0 +1,302 @@
+[
+  {
+    "case_id": "climate-2024-duty-and-objective",
+    "source_episode_id": "mev-transfer-he151-2024-climate-law",
+    "source_versions": {
+      "he-151-2024": "c90f6b5b9337d70c499a31802e381136f1fe94118766e64479a8f3474da94312",
+      "ymvm8-2024": "0f9c0d211d623f74e8e0d6e612b32940da317ecad8ade13e5040c07a5a378387"
+    },
+    "title": "Kuntien ilmastotyö: mikä velvoite ehdotettiin poistettavaksi?",
+    "question": {
+      "text": "Tarkoittaako kuntien ilmastosuunnitelmavelvoitteen poistaminen tässä ehdotuksessa kaiken kuntien ilmastotyön tai ilmastolain tavoitteiden poistamista?",
+      "scope": "HE 151/2024 vp ja YmVM 8/2024 vp:n ensimmäinen VALIOKUNNAN PERUSTELUT -jakso. Ehdotettu sääntely ja kirjattu perustelu, ei voimassaolon tai päästövaikutuksen arvio.",
+      "answer_standard": "Ehdotuksen rajaus ja valiokunnan nimeämä vapaaehtoisen toiminnan jatkuminen alkuperäisistä katkelmista."
+    },
+    "quotes": [
+      {
+        "key": "scope",
+        "record_id": "he-151-2024",
+        "quote": "Ilmastolakia ehdotetaan muutettavaksi siten, että kunnan velvollisuus laatia ilmastosuunnitelma kumotaan. Ilmastolain 2 §:n mukaisia tavoitteita tai ilmastolain suunnittelujärjestelmää ei muutettaisi, ja valtion viranomaisia koskevat velvoitteet pysyisivät muuttumattomina."
+      },
+      {
+        "key": "voluntary",
+        "record_id": "ymvm8-2024",
+        "quote": "Vaikka velvoite laatia ilmastosuunnitelma poistuu, on tärkeää, että kunnat jatkavat ilmastotyötä haluamallaan tavalla vapaaehtoisesti ja tukevat sillä tavoin osaltaan ilmastolain tavoitteiden saavuttamista."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Velvoite, tavoite ja vapaaehtoinen toiminta",
+        "text": "Ehdotettu poisto koskee kunnan velvollisuutta laatia ilmastosuunnitelma. Esitys ilmoittaa säilyttävänsä ilmastolain tavoitteet ja valtion viranomaisten velvoitteet. Valiokunnan perustelu erottaa poistuvan suunnitelmavelvoitteen kuntien vapaaehtoisesta ilmastotyöstä. Tästä ei seuraa, että velvoitteen poistolla ei olisi vaikutuksia, tai että vapaaehtoinen työ korvaisi ne.",
+        "quote_keys": [
+          "scope",
+          "voluntary"
+        ],
+        "rationale": "Sama velvoitteen kohde nimetään kummassakin lähteessä. HE:n nimenomainen rajaus ja valiokunnan ensimmäisen perustelujakson lause eivät oikeuta poistamisen laajentamista kaikkiin ilmastotavoitteisiin tai ilmastotoimiin."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Miten velvoitteen poistaminen vaikutti kuntien työhön ja päästöihin?",
+        "missing_evidence": "Tarvitaan muutoksen soveltamistila, toteutushavainnot ja vertailu. Vapaaehtoisen työn jatkumista koskeva perustelu ei osoita vaikutusten suuruutta."
+      },
+      {
+        "question": "Mikä sääntely tuli voimaan ja milloin sitä sovellettiin?",
+        "missing_evidence": "Tämä vastaus vertailee ehdotusta ja mietinnön perustelua. Voimassaolo ja soveltamisen ajankohta tarvitsevat hyväksytyn lain ja sen ajallisten säännösten tarkistuksen."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Kuusi aiemmin valittua siirtokoetta. Arvio on tehty alkuperäisistä säilytetyistä lähdekatkelmista ennen mallin lopullisten vastausten lukemista. Tekoälyn lähdearvio, ei ihmisarvio tai edustava otos. Näitä arvioita ei toimiteta mallin kehotteisiin."
+  },
+  {
+    "case_id": "therapy-2024-clock-and-scope",
+    "source_episode_id": "mev-transfer-he131-2024-therapy-guarantee",
+    "source_versions": {
+      "he-131-2024": "76667016de0a0e64f845a71c8a5be35f8660eede25a85b3dc3c8781b1e131b5d",
+      "stvm26-2024": "9c403d6bdba97e89e7557e085f389b1dac140d98719e65a307cf4e975b5310cc"
+    },
+    "title": "Terapiatakuu: mistä 28 vuorokauden kello alkaa?",
+    "question": {
+      "text": "Lupaako tarkasteltu terapiatakuu kaiken psykiatrisen hoidon 28 vuorokaudessa ensimmäisestä yhteydenotosta?",
+      "scope": "HE 131/2024 vp:n ehdotettu terveydenhuoltolain säännös ja StVM 26/2024 vp:n kirjattu ministeriöselvitys. Ehdotuksen sisältö, ei nykyinen hoito-oikeus tai toteutunut saatavuus.",
+      "answer_standard": "Hoitoluokka, ikäraja, alkuehto ja poikkeukset on luettava yhdessä. Ensimmäinen yhteydenotto ja tarpeen toteaminen erotetaan."
+    },
+    "quotes": [
+      {
+        "key": "provision",
+        "record_id": "he-131-2024",
+        "quote": "Lasten ja alle 23-vuotiaiden nuorten perusterveydenhuoltoon kuuluva lyhytpsykoterapia tai psykologiseen vuorovaikutukseen perustuva määrämuotoinen ja aikarajoitteinen psykososiaalinen hoito on aloitettava 28 vuorokauden kuluessa siitä, kun tarve tällaiselle hoidolle on todettu, jolleivat lääketieteelliset, hoidolliset tai muut vastaavat seikat muuta edellytä."
+      },
+      {
+        "key": "clock",
+        "record_id": "stvm26-2024",
+        "quote": "Terapiatakuun piiriin kuuluvan psykososiaalisen hoidon tarve voidaan saadun selvityksen mukaan todeta asiakkaan ottaessa yhteyttä perusterveydenhuoltoon (51 §), mutta nämä tilanteet olisivat käytännössä varsin harvinaisia. Tyypillisemmin tarve todetaan ensimmäisen hoitotapahtuman yhteydessä (51 a §) tai tarve ilmenee myöhemmin hoidon aikana."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Alkuehto ja kohdejoukko",
+        "text": "Ehdotuksessa 28 vuorokautta lasketaan nimetyn hoidon tarpeen toteamisesta. Säännös rajaa hoitomuodon ja iän sekä sisältää lääketieteellisiin, hoidollisiin tai vastaaviin seikkoihin liittyvän poikkeuksen. Mietintöön kirjattu selvitys erottaa tarpeen toteamisen ensimmäisestä yhteydenotosta: ne voivat osua yhteen, mutta näin ei sen mukaan tyypillisesti tapahdu. Kaikki psykiatrinen hoito 28 päivässä ensimmäisestä yhteydenotosta olisi tätä laajempi väite.",
+        "quote_keys": [
+          "provision",
+          "clock"
+        ],
+        "rationale": "HE:n alkuehto on eksplisiittinen ja selvitys käsittelee juuri sen ajankohtaa. Vastauksessa säilytetään ehdotuksen poikkeus ja hoitoluokka eikä muun hoitotakuun määräaikaa korvata tällä määräajalla."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Oliko tämä määräaika käytännössä saavutettavissa ja saavutettiinko se?",
+        "missing_evidence": "Tarvitaan hyväksytty ajallinen sääntely, toimeenpanon resurssit ja hoidon aloitushavainnot. Ehdotettu määräaika ei ole toteutunut palvelu."
+      },
+      {
+        "question": "Kuinka pitkä aika kului yhteydenotosta tarpeen toteamiseen?",
+        "missing_evidence": "Nämä katkelmat eivät mittaa sitä. Hoidon tarpeen toteamiseen sidottu määräaika ei sulje tätä odotusaikaa."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Kuusi aiemmin valittua siirtokoetta. Arvio on tehty alkuperäisistä säilytetyistä lähdekatkelmista ennen mallin lopullisten vastausten lukemista. Tekoälyn lähdearvio, ei ihmisarvio tai edustava otos. Näitä arvioita ei toimiteta mallin kehotteisiin."
+  },
+  {
+    "case_id": "alcohol-2024-identification-alternative",
+    "source_episode_id": "mev-transfer-he173-2024-alcohol-regulation",
+    "source_versions": {
+      "he-173-2024": "38e770bf0ad5b16bb09c7ca5291df605dc1f1720108915717ba11c74c6d606cb",
+      "tavl28-2024": "7a064d939c1066b5096c2a389842d3004dafa50e8a568829a8ec97ee6d692408"
+    },
+    "title": "Alkoholin kotiinkuljetus: mikä vaihtoehto tunnistautumiselle esitettiin?",
+    "question": {
+      "text": "Esittikö talousvaliokunta ikärajavalvonnan poistamista vai vaihtoehtoisen valvontatavan?",
+      "scope": "HE 173/2024 vp:n tunnistautumisvaatimus ja TaVL 28/2024 vp:n sitä koskeva ensimmäinen perustelujakso. Kirjattu vaihtoehto, ei hyväksytyn lain tai kuljetuskäytännön arvio.",
+      "answer_standard": "Alkuperäinen verkkokaupan vaatimus ja lausunnon vaihtoehto verrataan. Oston ja toimituksen vaiheet erotetaan."
+    },
+    "quotes": [
+      {
+        "key": "proposal",
+        "record_id": "he-173-2024",
+        "quote": "Jos alkoholijuoman osto tapahtuisi etäyhteyden välityksellä, olisi alkoholijuoman ostaja velvollinen todistamaan ikänsä vahvan sähköisen tunnistautumisen avulla."
+      },
+      {
+        "key": "alternative",
+        "record_id": "tavl28-2024",
+        "quote": "Valiokunta katsoo lisäksi, että vahvaa sähköistä tunnistautumista koskeva vaatimus verkko-oston yhteydessä ei ole välttämätön lain tavoitteiden saavuttamiseksi, vaan ikärajavalvonnan tehokkuuden turvaamiseksi olisi riittävää, että ostaja vahvistaa ikänsä oston yhteydessä ja ikä tarkistetaan juomaa toimitettaessa."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Valvontatavoite ja ehdotettu instrumentti",
+        "text": "HE ehdottaa vahvaa sähköistä tunnistautumista etäoston yhteydessä. Talousvaliokunnan lausunto esittää vaihtoehdoksi iän vahvistamisen oston yhteydessä ja tarkistamisen toimituksessa. Lausunnon vaihtoehto siis säilyttää ikärajavalvonnan tavoitteen ja muuttaa ehdotettua välinettä. Tämä ei osoita vaihtoehdon hyväksymistä tai sen tosiasiallista valvontatehoa.",
+        "quote_keys": [
+          "proposal",
+          "alternative"
+        ],
+        "rationale": "Vertailu koskee samaa ostovaihetta ja lausunto nimeää lisäksi toimitusvaiheen tarkistuksen. Välineen muuttamista ei samasteta valvonnan poistamiseen tai osoitettuun vaikuttavuuteen."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mikä valvontatapa päätyi lopulliseen sääntelyyn ja käytäntöön?",
+        "missing_evidence": "Tarvitaan vastuuvaliokunnan lopullinen ehdotus, hyväksytty säädös ja toimitusten toteutushavainnot."
+      },
+      {
+        "question": "Kattaako tämä myös ulkomailta Suomeen tapahtuvan myynnin?",
+        "missing_evidence": "Lausunto erottaa kotimaisten toimijoiden toimitusmyynnin ulkomaisen etämyynnin oikeustilan selkeyttämisestä. Tämä instrumenttivertailu ei sulje jälkimmäistä kysymystä."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Kuusi aiemmin valittua siirtokoetta. Arvio on tehty alkuperäisistä säilytetyistä lähdekatkelmista ennen mallin lopullisten vastausten lukemista. Tekoälyn lähdearvio, ei ihmisarvio tai edustava otos. Näitä arvioita ei toimiteta mallin kehotteisiin."
+  },
+  {
+    "case_id": "security-2025-appointment-authority",
+    "source_episode_id": "mev-transfer-he145-2025-security-of-supply",
+    "source_versions": {
+      "he-145-2025": "bbd262e40fc7cde05c2853ee2d363f3f8220241a17009a7bf8fd225929f1d927",
+      "tavm22-2025": "0818bf46238f742ca110b41f60ca333883204c91233ac3afd9f2df1bb0eb3d48"
+    },
+    "title": "Huoltovarmuus: kenen nimittämisvaltaa valiokunta täsmensi?",
+    "question": {
+      "text": "Mikä nimittämistä koskeva täsmennys huoltovarmuusuudistuksen valiokuntakäsittelyssä ehdotettiin?",
+      "scope": "HE 145/2025 vp:n Huoltovarmuuskeskusta koskevan lakiehdotuksen 6 § ja TaVM 22/2025 vp:n yksityiskohtaiset perustelut. Muutosehdotus ja tehtäväjako, ei havaittu nimitys.",
+      "answer_standard": "Erotetaan pääjohtajan nimittäminen viraston muiden virkamiesten nimittämisestä, ja ehdotettu toimivalta sen käyttämisestä."
+    },
+    "quotes": [
+      {
+        "key": "chief",
+        "record_id": "he-145-2025",
+        "quote": "Huoltovarmuuskeskusta johtaa pääjohtaja, jonka nimittää valtioneuvosto."
+      },
+      {
+        "key": "clarification",
+        "record_id": "tavm22-2025",
+        "quote": "Hallituksen esityksessä ei ole ehdotettu säädettäväksi nimittämistoimivallasta lukuun ottamatta viraston pääjohtajan nimittämistä. Talousvaliokunta pitää selkeyden vuoksi perusteltuna säätää nimittämistoimivallasta erikseen. Valiokunta ehdottaa pykälän 2 momenttia täydennettäväksi siten, että siihen lisättäisiin maininta siitä, että pääjohtaja nimittää Huoltovarmuuskeskuksen virkamiehet."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Toimivalta ja institutionaalinen toimija",
+        "text": "HE nimeää valtioneuvoston pääjohtajan nimittäjäksi. Talousvaliokunta ehdottaa erikseen kirjausta, jonka mukaan pääjohtaja nimittää Huoltovarmuuskeskuksen virkamiehet. Nämä ovat eri nimitystoimia ja eri toimivallan haltijoita. Valiokunnan muutosehdotus on dokumentoitu institutionaalinen teko; se ei osoita yksittäistä tehtyä nimitystä tai kenen henkilökohtaisesta vaikutuksesta täsmennys syntyi.",
+        "quote_keys": [
+          "chief",
+          "clarification"
+        ],
+        "rationale": "Molemmat nimetyt tehtävät ja ehdotettu lisäys löytyvät suoraan katkelmista. Toimivallan ehdottaminen erotetaan sen hyväksymisestä ja käyttämisestä."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mikä oli lopullinen toimivaltasäännös ja mitä nimityksiä tehtiin?",
+        "missing_evidence": "Tarvitaan hyväksytty ajallinen säädösversio ja nimityspäätökset."
+      },
+      {
+        "question": "Paransiko organisaatiomuutos huoltovarmuutta?",
+        "missing_evidence": "Nimittämisvalta ei ole reservien, valmiuden tai kriisitoiminnan havainto. Vaikutuskysymys vaatii erillistä aineistoa."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Kuusi aiemmin valittua siirtokoetta. Arvio on tehty alkuperäisistä säilytetyistä lähdekatkelmista ennen mallin lopullisten vastausten lukemista. Tekoälyn lähdearvio, ei ihmisarvio tai edustava otos. Näitä arvioita ei toimiteta mallin kehotteisiin."
+  },
+  {
+    "case_id": "fiscal-2025-warning-condition",
+    "source_episode_id": "mev-transfer-he167-2025-fiscal-governance",
+    "source_versions": {
+      "he-167-2025": "db8810fe7ee5455dad1895f9271f287eb7e677a3b6473424749af12c8083023b",
+      "vavm26-2025": "26cf5f9aa3956b5ddf5530d7f3a1126bd7bffa48d1d6839867eacda73c880db8"
+    },
+    "title": "Finanssisääntö: miksi −2,5 prosentin ehtoa ehdotettiin täsmennettäväksi?",
+    "question": {
+      "text": "Mikä tulkintariski ennakkovaroitussäännöksessä tunnistettiin ja mikä oli sen ehdotettu ajallinen rajaus?",
+      "scope": "HE 167/2025 vp:n 5 §:n 2 momentti ja VaVM 26/2025 vp. Asiakirjoihin kirjattu tulkintariski ja täsmennysehdotus, ei arvio tulevasta finanssipolitiikasta.",
+      "answer_standard": "Ehdotuksen ehtojen sanamuoto ja valiokunnan nimeämä kokonaisarviointia koskeva epäselvyys yhdistetään. Vuosi 2031 rajataan juuri nimettyyn ehtoon."
+    },
+    "quotes": [
+      {
+        "key": "original",
+        "record_id": "he-167-2025",
+        "quote": "Valtioneuvosto ryhtyy tarpeellisiksi katsomiinsa julkisen talouden vakautta ja kestävyyttä korjaaviin toimenpiteisiin, jos vaalikauden rahoitusasematavoitetta tultaisiin kokonaisarvion mukaan rikkomaan tai jos koko julkisen talouden kuluvan tai seuraavan vuoden arvioitu nimellinen rahoitusasema suhteessa bruttokansantuotteeseen on heikompi kuin -2,5 prosenttia taikka jos Euroopan unionin komissio tai neuvosto on jäsenvaltioiden talouspolitiikkojen monenvälisen valvonnan yhteydessä arvioinut olevan olemassa riski, että Suomi poikkeaa neuvoston Suomelle 2 §:ssä tarkoitetun asetuksen nojalla hyväksymästä nettomenopolusta."
+      },
+      {
+        "key": "risk",
+        "record_id": "vavm26-2025",
+        "quote": "Hallituksen esityksen 5 §:n 2 momentti on kuitenkin tulkittavissa siten, ettei julkisen talouden nimellisen rahoitusaseman -2,5 prosentin ehtoa (ennakkovaroitussäännös) koskisi kokonaisarviointi. Näin ollen valiokunta ehdottaa asianomaisen momentin täsmentämistä. Alijäämän -2,5 prosentin ennakkovaroitussäännös tulee siirtymäsäännöksen mukaan voimaan vuonna 2031."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Ehto, tulkintariski ja voimaantulon rajaus",
+        "text": "Valtiovarainvaliokunta tunnistaa mahdollisen lukutavan, jossa kokonaisarviointi ei koskisi −2,5 prosentin ennakkovaroitusehtoa, ja ehdottaa momentin täsmentämistä. Mietinnön mukaan tämä ennakkovaroitussäännös tulee siirtymäsäännöksen mukaan voimaan vuonna 2031. Katkelma ei sano, että lain kaikki säännökset alkaisivat silloin, eikä ilmoita jo tapahtunutta alijäämää tai automaattisen korjauksen vaikutusta.",
+        "quote_keys": [
+          "original",
+          "risk"
+        ],
+        "rationale": "Valiokunta nimeää tulkittavan momentin, ehdon ja täsmennyksen. Mahdollinen tulkinta säilytetään mahdollisena; ennusteen, toteuman ja korjaustoimen vaikutuksen välille ei tehdä hyppyä."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Mikä täsmällinen sanamuoto hyväksyttiin?",
+        "missing_evidence": "Tarvitaan hyväksytty säädösversio ja ajallinen vertailu. Nämä lähteet osoittavat nimetyn riskin ja täsmennysehdotuksen."
+      },
+      {
+        "question": "Miten kokonaisarviointi ja korjaustoimet toimivat käytännössä?",
+        "missing_evidence": "Tarvitaan myöhemmät arviot, päätökset ja toteumahavainnot. Tunnistettu tulkintariski ei ole havaittu epäonnistuminen."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Kuusi aiemmin valittua siirtokoetta. Arvio on tehty alkuperäisistä säilytetyistä lähdekatkelmista ennen mallin lopullisten vastausten lukemista. Tekoälyn lähdearvio, ei ihmisarvio tai edustava otos. Näitä arvioita ei toimiteta mallin kehotteisiin."
+  },
+  {
+    "case_id": "waste-2026-cost-sharing-scope",
+    "source_episode_id": "mev-transfer-he4-2026-waste-law",
+    "source_versions": {
+      "he-4-2026": "028551265ebeb417c0505350a78213ee018afff785820f0038be18671e902777",
+      "ymvm4-2026": "fcfb0ee462248d1c9056f23825c3034a8209d085262233d2c3adeb16a5daffab"
+    },
+    "title": "Jätelaki: mitä tekniseksi nimetty korjaus muutti?",
+    "question": {
+      "text": "Oliko kustannusten jakamista koskeva korjaus perustelujen mukaan vain sanallinen siistiminen?",
+      "scope": "HE 4/2026 vp:n sähkö- ja elektroniikkalaitteen jätehuoltokustannusten sopimista koskeva ehdotus ja YmVM 4/2026 vp:n yksityiskohtaiset perustelut. Ehdotusten vertailu, ei lopullisen lain tai kustannusten arvio.",
+      "answer_standard": "Alkuperäinen rajaus ja poiston ilmoitettu syy on näytettävä. Tekninen nimike ei korvaa soveltamisalan lukemista."
+    },
+    "quotes": [
+      {
+        "key": "original",
+        "record_id": "he-4-2026",
+        "quote": "Tuottaja ja muun kuin kotitalouden sähkö- ja elektroniikkalaitteen haltija saavat sopia jätehuollon kustannusten jakamisesta toisin kuin tässä pykälässä säädetään riippumatta laitteen markkinoille saattamisen ajankohdasta."
+      },
+      {
+        "key": "repair",
+        "record_id": "ymvm4-2026",
+        "quote": "Valiokunta on tehnyt pykälän 3 momenttiin teknisen korjauksen. Pykälästä on tarpeen poistaa siihen tehty lisäys 'kuin tässä pykälässä säädetään', sillä tehty lisäys on omiaan rajoittamaan soveltamista aiempaan muotoiluun verrattuna, mikä ei ole ollut tarkoituksena. Samalla on tarpeen korjata sanan 'saavat' tilalle 'voivat'."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Sanamuodon muutos ja soveltamisalan tarkoitus",
+        "text": "Valiokunta nimeää korjauksen tekniseksi, mutta perustelee sanojen poistamista sillä, että lisäys olisi omiaan rajoittamaan soveltamista aiempaan muotoiluun verrattuna ilman tätä tarkoitusta. Se ehdottaa samalla saavat-sanan vaihtamista voivat-sanaksi. Perustelu siis koskee myös tulkittua soveltamisalaa, ei vain tekstin ulkoasua. Tämä ei osoita kaikkien tuottajakustannusten poistamista tai korjauksen toteutunutta kustannusvaikutusta.",
+        "quote_keys": [
+          "original",
+          "repair"
+        ],
+        "rationale": "Poistettava sanajakso on alkuperäisessä ehdotuksessa ja valiokunta nimeää poiston syyn. Tulkintariski säilytetään perusteluna eikä sitä muuteta tapahtuneeksi kustannukseksi."
+      }
+    ],
+    "unknowns": [
+      {
+        "question": "Miten hyväksytty sääntely vaikuttaa kustannusten jakamista koskeviin sopimuksiin?",
+        "missing_evidence": "Tarvitaan hyväksytty sanamuoto, soveltamistila ja sopimus- tai ratkaisuhavainnot."
+      },
+      {
+        "question": "Riittivätkö valvonnan resurssit lisääntyviin tehtäviin?",
+        "missing_evidence": "Mietinnössä mainittu resurssitarve on eri kysymys. Tarvitaan henkilöstö-, järjestelmä- ja toteutushavainnot; varoitus ei ole toteutunut valvontavaje."
+      }
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Kuusi aiemmin valittua siirtokoetta. Arvio on tehty alkuperäisistä säilytetyistä lähdekatkelmista ennen mallin lopullisten vastausten lukemista. Tekoälyn lähdearvio, ei ihmisarvio tai edustava otos. Näitä arvioita ei toimiteta mallin kehotteisiin."
+  }
+]

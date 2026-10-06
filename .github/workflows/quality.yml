@@ -1,0 +1,45 @@
+name: quality
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  frozen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up CPython 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.9.26"
+          enable-cache: true
+
+      - name: Install locked dependencies
+        run: uv sync --locked
+
+      - name: Check maintained PAA code and tests with Ruff
+        run: uv run --locked ruff check paa tests mev/llm.py
+
+      - name: Check maintained semantic boundary with ty
+        run: uv run --locked ty check
+
+      - name: Run tests
+        run: uv run --locked pytest -q
+
+      - name: Build and check the frozen source-to-browser path
+        shell: bash
+        run: |
+          run_root="$(mktemp -d "${RUNNER_TEMP}/paa-frozen.XXXXXX")"
+          uv run --locked paa frozen --root "$run_root"
+          uv run --locked paa check --db "$run_root/data/paa.sqlite" --slice

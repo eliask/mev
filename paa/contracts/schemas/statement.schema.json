@@ -1,0 +1,290 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source statement v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "statement_id": {
+      "type": "string"
+    },
+    "document_version_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "issuer_actor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attribution_basis": {
+      "enum": [
+        "EXPLICIT",
+        "CONTEXT_DERIVED",
+        "UNRESOLVED"
+      ]
+    },
+    "source_field_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": "string"
+    },
+    "original_text": {
+      "type": "string"
+    },
+    "question_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "answer_options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "selected_answer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "answer_state": {
+      "enum": [
+        "PRESENT",
+        "KNOWN_BLANK",
+        "NON_RESPONSE",
+        "UNAVAILABLE",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "context_statement_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stated_at": {
+      "type": "object",
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "instant",
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "timezone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "earliest",
+        "latest",
+        "precision",
+        "basis",
+        "timezone",
+        "source_evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "retrieved_at": {
+      "type": ["string", "null"]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "document_version_id": {
+            "type": "string"
+          },
+          "evidence_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "text_span",
+              "structured_field",
+              "media_segment"
+            ]
+          },
+          "text_sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "span_start": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "span_end": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "quote": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "normalization_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "record_locator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "field_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "segment_start_seconds": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "segment_end_seconds": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "context_evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "document_version_id",
+          "evidence_id",
+          "kind",
+          "text_sha256",
+          "span_start",
+          "span_end",
+          "quote",
+          "normalization_version",
+          "record_locator",
+          "field_path",
+          "segment_start_seconds",
+          "segment_end_seconds",
+          "context_evidence_ids"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "text_span"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "text_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "span_start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "span_end": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "normalization_version": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "statement_id",
+    "document_version_id",
+    "source_id",
+    "issuer_actor_ids",
+    "attribution_basis",
+    "source_field_label",
+    "language",
+    "original_text",
+    "question_text",
+    "answer_options",
+    "selected_answer",
+    "answer_state",
+    "context_statement_ids",
+    "stated_at",
+    "retrieved_at",
+    "evidence"
+  ],
+  "additionalProperties": false
+}

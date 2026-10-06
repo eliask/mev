@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Alternative-aware vote v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "vote_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "matter_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stage": {
+      "enum": [
+        "FINAL_PASSAGE",
+        "AMENDMENT",
+        "REJECTION_MOTION",
+        "CONFIDENCE",
+        "PROCEDURE",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "motion_text": {
+      "type": "string"
+    },
+    "motion_version_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "raw_code": {
+            "type": "string"
+          },
+          "alternative_text": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "raw_code",
+          "alternative_text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "parent_vote_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voter_actor_id": {
+      "type": "string"
+    },
+    "raw_response": {
+      "enum": [
+        "JAA",
+        "EI",
+        "TYHJA",
+        "POISSA",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "eligibility_state": {
+      "enum": [
+        "ELIGIBLE",
+        "INELIGIBLE",
+        "UNRESOLVED"
+      ]
+    },
+    "substantive_interpretation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "interpretation_state": {
+      "enum": [
+        "NOT_ATTEMPTED",
+        "CANDIDATE",
+        "VALIDATED",
+        "REVIEWED",
+        "UNRESOLVED"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "vote_id",
+    "event_id",
+    "matter_ids",
+    "stage",
+    "motion_text",
+    "motion_version_id",
+    "alternatives",
+    "parent_vote_id",
+    "voter_actor_id",
+    "raw_response",
+    "eligibility_state",
+    "substantive_interpretation",
+    "interpretation_state",
+    "evidence_ids"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "source_id": "SRC-EDUSKUNTA-SPEECHES",
+  "search_url": "https://api.eduskunta.fi/api/v1/search",
+  "count_url": "https://api.eduskunta.fi/api/v1/search/count",
+  "retrieved_at": "2026-10-06",
+  "full_current_term_count": {
+    "2023": 6562,
+    "2024": 12587,
+    "2025": 11983,
+    "2026": 8654,
+    "total": 39786
+  },
+  "full_term_acquisition_receipt": {
+    "enumeration": "FULL_CURRENT_TERM_QUARTER_WINDOWS",
+    "quarter_window_count": 16,
+    "source_record_count": 39786,
+    "parsed_record_count": 39786,
+    "object_count": 39786,
+    "overlap_row_count": 0,
+    "conflict_count": 0,
+    "excluded_count": 0,
+    "metadata_only_text_record_count": 4,
+    "coverage_id": "speech-register-7584e97fb43ede1646e7",
+    "raw_cache": "data/raw/eduskunta/speeches_fullterm_quarters"
+  },
+  "declared_windows": [
+    {"window_id": "2023-04-25", "from_date": "2023-04-25", "to_date": "2023-04-26", "year": "2023", "count": 26},
+    {"window_id": "2024-02-08", "from_date": "2024-02-08", "to_date": "2024-02-09", "year": "2024", "count": 79},
+    {"window_id": "2025-02-06", "from_date": "2025-02-06", "to_date": "2025-02-07", "year": "2025", "count": 58},
+    {"window_id": "2026-02-05", "from_date": "2026-02-05", "to_date": "2026-02-06", "year": "2026", "count": 114}
+  ],
+  "declared_window_total": 277,
+  "fixture_response_sha256": {
+    "count-2023-04-25": "3cf92e3a7cbce67954d43f0c8bbb4fb00b27074dada63d419a01d4aae8e6db81",
+    "search-2023-04-25-0": "7d81aad14ff3037330bde2fbbffd2de43d14f2db6dad9959a4c0279db32dd9a8",
+    "count-2024-02-08": "1f533741d5872cf64778866e339e39551bca410b6645703390b78619f78bb1e1",
+    "search-2024-02-08-0": "3c6de6f13b0736488399fdac1c82201ec3a08ded6fefeae53b3b91200058f6b3",
+    "count-2025-02-06": "e103489b933f7a7fd968ae204df00ab9cd3a641124de917d44fb058ca1d3462c",
+    "search-2025-02-06-0": "4798d58df6934e7c33aaca13a0aef6c958674e2e3a2e2cd0c960ca718ac0df29",
+    "count-2026-02-05": "49d0ad4a17c710ebf3f48f958b0aa985fdd50a0232b0d9d4da6f43e43ba4e0d6",
+    "search-2026-02-05-0": "7d5522825756616a6b4c0a64e9d94f8843e05edec93d4d558680392995da85e3",
+    "search-2026-02-05-100": "511bb402f4ab6051d1b587682b3ea6e09761c05a55bf27a6d8bcb02a0ba7adde"
+  },
+  "limitations": [
+    "The 39,786-record current-term count was measured, but only the four exact one-day windows above are frozen and acquired.",
+    "A speech is evidence of a recorded utterance, not evidence that a policy was implemented or that the speaker controlled the outcome."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical source-to-finding evidence trace v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "trace_id", "statement_id", "proposition_id", "actor_id", "as_of", "statement", "proposition", "target", "retrieved_objects", "relations", "authority", "actions", "disposition", "coverage", "assessment", "evidence", "correction_history"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "trace_id": {"type": "string", "minLength": 1},
+    "statement_id": {"type": "string", "minLength": 1},
+    "proposition_id": {"type": "string", "minLength": 1},
+    "actor_id": {"type": ["string", "null"]},
+    "as_of": {"type": "string"},
+    "statement": {"type": "object", "required": ["text", "url", "evidence_ids", "stated_at"]},
+    "proposition": {"type": "object", "required": ["text", "semantic_type", "evidence_ids"]},
+    "target": {"type": "object", "required": ["normalized_object", "interpretation_state", "evidence_ids"]},
+    "commitment_carrier": {"type": "object", "required": ["type", "state", "actor_ids", "evidence_ids"], "properties": {"type": {"enum": ["PERSON", "PARTY", "PARLIAMENTARY_GROUP", "COALITION", "GOVERNMENT", "MINISTRY", "PARLIAMENT", "OTHER_INSTITUTION", "UNRESOLVED"]}}},
+    "decision_episodes": {"type": "array", "items": {"type": "object", "required": ["episode_id", "matter_id", "evidence_ids"]}},
+    "attribution_envelopes": {"type": "array", "items": {"type": "object", "required": ["envelope_id", "actor_id", "episode_id", "dimensions", "evidence_ids"]}},
+    "retrieved_objects": {"type": "array", "items": {"type": "object", "required": ["object_id", "kind", "text", "evidence_ids", "retrieval"]}},
+    "relations": {"type": "array", "items": {"type": "object", "required": ["object_id", "status", "rationale", "evidence_ids", "validation_state"], "properties": {"status": {"enum": ["CANDIDATE", "SAME_POLICY_OBJECT", "SAME_MATTER", "REJECTED", "UNRESOLVED"]}}}},
+    "authority": {"type": "object", "required": ["required_capability", "roles", "window", "condition_state", "opportunity_state", "evidence_ids"]},
+    "actions": {"type": "array", "items": {"type": "object", "required": ["object_id", "kind", "date", "actor_id", "role", "state", "evidence_ids"]}},
+    "disposition": {"type": "array"},
+    "coverage": {"type": "array"},
+    "assessment": {"type": "object", "required": ["state", "claim", "limitations", "evidence_ids", "causal_claim"], "properties": {"state": {"enum": ["OBSERVED_ALIGNED_ACTION", "CONTRARY_ACTION", "NO_OBSERVABLE_OPPORTUNITY", "INSUFFICIENT_EVIDENCE", "NOT_TESTABLE"]}, "causal_claim": {"const": false}}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["evidence_id", "quote", "record_locator"]}},
+    "correction_history": {"type": "array"}
+  }
+}

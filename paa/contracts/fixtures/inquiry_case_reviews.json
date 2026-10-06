@@ -1,0 +1,165 @@
+[
+  {
+    "case_id": "rai-2020-constitutional-repair",
+    "source_episode_id": "mev-he4-2020-staffing",
+    "question_id": "q-staffing-response",
+    "legal_capture": "lawvm_2012_980_section3_15a_2020.json",
+    "legal_capture_sha256": "5a0c5bd463d7475af097d56c5b861533d8bdcf96ad88de3202ecee63c72f8d1d",
+    "legal_source_claims": [
+      {
+        "dimension": "Kenelle julkaistu teksti antaa toimeenpanotehtävän?",
+        "source_role": "OPERATIVE_PROVISION_WORDING",
+        "required_quotes": [
+          "Kunnan on käytettävä RAI-arviointivälineistöä",
+          "Terveyden ja hyvinvoinnin laitoksen on huolehdittava siitä, että kunnilla on maksutta käytettävissä RAI-arviointivälineistö ja saatavilla koulutusta välineistön käyttöön."
+        ],
+        "text": "Vuoden 2020 muutoslain 15 a § osoittaa RAI-arvioinnin käyttöä koskevan tehtävän kunnalle, kun ammattihenkilön alustava arvio osoittaa säännöllisten sosiaalipalvelujen tarvetta, sekä palveluja jo saavan henkilön olosuhteiden olennaisesti muuttuessa. THL:n tehtäväksi kirjataan välineistön maksuton saatavuus ja koulutuksen saatavuus. Teksti erottaa palvelun järjestäjän ja välineistön tarjoajan tehtävät. Se ei osoita tehtävien tosiasiallista suorittamista tai vuoden 2026 vastuutahoa.",
+        "rationale": "Julkaistun pykälän kaksi erillistä velvoitetta ja niiden ehdot luetaan suoraan lähdetekstistä. Tämä on vuoden 2020 tekstin tehtäväjako, ei historiallisesti varmennettu soveltamisratkaisu, nykyisen toimivallan rekonstruktio tai vaikutusväite."
+      }
+    ],
+    "source_versions": {
+      "he-4-2020": "02e48f4ead9e4548d5a0e0c3c0529323876827f8d527b860c70abffcef5989dc",
+      "stvm18-2020": "597e0731338de54a51ac55b7c4cd5eb854a9b97be96c01c2fa21fe0a36776bb0",
+      "pevl15-2020": "d9e42a1c1e0e26c87b44c689c5d642d8420e7dfec5ffa3256999a0053070df4f"
+    },
+    "title": "RAI-arviointi: miten perustuslaillinen huomautus muutti lakiehdotusta?",
+    "question": {
+      "text": "Miten arviointijärjestelmän laintasoisia perusteita koskeva huomautus näkyy hallituksen esityksen ja valiokunnan lakiehdotuksen välisessä muutoksessa?",
+      "scope": "HE 4/2020 vp, PeVL 15/2020 vp, StVM 18/2020 vp sekä muutoslain 565/2020 julkaistu teksti. Historiallinen soveltaminen, toimeenpano ja vaikutukset arvioidaan erikseen.",
+      "answer_standard": "Täsmällinen huomautus, alkuperäinen ehdotettu rakenne, valiokunnan muutosehdotus ja nimenomainen perustelu. Julkaistu muutoslaki osoittaa hyväksytyn tekstin ja siinä ilmoitetun käyttöönoton takarajan; tekstivertailu ei todista käytännön toimeenpanoa."
+    },
+    "quotes": [
+      {
+        "key": "original",
+        "record_id": "he-4-2020",
+        "quote": "lisätään\n3 §:ään uusi 4 ja 5 kohta"
+      },
+      {
+        "key": "warning",
+        "record_id": "pevl15-2020",
+        "quote": "Perustuslakivaliokunnan mielestä perustuslain 19 §:n 3 momentissa ja 121 §:n 2 momentissa säädetyistä lakivarauksista johtuu, että vanhuspalvelutehtävän sisältöön ja laajuuteen vaikuttavan arviointijärjestelmän perusteet on määriteltävä laintasoisesti. Sääntelyä on täydennettävä ja täsmennettävä olennaisesti. Tällainen muutos on edellytyksenä lakiehdotuksen käsittelemiselle tavallisen lain säätämisjärjestyksessä."
+      },
+      {
+        "key": "change",
+        "record_id": "stvm18-2020",
+        "quote": "Sosiaali- ja terveysvaliokunta ehdottaa, että 3 §:ään lisätään uusi 6 kohta. Muutoksen tarkoituksena on osaltaan toteuttaa perustuslakivaliokunnan lausunnossa esitetty, lakiehdotuksen säätämisjärjestykseen vaikuttava huomautus."
+      },
+      {
+        "key": "mechanism",
+        "record_id": "stvm18-2020",
+        "quote": "Sosiaali- ja terveysvaliokunta ehdottaa, että lakiin lisätään uusi 15 a §, joka korvaa hallituksen esitykseen sisältyvän 15 §:n 4 momentin."
+      }
+    ],
+    "claims": [
+      {
+        "dimension": "Politiikan muutos: määritelmä ja erillinen pykälä",
+        "text": "Alkuperäisessä esityksessä 3 §:ään lisättiin kohdat 4 ja 5. Sosiaali- ja terveysvaliokunta ehdotti lisäksi kohtaa 6 sekä uutta 15 a §:ää alkuperäisen 15 §:n 4 momentin tilalle. Kyseessä on dokumentoitu muutos lakiehdotukseen; nämä lähteet eivät yksin osoita lopullista voimassa ollutta lakia.",
+        "quote_keys": ["original", "change", "mechanism"],
+        "rationale": "Alkuperäisen ehdotuksen johtolause ja valiokunnan yksityiskohtaiset perustelut nimeävät vertailtavat säännökset suoraan. Muutos koskee sääntelyn rakennetta ja RAI-järjestelmän laintasoista määrittelyä."
+      },
+      {
+        "dimension": "Vastaus huomautukseen: nimenomainen korjaava muutosehdotus",
+        "text": "Valiokunta perustelee uutta määritelmää nimenomaisesti perustuslakivaliokunnan huomautuksen toteuttamisella. Huomautusta ei tässä kohdassa vain mainita: siihen liitetään yksilöity säännösmuutos. Tämä osoittaa julkiseen asiakirjaan kirjatun perustelun, ei yksittäisen asiantuntijan tai poliitikon kausaalista vaikutusta.",
+        "quote_keys": ["warning", "change"],
+        "rationale": "StVM nimeää PeVL:n huomautuksen muutoksen tarkoitukseksi. Dokumentoitu institutionaalinen vastaus ei tarvitse yksityisen neuvottelun tai henkilövaikutuksen oletusta."
+      },
+      {
+        "dimension": "Toimija ja dokumentoitu rajoite",
+        "text": "Perustuslakivaliokunta piti laintasoista täydennystä tavallisen lain säätämisjärjestyksen edellytyksenä. Sosiaali- ja terveysvaliokunta esitti siihen vastaavan muutoksen. Näyttö koskee kahden valiokunnan julkisia tehtäviä ja asiakirjoja; sitä ei jaeta automaattisesti niiden jokaisen jäsenen henkilökohtaiseksi suunnittelu- tai vaikutusansioksi.",
+        "quote_keys": ["warning", "change"],
+        "rationale": "Rajoitteen sisältö, institutionaalinen esittäjä ja muutosta ehdottava toimielin on ilmaistu lähteissä. Henkilökohtaisesta vaikutuksesta ei ole lähdeperustaa."
+      }
+    ],
+    "unknowns": [
+      {"question": "Mikä oli säännöksen täsmällinen soveltamistila 31.12.2020?", "missing_evidence": "Julkaistu muutoslaki ja käyttöönoton takaraja ovat mukana. LawVM-vertailun konsolidoitu lähde on vuodelta 2024, joten se ei varmista vuoden 2020 historiallista soveltamistilaa."},
+      {"question": "Korjasiko muutos käytännön arvioinnin tai hoivan?", "missing_evidence": "Tarvitaan toimeenpanon ja palvelujen havaintoja. Lakiehdotuksen muutos ei osoita käytännön vaikutusta."},
+      {"question": "Kenen yksittäisen henkilön vaikutuksesta muutos syntyi?", "missing_evidence": "Asiakirjat nimeävät toimielimet ja perustelun. Ne eivät yksilöi henkilökohtaisia neuvotteluja tai vastemuuttujaa kausaaliselle vaikutukselle."}
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Valikoitu todellinen korjaava valiokuntatapaus. Arvio on lähteitä lukeva tekoälyarvio, ei riippumaton ihmisarvio tai edustava otos."
+  },
+  {
+    "case_id": "climate-2022-emissions-budgets",
+    "source_episode_id": "mev-he27-2022-climate-budget",
+    "source_versions": {
+      "EDK-2022-AK-14254": "8e145d208cf2365160b5a24af138ec841b16b283084b4bfaa61f01b0f493e668",
+      "ymvm2-2022": "71a5eb9a0fd7780c7ba82d7accff6c8309b12c9d576762ac1e87165d6e0a0e57"
+    },
+    "title": "Päästöbudjetit: jäikö ehdotus vastaamatta vai perusteltiinko toinen ratkaisu?",
+    "question": {
+      "text": "Mitä päästöbudjettien sisällyttämistä ilmastolakiin koskevalle asiantuntijaehdotukselle tapahtui valiokunnan perusteluissa?",
+      "scope": "HE 27/2022 vp:n yhteydessä annettu asiantuntijalausunto ja YmVM 2/2022 vp. Tarkastelu koskee kirjattua vastausta ja instrumenttivalintaa.",
+      "answer_standard": "Ehdotuksen ja siihen vastaavan perustelun täsmälliset katkelmat. Perustelun mainitseminen ei osoita sen vaikutusarvion oikeellisuutta."
+    },
+    "quotes": [
+      {"key": "proposal", "record_id": "EDK-2022-AK-14254", "quote": "On valitettavaa, ettei lakiehdotuksessa suositella päästöbudjettien asettamista."},
+      {"key": "response", "record_id": "ymvm2-2022", "quote": "Päästöbudjetteja arvioitiin selvityksessä myönteisemmin, mutta ilmastolakiehdotukseen sisältyvien välitavoitteiden voidaan toisaalta katsoa toteuttavan pitkälti samaa tarkoitusta. Valiokunta katsoo, että ilmastopolitiikan kehittyessä saattaa olla tarkoituksenmukaista tarkastella päästöbudjetteja tulevaisuudessa osana ilmastolainsäädännön kehitystyötä."}
+    ],
+    "claims": [
+      {"dimension": "Vastaus ja instrumentin lykkääminen", "text": "Valiokunta käsittelee päästöbudjetteja ja esittää välitavoitteet pitkälti samaa tarkoitusta toteuttavaksi instrumentiksi. Se jättää päästöbudjettien mahdollisen käyttöönoton tulevan kehitystyön harkintaan. Asiakirjan perusteella ehdotus ei jää käsittelemättä; sitä ei myöskään tässä kohdassa hyväksytä toteutettavaksi.", "quote_keys": ["proposal", "response"], "rationale": "Vastaus nimeää saman instrumentin, vaihtoehtoisen perustelun ja myöhemmän tarkastelun. Tämä on kirjattu perustelu, ei arvio siitä, onko instrumenttien vaikutus todella sama."}
+    ],
+    "unknowns": [
+      {"question": "Toteuttavatko välitavoitteet tosiasiassa päästöbudjetin saman ohjausvaikutuksen?", "missing_evidence": "Tarvitaan instrumenttien toimintamekanismien ja toimeenpanon vertailu. Valiokunnan väite ei yksin todista vastaavuutta."},
+      {"question": "Muuttiko juuri tämä asiantuntijalausunto valiokunnan kantaa?", "missing_evidence": "Tekstit eivät osoita tämän lausunnon henkilökohtaista tai kausaalista vaikutusta."}
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Valikoitu todellinen perusteltu vastaus ja lykkäys. Lähteitä lukeva tekoälyarvio; ei riippumaton ihmisarvio."
+  },
+  {
+    "case_id": "adult-support-2024-replacement-condition",
+    "source_episode_id": "mev-he8-2024-adult-support",
+    "source_versions": {
+      "EDK-2024-AK-7874": "2861e2be7637ebadfe67a889b28414b72cd4ec6d16110d42dfa249a03272b89f",
+      "sivl3-2024": "816d6bdc58a51b12d9aacfc3e8b3336173e6a7be952ae95a7b7f6da452079888"
+    },
+    "title": "Aikuiskoulutustuki: määräaika ja korvaavan järjestelmän valmius ovat eri ehtoja",
+    "question": {
+      "text": "Osoittaako siirtymäajan päättymispäivän kirjaaminen, että korvaavat kouluttautumistavat olivat valmiina?",
+      "scope": "HE 8/2024 vp:n asiantuntijalausunto ja SiVL 3/2024 vp. Vertailu koskee ehdotettua valmiusehtoa ja valiokunnan kirjattua siirtymärajaa.",
+      "answer_standard": "Ehdotetun valmiusehdon ja määräaikaa koskevan vastauksen vertailu. Korvaavan järjestelmän käyttöönotto tarvitsee erillisen toteutuslähteen."
+    },
+    "quotes": [
+      {"key": "condition", "record_id": "EDK-2024-AK-7874", "quote": "Vaatia nykyisen aikuiskoulutustuen jatkumista siirtymäajalla, kunnes\nuusia tapoja kouluttautua on valmiina käyttöön."},
+      {"key": "date", "record_id": "sivl3-2024", "quote": "Asiantuntijalausunnoissa on ehdotettu aikuiskoulutustuen lakkauttamisen lykkäämistä, kunnes tuen korvaavia toimenpiteitä on saatu käyttöön. Valiokunta toteaa, että aikuiskoulutustuen saamisen ehdotettu takaraja on vuoden 2025 loppu."}
+    ],
+    "claims": [
+      {"dimension": "Tunnistettu ehdotus, avoin toteutusedellytys", "text": "Valiokunta tunnistaa ehdotuksen, jossa lakkauttamista lykättäisiin korvaavien toimenpiteiden käyttöönottoon asti, ja mainitsee vuoden 2025 lopun siirtymärajana. Määräaikaa koskeva katkelma ei itsessään osoita korvaavien toimenpiteiden valmiutta. Tästä ei päätellä, että niitä ei toteutettu.", "quote_keys": ["condition", "date"], "rationale": "Toiminnallinen valmiusehto ja kalenteriraja ovat eri väitteitä. Näyttö osoittaa ehdotuksen tunnistamisen ja ilmoitetun takarajan; se ei sisällä käyttöönoton havaintoa."}
+    ],
+    "unknowns": [
+      {"question": "Mitkä korvaavat toimenpiteet olivat tosiasiallisesti käytettävissä ennen tuen päättymistä?", "missing_evidence": "Tarvitaan yksilöityjä käyttöönottopäätöksiä, ehtoja ja ajallista saatavuusnäyttöä. Tämän lähderajauksen puute ei ole poissaolotodiste."}
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Valikoitu todellinen tapaus, jossa vastaus ja toteutuksen edellytys on erotettava. Tekoälyn lähdearvio, ei riippumaton ihmisarvio."
+  },
+  {
+    "case_id": "infectious-law-2021-considered-and-removed",
+    "source_episode_id": "mev-he245-2020-infectious-law",
+    "source_versions": {
+      "EDK-2021-AK-344742": "acea4350e0315d5835806a5f95b6f539b5831bcdbf214031850068a5ab94bf72",
+      "stvm1-2021": "036af60cfa86b5e254981f828068794079ea4ac848fb5ca0587da238dce09142"
+    },
+    "title": "Tartuntatautilaki: käsittely ei tarkoita asiantuntijan kannan hyväksymistä",
+    "question": {
+      "text": "Jäikö 9 a §:ää ja 79 a §:ää koskeva asiantuntijakanta kokonaan käsittelemättä, vai ehdottiko valiokunta toista ratkaisua?",
+      "scope": "HE 245/2020 vp, Lääkäriliiton lausunto ja StVM 1/2021 vp. Tarkastelu koskee nimettyjen pykälien käsittelyä.",
+      "answer_standard": "Täsmällinen asiantuntijakanta ja samoja pykäliä koskeva valiokunnan ehdotus. Käsittely, hyväksyminen ja lopullinen toimeenpano erotetaan."
+    },
+    "quotes": [
+      {"key": "position", "record_id": "EDK-2021-AK-344742", "quote": "Lääkäriliitto\npitää uusia terveydenhuoltoa koskevia 9a§ ja 79a§ tarkoituksenmukaisina\ntyökaluina käytettäväksi vaikeissa Covid-19 epidemiatilanteissa viimesijaisina\nkeinoina."},
+      {"key": "removal", "record_id": "stvm1-2021", "quote": "Koska edellä ehdotetaan 9 a § poistettavaksi, ehdottaa valiokunta, että myös 79 a § poistetaan."}
+    ],
+    "claims": [
+      {"dimension": "Käsitelty kohde, eri ratkaisu", "text": "Lääkäriliitto kannatti nimettyjä toimivaltapykäliä. Valiokunta ehdotti niiden poistamista. Samoja pykäliä siis käsitellään asiakirjassa, vaikka ratkaisu poikkeaa asiantuntijan kannasta. Tämä ei osoita, että juuri Lääkäriliiton lausunto olisi vaikuttanut ratkaisuun tai että poistaminen olisi osoitettu paremmaksi vaihtoehdoksi.", "quote_keys": ["position", "removal"], "rationale": "Pykälätunnisteet ovat eksplisiittisesti samat kummassakin lähteessä. Käsittelyn olemassaolo ei riipu saman sanamuodon tai saman kannan toistumisesta."}
+    ],
+    "unknowns": [
+      {"question": "Miten valiokunta arvioi poistamisen hyötyjä ja riskejä suhteessa asiantuntijan kantaan?", "missing_evidence": "Nämä katkelmat osoittavat käsittelyn ja poistoehdotuksen. Ratkaisun laadun arviointi edellyttää perustelujen ja vaihtoehtojen erillistä tutkimusta."},
+      {"question": "Mitä lopullinen laki mahdollisti ja miten valtuuksia käytettiin?", "missing_evidence": "Tarvitaan hyväksytty säädösversio ja toimeenpanon lähteet."}
+    ],
+    "reviewer": "CODEX_SOURCE_READING_2026-10-07",
+    "method": "AI_SOURCE_READING",
+    "selection_basis": "Valikoitu todellinen erimielisyys; kontrolli sille, ettei ehdotuksen hylkäämistä tulkita käsittelyn puuttumiseksi. Tekoälyn lähdearvio."
+  }
+]

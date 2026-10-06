@@ -1,0 +1,496 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposition interpretation v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "proposition_id": {
+      "type": "string"
+    },
+    "statement_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "semantic_type": {
+      "enum": [
+        "FACTUAL_CLAIM",
+        "OBSERVED_STATE_FORECAST",
+        "CAUSAL_EFFECT_FORECAST",
+        "CAUSAL_CLAIM",
+        "POSITION",
+        "PERSONAL_ACTION_COMMITMENT",
+        "PERSONAL_RESTRAINT_COMMITMENT",
+        "COLLECTIVE_ACTION_COMMITMENT",
+        "OUTCOME_COMMITMENT",
+        "PROCESS_COMMITMENT",
+        "MAINTAIN_COMMITMENT",
+        "PREVENT_COMMITMENT",
+        "POLICY_DESIDERATUM",
+        "BROAD_OBJECTIVE",
+        "VALUE_OR_SLOGAN",
+        "QUESTION",
+        "REPORTED_SPEECH",
+        "AMBIGUOUS"
+      ]
+    },
+    "source_text": {
+      "type": "string"
+    },
+    "source_span": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "end": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "basis": {
+          "const": "SOURCE_TEXT"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "action_kind": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "INITIATIVE_AUTHORED",
+        "VOTE_CAST",
+        "QUESTION_FILED",
+        "SPEECH_DELIVERED",
+        "RESIGN_ROLE",
+        "DONATION",
+        "PUBLIC_ADVOCACY",
+        "POLICY_RESTRAINT",
+        "OTHER_OBSERVABLE_ACTION"
+      ]
+    },
+    "required_capability": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "MP_INITIATE_BILL",
+        "PARLIAMENTARY_VOTE",
+        "FILE_PARLIAMENTARY_QUESTION",
+        "SPEAK_IN_PARLIAMENT",
+        "HOLD_ELECTED_ROLE",
+        "PARLIAMENTARY_INFLUENCE",
+        "PUBLIC_ADVOCACY",
+        "POLICYMAKING_ROLE",
+        "PERSONAL_FUNDS",
+        "OTHER"
+      ]
+    },
+    "observable_action": {
+      "type": "boolean"
+    },
+    "subject_actor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issuer_scope": {
+      "enum": [
+        "SELF",
+        "PARTY",
+        "GOVERNMENT",
+        "OTHER_COLLECTIVE",
+        "UNSPECIFIED_WE",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "predicate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "modality": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "negation": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "value": {},
+          "basis": {
+            "enum": [
+              "EXPLICIT",
+              "CONTEXT_DERIVED",
+              "ANALYST_INTERPRETATION",
+              "UNRESOLVED"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "value",
+          "basis",
+          "evidence_ids",
+          "note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "quantity": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "baseline": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "deadline": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "jurisdiction": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "basis": {
+          "enum": [
+            "EXPLICIT",
+            "CONTEXT_DERIVED",
+            "ANALYST_INTERPRETATION",
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "basis",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "testability": {
+      "enum": [
+        "NARROW",
+        "PARTIAL",
+        "CASE_REVIEW",
+        "NOT_TESTABLE_AS_WRITTEN",
+        "NOT_A_COMMITMENT",
+        "UNRESOLVED"
+      ]
+    },
+    "missing_specification": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_interpretations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "validation_state": {
+      "enum": [
+        "PROPOSED",
+        "STRUCTURALLY_VALID",
+        "SEMANTICALLY_VALID",
+        "REVIEWED",
+        "CONTESTED",
+        "RETRACTED"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "proposition_id",
+    "statement_ids",
+    "semantic_type",
+    "subject_actor_ids",
+    "issuer_scope",
+    "predicate",
+    "target",
+    "modality",
+    "negation",
+    "conditions",
+    "quantity",
+    "baseline",
+    "deadline",
+    "jurisdiction",
+    "testability",
+    "missing_specification",
+    "alternative_interpretations",
+    "evidence_ids",
+    "run_id",
+    "validation_state"
+  ],
+  "additionalProperties": false
+}
